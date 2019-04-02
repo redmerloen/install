@@ -1,0 +1,4336 @@
+: 1541095774:0;nano .zshrc
+: 1541095884:0;exit
+: 1541096022:0;pip install --user powerline-status
+: 1541096027:0;brew install python
+: 1541096072:0;pip install --user powerline-status\
+
+: 1541096125:0;pip3 install --user powerline-status\
+
+: 1541096243:0;source ~/.zshrc
+: 1541096299:0;cd Downloads
+: 1541096301:0;git clone https://github.com/powerline/fonts
+: 1541096307:0;cd fonts
+: 1541096311:0;./install.sh
+: 1541096995:0;ssh
+: 1541096998:0;;s
+: 1541096999:0;ls
+: 1541097005:0;mkdir .ssh
+: 1541097016:0;nano .ssh/config
+: 1541097069:0;ssh -v git.purplegorilla.nl
+: 1541097085:0;ssh -v redmer@git.purplegorilla.nl
+: 1541097099:0;cd .ssh
+: 1541097102:0;ls -asl
+: 1541097111:0;nano config
+: 1541097217:0;ssh purplegorilla.nl
+: 1541097291:0;ssh -v redmer@git.purplegorilla.nl
+: 1541097333:0;ssh -T git.purplegorilla.nl
+: 1541097346:0;ssh -T redmer@
+: 1541097356:0;ssh -T redmer@git.purplegorilla.nl
+: 1541097374:0;nano config
+: 1541097401:0;ssh -vT redmer@git.purplegorilla.nl
+: 1541097416:0;ssh -T redmer@git.purplegorilla.nl
+: 1541097432:0;cd ~
+: 1541097439:0;mv Programming Projects
+: 1541097440:0;ls
+: 1541097444:0;cd Projects
+: 1541097444:0;ls
+: 1541097449:0;cd MindTime
+: 1541097449:0;ls
+: 1541097471:0;git clone git@gitlab.com:mindtime/plugin.git
+: 1541097488:0;cd ../NC-Websites/
+: 1541097501:0;git clone git@git.purplegorilla.nl:NC/cms.git
+: 1541097522:0;nano ~/.ssh/config
+: 1541097561:0;git clone git@git.purplegorilla.nl:NC/cms.git
+: 1541097580:0;ssh -T git@git.purplegorilla.nl
+: 1541097585:0;ssh -vT git@git.purplegorilla.nl
+: 1541097657:0;rm ~/.ssh/id_ed25519*
+: 1541097685:0;ssh-keygen -t ed25519 -C "redmerloen@gmail.com"
+: 1541097754:0;ssh -vT git@git.purplegorilla.nl
+: 1541097779:0;nano ~/.ssh/config
+: 1541097822:0;ssh -vT git@git.purplegorilla.nl
+: 1541097835:0;nano ~/.ssh/config
+: 1541097843:0;ls ~/.ssh
+: 1541097848:0;ssh -vT git@git.purplegorilla.nl
+: 1541097855:0;ssh -T git@git.purplegorilla.nl
+: 1541097863:0;git clone git@git.purplegorilla.nl:NC/cms.git
+: 1541097875:0;ssh purplegorilla.nl
+: 1541136942:0;cd ~/.ssh
+: 1541136943:0;ls
+: 1541136949:0;nano config
+: 1541137013:0;pbcopy < ~/.ssh/id_ed25519.pub
+: 1541137053:0;ssh -T git@github.com
+: 1541137080:0;cd ~/Projects/NC-Websites/cms
+: 1541137082:0;code .
+: 1541137395:0;cd ..
+: 1541137398:0;git clone git@gitlab.com:NC-Websites/crm.git 
+: 1541149603:0;cd crm
+: 1541149606:0;git checkout wip
+: 1541149610:0;git pull
+: 1541149613:0;code .
+: 1541149820:0;php -v
+: 1541149978:0;nano ~/.vscodestyles.css
+: 1541153681:0;ls
+: 1541153709:0;ln -s /Users/redmerloen/Projects/NC-Websites/crm /Applications/MAMP/htdocs
+: 1541153830:0;ping crm.local
+: 1541154116:0;brew install memcached
+: 1541154393:0;memcached
+: 1541154404:0;memcached -d
+: 1541154558:0;/Applications/MAMP/bin/php/php5.6.37/bin/pear install Mail-1.4.1
+: 1541154671:0;/Applications/MAMP/bin/php/php5.6.37/bin/pear install Mail_Mime
+: 1541154685:0;/Applications/MAMP/bin/php/php5.6.37/bin/pear install Mail_Queue
+: 1541154984:0;/Applications/MAMP/bin/php/php5.6.37/bin/pear install Mail
+: 1541154989:0;/Applications/MAMP/bin/php/php5.6.37/bin/pear uninstall Mail
+: 1541154996:0;/Applications/MAMP/bin/php/php5.6.37/bin/pear uninstall Mail --all-deps
+: 1541155003:0;/Applications/MAMP/bin/php/php5.6.37/bin/pear uninstall Mail_Queue
+: 1541155008:0;/Applications/MAMP/bin/php/php5.6.37/bin/pear uninstall Mail_Mime
+: 1541155010:0;/Applications/MAMP/bin/php/php5.6.37/bin/pear uninstall Mail
+: 1541155014:0;/Applications/MAMP/bin/php/php5.6.37/bin/pear install
+: 1541155017:0;/Applications/MAMP/bin/php/php5.6.37/bin/pear install --ehlp
+: 1541155020:0;/Applications/MAMP/bin/php/php5.6.37/bin/pear install --help
+: 1541155022:0;/Applications/MAMP/bin/php/php5.6.37/bin/pear install -h
+: 1541155027:0;/Applications/MAMP/bin/php/php5.6.37/bin/pear install -help
+: 1541155030:0;/Applications/MAMP/bin/php/php5.6.37/bin/pear install 
+: 1541155104:0;/Applications/MAMP/bin/php/php5.6.37/bin/pear install Mail_Queue
+: 1541155132:0;nano /Applications/MAMP/bin/php/php5.6.37/lib/php/Mail/Queue.php on line 675\
+
+: 1541155236:0;/Applications/MAMP/bin/php/php5.6.37/bin/pear 
+: 1541155255:0;/Applications/MAMP/bin/php/php5.6.37/bin/pear version
+: 1541155323:0;code /Applications/MAMP/bin/php/php5.6.37/lib/php/Mail/Queue.php\
+
+: 1541155520:0;code /Applications/MAMP/bin/php/php5.6.37/lib/php/Mail/Queue/Container/mdb2.php
+: 1541155621:0;/Applications/MAMP/bin/php/php5.6.37/bin/pear install MIME
+: 1541155687:0;/Applications/MAMP/bin/php/php5.6.37/bin/pear install MIME_Type
+: 1541157231:0;cd ..
+: 1541157233:0;cd cms
+: 1541157236:0;git status
+: 1541157247:0;git checkout -b feature/yoast
+: 1541157252:0;code .
+: 1541157789:0;npm install yoastseo\
+
+: 1541326113:0;cd Projects/NC-Websites/cms
+: 1541326115:0;git status
+: 1541326120:0;git checkout develop
+: 1541326129:0;cd Projects/NC-Websites/crm/
+: 1541326132:0;code .
+: 1541333432:0;cd Projects/MindTime/plugin/
+: 1541333435:0;git pull
+: 1541336432:0;ls
+: 1541336433:0;code .
+: 1541336622:0;git fetch
+: 1541336662:0;git status
+: 1541336664:0;git add .
+: 1541336671:0;git commit -m "-1 fix"
+: 1541336688:0;git push
+: 1541356642:0;git status
+: 1541591326:0;cd Projects/Crewlink
+: 1541591328:0;ls
+: 1541591331:0;cd api
+: 1541591333:0;ls
+: 1541591338:0;cd ..
+: 1541591358:0;git clone git@git.purplegorilla.nl:CrewLink/CrewLinkAPI.git
+: 1541591364:0;ls
+: 1541591372:0;mv CrewLinkAPI api
+: 1541591375:0;ls
+: 1541591378:0;cd api
+: 1541591380:0;ls
+: 1541591393:0;rm -rf CrewLinkAPI
+: 1541591397:0;cd ..
+: 1541591410:0;git clone git@git.purplegorilla.nl:CrewLink/CrewLinkAPI.git api
+: 1541591414:0;ls
+: 1541591417:0;cd api
+: 1541591420:0;ls
+: 1541592028:0;pip install pylint
+: 1541592032:0;brall
+: 1541592073:0;pip3 install pylint
+: 1541594164:0;docker-compose build
+: 1541594171:0;./docker-install.sh
+: 1541594698:0;docker-compose run --rm web pipenv run coverage run --source='.' manage.py test roster_parser.tests.test_xg_roster.test_xg_roster.Tests.test_parser_privat_after_checking
+: 1541598751:0;docker-compose run --rm web pipenv run coverage run --source='.' manage.py test 
+: 1541599395:0;git diff
+: 1541599850:0;git status
+: 1541599852:0;git add .
+: 1541599865:0;git commit -m "PRIVAT parse fix"
+: 1541599894:0;git push
+: 1541606512:0;cd ../../Remote\ DMX
+: 1541606515:0;ls
+: 1541606517:0;git clone git@git.purplegorilla.nl:RemoteDMX/android.git
+: 1541606559:0;git clone git@git.purplegorilla.nl:RemoteDMX/keystore.git
+: 1541606562:0;cd android
+: 1541606759:0;git status
+: 1541606905:0;git checkout -b feature/refactor-functions
+: 1541607958:0;git status
+: 1541607961:0;git diff
+: 1541608453:0;git add .
+: 1541608459:0;git commit -m "AndroidX conversion"
+: 1541608473:0;git config --global --edit
+: 1541608537:0;git push
+: 1541691358:0;git pull
+: 1541691364:0;code .
+: 1541855414:0;git status
+: 1541855415:0;git diff
+: 1541855441:0;git checkout -- plugins/mindtime-survey/admin/includes/mindtime-survey-api.php
+: 1541855590:0;git status
+: 1541855782:0;git diff plugins/mindtime-survey/admin/includes/mindtime-survey-api.php
+: 1541856708:0;gulp watch
+: 1541856751:0;npm install gulp-cli -g
+: 1541856756:0;brew install npm
+: 1541856857:0;nano ~/.path_exports
+: 1541856901:0;source ~/.zshrc
+: 1541856926:0;nano ~/.path_exports
+: 1541856966:0;source ~/.zshrc
+: 1541856986:0;npm install gulp-cli -g
+: 1541857001:0;npm install gulp -D
+: 1541857118:0;gulp watch
+: 1541857702:0;git status
+: 1541857706:0;git add .
+: 1541857716:0;git commit -m "Results pages working corectly and surveys"
+: 1541857718:0;git push
+: 1541857883:0;git add .
+: 1541857890:0;git commit -m "rounding of percentages"
+: 1541857891:0;git push
+: 1541858515:0;git add .
+: 1541858526:0;git commit -m "Result caching in session"
+: 1541858528:0;git push
+: 1542018521:0;ssh jumbo.fooddrop.nl
+: 1542018530:0;ssh redmer@jumbo.fooddrop.nl
+: 1542019447:0;ssh purplegorilla.nl
+: 1542020719:0;ssh jumbo@jumbo.fooddrop.nl
+: 1542026199:0;telnet jumbo.fooddrop.nl 22
+: 1542026206:0;ssh purplegorilla.nl
+: 1542050795:0;git status
+: 1542050999:0;cd ../../MindTime
+: 1542051004:0;git clone git@gitlab.com:utilis-biz/mindtime-wordpress-plugin.git cetera
+: 1542051032:0;cd cetera
+: 1542051037:0;git checkout merge-plugins
+: 1542051061:0;code .
+: 1542051155:0;gulp watch
+: 1542182487:0;code .
+: 1542182532:0;git status
+: 1542182536:0;git diff
+: 1542182546:0;git add .
+: 1542182553:0;git commit -m "Photoalbum"
+: 1542182555:0;git push
+: 1542191598:0;git status
+: 1542191599:0;git add .
+: 1542191612:0;git commit -m "Photoalbum get and create added"
+: 1542191614:0;git push
+: 1542191741:0;git status
+: 1542191754:0;git checkout -- core/class.config.php core/class.pearmail.php core/class.sef.php
+: 1542191756:0;git status
+: 1542191757:0;git diff
+: 1542191790:0;git status
+: 1542191795:0;git diff
+: 1542192059:0;git status
+: 1542192095:0;git diff core/class.config.php
+: 1542192192:0;git status
+: 1542192194:0;git add .
+: 1542192203:0;git commit -m "Sync from remote to local"
+: 1542192206:0;git push
+: 1542192307:0;git status
+: 1542193182:0;git log
+: 1542224654:0;cd Projects/MindTime/plugin
+: 1542224660:0;git status
+: 1542224666:0;git add .
+: 1542224686:0;git commit -m "Bar percentage"
+: 1542224690:0;git push
+: 1542262234:0;git status
+: 1542262236:0;git add .
+: 1542262243:0;git commit -m "GA model setup"
+: 1542262245:0;git push
+: 1542360613:0;code .
+: 1542360724:0;gulp watch
+: 1542525678:0;ssh purplegorilla.nl
+: 1542802673:0;git status
+: 1542802678:0;git reset --hard
+: 1542802680:0;git pull
+: 1542803584:0;git add .
+: 1542803741:0;git commit -m "Percentage for bars"
+: 1542803743:0;git push
+: 1542804065:0;gulp watch
+: 1542804232:0;git add .
+: 1542804238:0;git commit -m "Fix for bars"
+: 1542804239:0;git push
+: 1543213633:0;chmod 755 /Users/redmerloen/Downloads/Adobe_Photoshop_CC_2019_v20.0.0/Adobe\ Zii\ Photoshop.app 
+: 1543213787:0;sudo chmod 755 /Users/redmerloen/Downloads/Adobe_Photoshop_CC_2019_v20.0.0/Adobe\ Zii\ Photoshop.app 
+: 1543245765:0;cd Projects/MindTime/cetera/src
+: 1543245767:0;ls
+: 1543245772:0;cd mindtime-cetera
+: 1543245773:0;ls
+: 1543245792:0;cd ../../plugins/mindtime-cetera/public/js
+: 1543245795:0;la
+: 1543245800:0;nano bundle.js
+: 1543246496:0;cd ..
+: 1543246500:0;cd ..]
+: 1543246503:0;cd ..
+: 1543246508:0;code .
+: 1543246798:0;git status
+: 1543246799:0;git diff
+: 1543246825:0;git checkout --  public/css/main.css public/js/bundle.js
+: 1543246828:0;git checkout develop
+: 1543246830:0;git pull
+: 1543246845:0;ls
+: 1543246848:0;ls -lash
+: 1543246850:0;cd ..
+: 1543246860:0;git pull
+: 1543246869:0;git log
+: 1543246879:0;git checkout merge-plugins
+: 1543246881:0;git pull
+: 1543477190:0;cd Projects/MindTime/plugin/
+: 1543477193:0;git status
+: 1543477208:0;ls -lash
+: 1543477216:0;ls -lash plugins
+: 1543477236:0;rm -rf plugins/mindtime-cetera
+: 1543477241:0;git pull
+: 1543477272:0;git log
+: 1543477599:0;code .
+: 1543502545:0;chmod 775 /Users/redmerloen/Downloads/Adobe_Photoshop_CC_2019_v20.0.0/Adobe\ Zii\ Photoshop.app/Contents/MacOS/Adobe\ Zii\ Photoshop 
+: 1543503520:0;git add .
+: 1543503534:0;git commit -m "Group images and group bars and percentages"
+: 1543503538:0;git push
+: 1543814719:0;cd Projects/Crewlink/Api
+: 1543814722:0;git pull
+: 1543814726:0;git checkout feature/Compass_airlines
+: 1543815040:0;git add .
+: 1543815056:0;git commit -m "Added company portal model field to use get"
+: 1543815068:0;git push
+: 1543817503:0;make makemigrations
+: 1543817520:0;git add .
+: 1543817537:0;git commit -m "missing migrations"
+: 1543817542:0;git push
+: 1543825693:0;cd ../..
+: 1543825694:0;ls
+: 1543825700:0;mkdir Dropper
+: 1543825704:0;cd Dropper
+: 1543825716:0;git clone git@gitlab.com:GoDrop/fooddrop.git Fooddrop
+: 1543825925:0;cd Fooddrop
+: 1543826063:0;./docker-install.sh
+: 1543826448:0;python --version
+: 1543826509:0;brew install python
+: 1543826568:0;java
+: 1543826753:0;brew info python
+: 1543826768:0;python --version
+: 1543826798:0;ls
+: 1543826799:0;ls -lash
+: 1543826803:0;nano .path_exports
+: 1543826848:0;source .path_exports
+: 1543826889:0;brew install rbenv
+: 1543826918:0;rbenv init
+: 1543826930:0;source .zshrc
+: 1543826943:0;curl -fsSL https://github.com/rbenv/rbenv-installer/raw/master/bin/rbenv-doctor | bash
+: 1543826957:0;rbenv install
+: 1543826964:0;rbenv install -l
+: 1543826976:0;rbenv install 2.5.3
+: 1543827077:0;python --version
+: 1543827083:0;pip install virtualenvwrapper
+: 1543827090:0;ls
+: 1543827095:0;pipenv
+: 1543827109:0;pip install pipenv
+: 1543827119:0;rbenv
+: 1543827122:0;rbenv versions
+: 1543827138:0;rbenv global 2.5.3
+: 1543827140:0;rbenv rehash
+: 1543827143:0;rbenv versions
+: 1543827149:0;rbenv global
+: 1543827158:0;pipenv
+: 1543827162:0;pipenv install
+: 1543827312:0;cat ~/.aliasses
+: 1543827439:0;code ~/.aliasses
+: 1543827463:0;code ~/.path_exports
+: 1543827506:0;ls
+: 1543827518:0;docker-compose run --service-ports web
+: 1543827928:0;cd Projects/Dropper/Fooddrop/
+: 1543827931:0;code .
+: 1543828520:0;npm install
+: 1543828582:0;cd Projects/Dropper/
+: 1543828600:0;git clone git@gitlab.com:GoDrop/fooddrop-php.git PHP-Fooddrop
+: 1543828612:0;git pull
+: 1543828709:0;ls
+: 1543828711:0;cd PHP-Fooddrop
+: 1543828713:0;git pull
+: 1543828962:0;code .
+: 1543829787:0;docker-compose run --rm web pipenv python manage.py makemigrations
+: 1543829811:0;docker-compose run --rm web pipenv run python manage.py makemigrations
+: 1543830353:0;docker-compose run --rm web pipenv run python manage.py makemigrations comments
+: 1543830367:0;git checkout -b feature/comments
+: 1543830851:0;docker-compose run --rm web pipenv run python manage.py migrate
+: 1543831694:0;docker-compose run --rm web pipenv run python manage.py collectstatic
+: 1543832912:0;docker-compose run --service-ports web
+: 1543832977:0;docker-compose run --rm web pipenv run python manage.py collectstatic
+: 1543832979:0;docker-compose run --service-ports web
+: 1543841594:0;git status
+: 1543841595:0;git add .
+: 1543841610:0;git commit -m "Add comments"
+: 1543841611:0;git push
+: 1543841618:0;git checkout develop
+: 1543841620:0;git pull
+: 1543841632:0;git checkout -b feature/connect-to-legacy-db
+: 1543842334:0;docker-compose down
+: 1543842350:0;docker-compose build
+: 1543842456:0;docker-compose down
+: 1543842458:0;docker-compose build
+: 1543844814:0;docker-compose build mysql
+: 1543844824:0;docker-compose build
+: 1543844987:0;git status
+: 1543844990:0;git diff docker-compose.yml
+: 1543844998:0;git diff Dockerfile
+: 1543845017:0;docker-compose build
+: 1543845342:0;git diff Dockerfile
+: 1543845358:0;docker-compose build
+: 1543846460:0;docker-compose down
+: 1543846468:0;docker-compose build --no-cache
+: 1543847440:0;pip install
+: 1543847442:0;pipenv
+: 1543847466:0;docker-compose build --no-cache
+: 1543847513:0;cd Projects/Dropper/Fooddrop
+: 1543847516:0;docker-compose build
+: 1543848319:0;git status
+: 1543848380:0;docker-compose build
+: 1543848930:0;docker ps
+: 1543848949:0;ls
+: 1543848951:0;ls -lash
+: 1543848960:0;docker ps -aux
+: 1543848963:0;docker ps -a
+: 1543848973:0;dockerclean
+: 1543848983:0;docker ps -a
+: 1543848987:0;docker-compose build
+: 1543849134:0;pipenv install
+: 1543849325:0;docker-compose build
+: 1543849583:0;docker-compose run --service-ports web
+: 1543849595:0;docker ps
+: 1543849602:0;docker-compose stop 04ff74e99a11
+: 1543849607:0;docker 
+: 1543849613:0;docker stop 04ff74e99a11
+: 1543849620:0;docker-compose run --service-ports web
+: 1543849682:0;docker-compose build
+: 1543850369:0;docker-compose run --service-ports web
+: 1543850388:0;./docker-install.sh
+: 1543850944:0;docker-compose run --service-ports web
+: 1543851110:0;docker-compose build mysql;
+: 1543851112:0;docker-compose build mysql
+: 1543851213:0;docker-compose run --service-ports web
+: 1543851582:0;./docker-install.sh
+: 1543852045:0;docker-compose run --rm web pipenv run python manage.py migrate
+: 1543852234:0;docker-compose up mysql
+: 1543852251:0;docker-compose run --service-ports web
+: 1543852266:0;docker-compose run --rm web pipenv run python manage.py migrate
+: 1543852768:0;docker-compose up mysql
+: 1543852777:0;docker-compose run --service-ports web
+: 1543852800:0;docker-compose run --rm web pipenv run python manage.py migrate
+: 1543852881:0;docker-compose up mysql
+: 1543852886:0;mysql -h 127.0.0.1 -P 3302 -udropper
+: 1543852904:0;docker-compose run --rm web pipenv run python manage.py migrate
+: 1543853203:0;docker-compose run --service-ports mysql
+: 1543853209:0;docker-compose down
+: 1543853320:0;docker-compose run --rm web pipenv run python manage.py migrate
+: 1543908017:0;docker-compose up
+: 1543908575:0;docker-compose down
+: 1543909810:0;docker-compose build
+: 1543909894:0;docker-compose up
+: 1543909975:0;git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions\
+
+: 1543909986:0;nano ~/.zshrc
+: 1543910035:0;git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+: 1543910134:0;cd Projects/Dropper/Fooddrop
+: 1543910141:0;docker-compose run --rm web pipenv run python manage.py migrate
+: 1543910454:0;docker-compose down
+: 1543910475:0;dockerclean
+: 1543910689:0;docker ps
+: 1543910693:0;dockerclean
+: 1543910706:0;dockerkillall
+: 1543910710:0;dockerclean
+: 1543910790:0;docker-compose build
+: 1543911413:0;docker-compose run --rm web pipenv run python manage.py migrate
+: 1543911516:0;docker-compose run --rm web pipenv run python manage.py migrate --database=default
+: 1543911582:0;docker-compose run --rm web sh -c "./wait-for-it.sh mysql-db:3306; pipenv run python manage.py migrate"
+: 1543911588:0;ls
+: 1543911594:0;chmod +x wait-for-it.sh
+: 1543911597:0;docker-compose run --rm web sh -c "./wait-for-it.sh mysql-db:3306; pipenv run python manage.py migrate"
+: 1543911828:0;docker-compose run --rm web pipenv run python manage.py migrate
+: 1543911951:0;docker-compose down
+: 1543911973:0;docker ps
+: 1543911975:0;docker-compose run --rm web pipenv run python manage.py migrate
+: 1543912503:0;docker-compose build
+: 1543912536:0;docker run -it --rm \\
+        --publish 3306:3306 \\
+        --hostname mysql \\
+        --name mysql \\
+        mysql-db
+: 1543912551:0;docker-compose build
+: 1543912568:0;docker-compose run --rm web pipenv run python manage.py migrate
+: 1543912578:0;docker ps
+: 1543912590:0;docker exec -it de673a553bc4 bash
+: 1543912846:0;docker ps
+: 1543912852:0;docker stop de673a553bc4
+: 1543912859:0;docker rm de673a553bc4
+: 1543912863:0;docker-compose run --rm web pipenv run python manage.py migrate
+: 1543913057:0;ls
+: 1543913074:0;docker exec -it 4a8cca1d40e1 bash
+: 1543914164:0;docker-compose run --rm web pipenv run python manage.py migrate
+: 1543914400:0;docker ps
+: 1543914412:0;docker exec -it 4a8cca1d40e1 bash
+: 1543914453:0;docker logs
+: 1543914460:0;docker logs 4a8cca1d40e1
+: 1543914603:0;docker exec -it 4a8cca1d40e1 bash
+: 1543915281:0;docker-compose build
+: 1543915311:0;docker logs 4a8cca1d40e1
+: 1543915422:0;docker-compose build
+: 1543915435:0;docker logs 4a8cca1d40e1
+: 1543915463:0;docker-compose stop
+: 1543915467:0;docker-compose ps
+: 1543915477:0;dockerclean
+: 1543915484:0;docker build mysql-db
+: 1543915493:0;docker-compose build mysql-db
+: 1543915501:0;docker-compose logs 038b0b6683fa
+: 1543915506:0;docker-compose ps
+: 1543915517:0;docker-compose up
+: 1543915612:0;docker ps
+: 1543915618:0;docker-compose ps
+: 1543915625:0;docker-compose run mysql
+: 1543915628:0;docker-compose run mysql-db
+: 1543915651:0;docker-compose build
+: 1543915667:0;docker-compose run mysql-db
+: 1543915799:0;docker-compose down
+: 1543915805:0;docker-compose run mysql-db
+: 1543915820:0;docker-compose ps
+: 1543915834:0;docker-compose exec -it fooddrop_mysql-db_run_6fe8c7bc7023
+: 1543915987:0;docker-compose run mysql-db
+: 1543916002:0;docker-compose rm
+: 1543916010:0;docker-compose build mysql-db --no-cache
+: 1543916019:0;docker-compose build --no-cache mysql-db
+: 1543916026:0;docker-compose run mysql-db
+: 1543916090:0;cd Projects/Dropper/Fooddrop
+: 1543916093:0;docker-compose down
+: 1543916107:0;docker-compose run --service-ports web
+: 1543916162:0;docker-compose run --rm web pipenv run python manage.py migrate
+: 1543916183:0;./docker-install.sh
+: 1543916324:0;docker-compose run --service-ports web
+: 1543916384:0;git status
+: 1543916437:0;git rm --cached .DS_Store
+: 1543916475:0;find . -name .DS_Store -print0 | xargs -0 git rm --ignore-unmatch
+: 1543916495:0;git status
+: 1543916499:0;git add .
+: 1543916512:0;git commit -m "Seperate MySQL docker for orders table"
+: 1543916514:0;git push
+: 1543916533:0;git checkout develop
+: 1543916534:0;git pull
+: 1543916539:0;git status
+: 1543916541:0;git checkout -
+: 1543916545:0;git rebase -i develop
+: 1543916550:0;git push -f
+: 1543916604:0;./docker-install.sh
+: 1543917033:0;docker-compose run --service-ports web
+: 1543918431:0;docker-compose build --no-cache mysql-db
+: 1543918437:0;docker-compose run --service-ports web
+: 1543918443:0;docker-compose down
+: 1543918503:0;./docker-install.sh
+: 1543918675:0;docker-compose run --service-ports web
+: 1543919364:0;docker-compose build --no-cache mysql-db
+: 1543919368:0;docker-compose run --service-ports web
+: 1543919374:0;docker-compose down
+: 1543919399:0;docker-compose run --service-ports web
+: 1543919424:0;./docker-install.sh
+: 1543919664:0;git status
+: 1543919769:0;docker-compose run --service-ports web
+: 1543919780:0;./docker-install.sh
+: 1543919931:0;docker-compose run --service-ports web
+: 1543919988:0;docker ps
+: 1543920001:0;docker stop 3d238a836b12
+: 1543920014:0;docker-compose run --service-ports web
+: 1543920036:0;./docker-install.sh
+: 1543920114:0;dockerkillall
+: 1543920119:0;dockerclean
+: 1543920125:0;docker-compose build --no-cache mysql-db
+: 1543920160:0;docker-compose run mysql-db
+: 1543920208:0;docker-compose down
+: 1543920214:0;./docker-install.sh
+: 1543920340:0;docker-compose run --service-ports web
+: 1543920665:0;git status
+: 1543920666:0;git add .
+: 1543920688:0;git commit -m "All Legacy mySQL fields in django models"
+: 1543920690:0;git push
+: 1543920694:0;git checkout -
+: 1543920697:0;git pull
+: 1543920702:0;git checkout -
+: 1543920707:0;git rebase -i develop
+: 1543920712:0;git push -f
+: 1543920722:0;docker-compose run --rm web pipenv run python manage.py migrate
+: 1543920764:0;docker-compose run --service-ports web
+: 1543920771:0;docker-compose ps
+: 1543920781:0;docker-compose stop fooddrop_web_run_82d86620136f
+: 1543920785:0;docker ps
+: 1543920793:0;docker stop ce43b5e5140a
+: 1543920807:0;docker-compose run --service-ports web
+: 1543921200:0;cd Projects/Dropper/
+: 1543921215:0;./ngrok authtoken 3qiuAoAsEy2w8fXZscHLC_2y9wJ2mx65qgbcbwGcgp2
+: 1543921232:0;./ngrok http 8001
+: 1543921491:0;docker ps
+: 1543921496:0;docker stop 29db6243522a
+: 1543921509:0;docker-compose run --service-ports web
+: 1543922032:0;docker ps
+: 1543922037:0;docker stop 9b1ca716faec
+: 1543922049:0;docker-compose run --service-ports web
+: 1543922728:0;docker ps
+: 1543922736:0;docker exec -it 92c7b26239d6 bash
+: 1543923262:0;cd Projects/MindTime/plugin
+: 1543923265:0;git pull
+: 1543924824:0;code .
+: 1543950618:0;git status
+: 1543950619:0;git diff
+: 1543950624:0;git add .
+: 1543950629:0;git commit -m "Login flow"
+: 1543950631:0;git push
+: 1543951246:0;git status
+: 1543951255:0;git add .
+: 1543951263:0;git commit -m "Login user after register form"
+: 1543951265:0;git push
+: 1543952030:0;git add .
+: 1543952038:0;git commit -m "redirect to second landing page"
+: 1543952040:0;git push
+: 1543956471:0;git pull
+: 1543956475:0;git add .
+: 1543956486:0;git commit -m "results mapping page"
+: 1543956488:0;git push
+: 1544011274:0;git pull
+: 1544011284:0;git diff
+: 1544032481:0;git pull
+: 1544033983:0;git diff  HEAD~2
+: 1544080499:0;./ngrok http 8001
+: 1544080509:0;docker-compose run --service-ports web
+: 1544080519:0;docker-compose down
+: 1544080546:0;docker-compose run --service-ports web
+: 1544080580:0;./docker-install.sh
+: 1544080823:0;docker-compose run --service-ports web
+: 1544083008:0;docker ps
+: 1544083017:0;docker exec -it 11deb374e4e6 bash
+: 1544084011:0;docker-compose run --service-ports web
+: 1544084018:0;docker ps
+: 1544084022:0;docker stop 11deb374e4e6
+: 1544084252:0;docker-compose run --service-ports web
+: 1544084312:0;cd Projects/MindTime/plugin\
+: 1544084314:0;cd Projects/MindTime/plugin
+: 1544084315:0;git status
+: 1544084324:0;git checkout -- plugins/mindtime-survey/includes/class-mindtime-survey.php plugins/mindtime-survey/public/class-mindtime-survey-public.php
+: 1544084326:0;git pull
+: 1544084370:0;docker ps
+: 1544084387:0;docker exec -it a3062707ddb4 bash
+: 1544086774:0;ssh purplegorilla.nl
+: 1544088675:0;docker-compose run --service-ports web
+: 1544088683:0;docker stop 13e1e5356a65
+: 1544088688:0;docker ps
+: 1544088692:0;docker stop a3062707ddb4
+: 1544088708:0;docker-compose run --service-ports web
+: 1544088739:0;docker ps
+: 1544088746:0;docker exec -it 8124bc19b4a6 bash
+: 1544089521:0;cd Projects/Dropper/Fooddrop
+: 1544089523:0;git status
+: 1544089524:0;git add .
+: 1544089545:0;git commit -m "Create order into mysql database"
+: 1544089546:0;git push
+: 1544091045:0;git add .
+: 1544091049:0;git commit --amend
+: 1544091057:0;git push -f
+: 1544091070:0;git commit --amend
+: 1544091082:0;git push -f
+: 1544091088:0;git checkout develop
+: 1544091090:0;git pull
+: 1544091100:0;git checkout -
+: 1544091106:0;git rebase -i develop
+: 1544091110:0;git push
+: 1544091113:0;git push -f
+: 1544091117:0;git checkout -
+: 1544091127:0;git merge --no-ff feature/connect-to-legacy-db
+: 1544091131:0;git push
+: 1544091143:0;git checkout -b feature/osm-docker
+: 1544091272:0;docker-compose build osm
+: 1544092286:0;docker ps
+: 1544092448:0;docker-compose build osm
+: 1544099547:0;docker-compose run --service-ports osm
+: 1544099653:0;docker-compose build osm
+: 1544099657:0;docker-compose run --service-ports osm
+: 1544099683:0;docker-compose build osm
+: 1544099688:0;docker-compose run --service-ports osm
+: 1544100075:0;docker-compose build osm
+: 1544100256:0;docker-compose run --service-ports osm
+: 1544100360:0;docker-compose build osm
+: 1544100367:0;docker-compose run --service-ports osm
+: 1544100404:0;docker-compose build osm
+: 1544100409:0;docker-compose run --service-ports osm
+: 1544100457:0;docker-compose build osm
+: 1544100462:0;docker-compose run --service-ports osm
+: 1544100919:0;docker-compose build osm
+: 1544101364:0;docker-compose run --service-ports osm
+: 1544101570:0;docker-compose build osm
+: 1544101573:0;docker-compose run --service-ports osm
+: 1544101650:0;docker-compose build osm
+: 1544101661:0;docker-compose run --service-ports osm
+: 1544101721:0;docker-compose build osm
+: 1544101734:0;docker-compose run --service-ports osm
+: 1544102189:0;docker-compose build osm
+: 1544102221:0;dockerclean
+: 1544102239:0;docker-compose build osm
+: 1544104305:0;docker-compose run --service-ports osm
+: 1544105279:0;docker-compose build osm
+: 1544105285:0;docker-compose run --service-ports osm
+: 1544105354:0;docker-compose up osm
+: 1544105708:0;docker-compose build osm
+: 1544105714:0;docker-compose up osm
+: 1544106370:0;docker-compose build osm
+: 1544106374:0;docker-compose up osm
+: 1544107256:0;cd /Users/redmerloen/Downloads/melbourne-map-master 
+: 1544107257:0;ls
+: 1544107261:0;code .
+: 1544107379:0;./download.sh
+: 1544107553:0;docker-compose build
+: 1544108110:0;docker-compose up
+: 1544108714:0;dockerclean
+: 1544108829:0;cd ~?
+: 1544108841:0;cd ~//Users/redmerloen/Downloads/docker-osm-develop 
+: 1544108846:0;cd /Users/redmerloen/Downloads/docker-osm-develop 
+: 1544108847:0;ls
+: 1544108851:0;make run
+: 1544108913:0;ls
+: 1544108915:0;make run
+: 1544109249:0;code .
+: 1544109309:0;make run
+: 1544109346:0;docker-compose -f docker-compose-web.yml run --service-ports web
+: 1544109377:0;make rundev
+: 1544109487:0;docker-compose -f docker-compose.yml -f docker-compose-web.yml qgisserver up\
+
+: 1544109523:0;docker-compose -f docker-compose.yml -f docker-compose-web.yml up qgisserver\
+
+: 1544109882:0;docker ps
+: 1544109887:0;docker stop 4320ca8bcb1e
+: 1544109908:0;docker stop da9a1724d613
+: 1544109921:0;docker stop 8c0f59274347
+: 1544109934:0;docker-compose -f docker-compose.yml -f docker-compose-web.yml up qgisserver\
+
+: 1544109941:0;docker ps
+: 1544109945:0;dockerclean
+: 1544109949:0;docker-compose -f docker-compose.yml -f docker-compose-web.yml up qgisserver\
+
+: 1544109997:0;make rundev
+: 1544121688:0;cd ~/Projects/MindTime/plugin
+: 1544121690:0;git pull
+: 1544121695:0;code .
+: 1544161807:0;git status
+: 1544161808:0;git add .
+: 1544161821:0;git commit -m "Export to CSV and results group page"
+: 1544161822:0;git push
+: 1544172814:0;ssh-copy-id redmer@136.144.234.228
+: 1544172985:0;ssh 'redmer@136.144.234.228
+: 1544172987:0;ssh redmer@136.144.234.228
+: 1544174504:0;nano /etc/ssh/ssh_config
+: 1544174527:0;sudo nano /etc/ssh/ssh_config
+: 1544174543:0;ssh redmer@136.144.234.228
+: 1544176178:0;ping routing.dropper.nl
+: 1544179359:0;git status
+: 1544188949:0;ssh redmer@136.144.234.228
+: 1544196285:0;ssh-copy-id redmer@136.144.234.228
+: 1544196406:0;nano ~/.ssh/known_hosts
+: 1544196414:0;ssh-copy-id redmer@136.144.234.228
+: 1544196429:0;ssh 'redmer@136.144.234.228'
+: 1544278460:0;cd Projects/Crewlink
+: 1544278460:0;ls
+: 1544278465:0;git clone git@git.purplegorilla.nl:CrewLink/android.git Android
+: 1544423822:0;cd ../MindTime/plugin
+: 1544423824:0;git status
+: 1544423825:0;git add .
+: 1544423835:0;git commit -m "Group dropdown for results"
+: 1544423836:0;git push
+: 1544426301:0;ssh 'redmer@136.144.234.228'
+: 1544426692:0;ping osm.dropper.nl
+: 1544426697:0;ping routing.dropper.nl
+: 1544429528:0;ssh 'redmer@136.144.234.228'
+: 1544429580:0;cd Do
+: 1544429582:0;cd Downloads
+: 1544429583:0;ls
+: 1544429651:0;scp v5.3.0-dist redmer@136.144.234.228:/var/www/html/osm
+: 1544429660:0;scp v5.3.0-dist/* redmer@136.144.234.228:/var/www/html/osm
+: 1544429672:0;scp v5.3.0-dist/* redmer@136.144.234.228:~/
+: 1544430980:0;ssh 'redmer@136.144.234.228'
+: 1544434248:0;cd Projects/Dropper/Fooddrop
+: 1544434251:0;git status
+: 1544434269:0;rm -rf Dockers/osm*
+: 1544434271:0;ls
+: 1544434272:0;git status
+: 1544434284:0;git diff docker-compose.yml
+: 1544434290:0;git checkout --  docker-compose.yml
+: 1544434298:0;ls Docker
+: 1544434301:0;ls Dockers
+: 1544434307:0;git status
+: 1544434325:0;git log
+: 1544434328:0;git add .
+: 1544434335:0;git commit -m "Routing through own server"
+: 1544434341:0;git checkout develop
+: 1544434347:0;git branch --help
+: 1544434362:0;git branch -m feature/osm-docker feature/routing
+: 1544434368:0;git pull
+: 1544434378:0;git checkout feature/routing
+: 1544434384:0;git rebase -i develop
+: 1544434577:0;ssh 'redmer@136.144.234.228'
+: 1544440384:0;./docker-install.sh
+: 1544443587:0;docker-compose run --service-ports osm
+: 1544443589:0;docker-compose run --service-ports web
+: 1544444870:0;cd Projects/Dropper/Fooddrop
+: 1544444872:0;ls
+: 1544444876:0;cat package
+: 1544444908:0;npm install ol
+: 1544445291:0;git status
+: 1544445297:0;git checkout -- package*
+: 1544445299:0;git status
+: 1544445830:0;code .
+: 1544449295:0;docker-compose run --service-ports web
+: 1544449300:0;docker ps
+: 1544449305:0;docker stop 1d15a4725d14
+: 1544449416:0;docker-compose run --service-ports web
+: 1544450784:0;docker ps
+: 1544450791:0;docker exec -it d6ffb59568bb bash
+: 1544454330:0;cd Projects/Dropper/Fooddrop
+: 1544454333:0;git status
+: 1544454346:0;git add carts/models.py carts/utils.py routing/utils.py
+: 1544454365:0;git commit -m "Calculate the delivery costs in a cart based on distance"
+: 1544454381:0;git push
+: 1544454686:0;ssh purplegorilla.nl
+: 1544466491:0;ssh 'redmer@136.144.234.228'
+: 1544517259:0;cd Projects/MindTime/plugin
+: 1544517262:0;git status
+: 1544517272:0;git checkout -- plugins/mindtime-survey/admin/class-mindtime-survey-admin.php plugins/mindtime-survey/admin/includes/groups/mindtime-survey-group-form.php
+: 1544517281:0;git pull
+: 1544600569:0;ssh 'redmer@136.144.234.228'
+: 1544608351:0;docker-compose run --service-ports web
+: 1544608358:0;docker ps
+: 1544608364:0;docker stop d6ffb59568bb
+: 1544608378:0;docker-compose run --service-ports web
+: 1544613100:0;cd Projects/Dropper/Fooddrop
+: 1544613107:0;docker ps
+: 1544613114:0;docker stop 859aaeedde89
+: 1544613129:0;docker-compose run --service-ports web
+: 1544613151:0;docker stop 859aaeedde89
+: 1544613155:0;docker ps
+: 1544613160:0;docker kill e65e5244f829
+: 1544613163:0;docker ps
+: 1544613165:0;docker-compose run --service-ports web
+: 1544613220:0;git status
+: 1544627181:0;ssh 'redmer@136.144.234.228'
+: 1544628788:0;docker ps
+: 1544628793:0;./docker-install.sh
+: 1544628975:0;docker-compose run --service-ports web
+: 1544629431:0;git status
+: 1544629433:0;git add .
+: 1544629461:0;git commit -m "Add location to Cart / Address / address in session"
+: 1544629462:0;git push
+: 1544629522:0;git checkout develop
+: 1544629524:0;git pull
+: 1544629530:0;git checkout -
+: 1544629532:0;git rebase -i develop
+: 1544629645:0;git add .
+: 1544629649:0;git rebase --continue
+: 1544629705:0;git status
+: 1544629706:0;git add .
+: 1544629709:0;git rebase --continue
+: 1544629748:0;docker-compose build web
+: 1544629812:0;docker-compose run --rm web pipenv run python manage.py migrate
+: 1544629822:0;docker-compose run --service-ports web
+: 1544629826:0;docker ps
+: 1544629830:0;docker stop 6e916e4dc75f
+: 1544629854:0;docker-compose run --service-ports web
+: 1544630202:0;git push -f
+: 1544684850:0;docker-compose run --service-ports web
+: 1544684859:0;docker stop e79686dd2de4
+: 1544684865:0;docker ps
+: 1544684887:0;docker stop de7621037f29
+: 1544684892:0;ssh 'redmer@136.144.234.228'
+: 1544684907:0;docker-compose run --service-ports web
+: 1544686258:0;docker ps
+: 1544686264:0;docker exec -it 6b7878ba6b84
+: 1544686270:0;docker exec -it 6b7878ba6b84 bash
+: 1544688720:0;docker-compose run --rm web pipenv run python manage.py collectstatic
+: 1544688777:0;docker-compose run --service-ports web
+: 1544688780:0;docker ps
+: 1544688784:0;docker stop
+: 1544688787:0;docker stop 6b7878ba6b84
+: 1544688803:0;docker-compose run --service-ports web
+: 1544688942:0;./docker-install.sh
+: 1544689104:0;docker-compose run --service-ports web
+: 1544692968:0;ssh 'redmer@136.144.234.228'
+: 1544704080:0;git status
+: 1544704093:0;rm -rf statictemp
+: 1544704096:0;git status
+: 1544704098:0;git diff
+: 1544704217:0;docker-compose run --rm web pipenv run python manage.py makemigrations
+: 1544704235:0;git status
+: 1544704236:0;git add .
+: 1544704264:0;git commit -m "Search street for zip code and street number"
+: 1544704266:0;git push
+: 1544704272:0;git checkout -
+: 1544704274:0;git pull
+: 1544704280:0;git checkout -
+: 1544704283:0;git rebase -i develop
+: 1544704287:0;git push -f
+: 1544704293:0;git checkout -
+: 1544704302:0;git merge --no-ff feature/routing
+: 1544704306:0;git push
+: 1544704513:0;docker-compose run --rm web pipenv run python manage.py migrate
+: 1544705091:0;ssh jumbo@jumbo.fooddrop.nl
+: 1544705098:0;ssh redmer@jumbo.fooddrop.nl
+: 1544709389:0;ssh purplegorilla.nl
+: 1544711166:0;ssh redmer@jumbo.fooddrop.nl
+: 1544713753:0;ssh jumbo@jumbo.fooddrop.nl
+: 1544713759:0;ssh redmer@jumbo.fooddrop.nl
+: 1544713993:0;ssh purplegorilla.nl
+: 1544714287:0;docker ps
+: 1544714293:0;docker stop 5d8177965043
+: 1544714307:0;docker-compose run --service-ports web
+: 1544726432:0;ssh redmer@jumbo.fooddrop.nl
+: 1544727298:0;ssh purplegorilla.nl
+: 1544771474:0;ssh redmer@jumbo.fooddrop.nl
+: 1544771987:0;git status
+: 1544771989:0;git diff
+: 1544772148:0;git status
+: 1544772155:0;git checkout -- dropper/settings/production.py
+: 1544772160:0;rm dropper/settings/production.py
+: 1544772162:0;git status
+: 1544772185:0;git reset HEAD dropper/settings/production.py
+: 1544772502:0;docker ps
+: 1544772508:0;docker stop 3f8798ce054c
+: 1544772517:0;ssh redmer@jumbo.fooddrop.nl
+: 1544772660:0;git checkout feature/postcode-mixin
+: 1544772666:0;git checkout -b feature/postcode-mixin
+: 1544772684:0;git checkout develop
+: 1544772685:0;git pull
+: 1544772840:0;./docker-install.sh
+: 1544773021:0;pipenv install
+: 1544773048:0;git checkout -
+: 1544773056:0;git rebase -i develop
+: 1544773112:0;docker-compose run --service-ports web
+: 1544778574:0;ssh re
+: 1544778576:0;ssh redmerloen
+: 1544778579:0;ssh redmer@jumbo.fooddrop.nl
+: 1544792804:0;git log
+: 1544792950:0;git status
+: 1544792965:0;git checkout -- frontpage/templates/frontpage/home.html
+: 1544793052:0;git status
+: 1544793098:0;git diff templates/base.html
+: 1544793130:0;git status
+: 1544793144:0;git diff frontpage/static/frontpage/js/home.js
+: 1544793153:0;git stash frontpage/static/frontpage/js/home.js
+: 1544794577:0;git status
+: 1544794677:0;git add .
+: 1544794688:0;git commit -m "Add postcode modal to pages which require a location"
+: 1544794690:0;git push
+: 1544794697:0;git checkout develop
+: 1544794700:0;git pull
+: 1544794713:0;git checkout -
+: 1544794718:0;git rebase -i develop
+: 1544794722:0;git status
+: 1544794929:0;git add .
+: 1544794934:0;git rebase --continue
+: 1544794938:0;git push -f
+: 1544794941:0;git checkout -
+: 1544794956:0;git merge --no-ff feature/postcode-mixin
+: 1544794959:0;git push
+: 1544794997:0;./docker-install.sh
+: 1544795134:0;docker-compose run --service-ports web
+: 1544796026:0;git checkout -b feature/products-not-orerable
+: 1544796134:0;docker ps
+: 1544796146:0;docker exec -it e9832161dbab bash
+: 1544798811:0;git status
+: 1544798814:0;git diff
+: 1544798823:0;git add .
+: 1544798865:0;git commit -m "DROP-79: Products are not selectable if time of category doesn't allow"
+: 1544798867:0;git push
+: 1544798877:0;git checkout develo[
+: 1544798880:0;git checkout develop
+: 1544798881:0;git pull
+: 1544798891:0;git checkout -
+: 1544798894:0;git rebase -i develop
+: 1544798899:0;git push -f
+: 1544798903:0;git checkout -
+: 1544798909:0;git merge --no-ff feature/products-not-orerable
+: 1544798918:0;git push
+: 1544798958:0;./docker-install.sh
+: 1544799248:0;git checkout -b feature/route-info-to-order
+: 1544799322:0;docker-compose run --service-ports web
+: 1544799803:0;./ngrok http 8001
+: 1544799810:0;cd ../
+: 1544799811:0;ls
+: 1544799813:0;./ngrok http 8001
+: 1544799832:0;docker-compose run --service-ports web
+: 1544799841:0;docker ps
+: 1544799845:0;docker stop
+: 1544799847:0;docker stop d8a32636998c
+: 1544799868:0;docker-compose run --service-ports web
+: 1544799954:0;docker ps
+: 1544799963:0;docker exec -it e85317451055 bash
+: 1544801991:0;git status
+: 1544801994:0;git add .
+: 1544802003:0;git commit -m "Route info for an order"
+: 1544802004:0;git push
+: 1544802015:0;git checkout -
+: 1544802017:0;git pull
+: 1544802021:0;git checkout -
+: 1544802027:0;git rebase -i develop
+: 1544802031:0;git push -f
+: 1544802034:0;git checkout -
+: 1544802045:0;git merge --no-ff feature/route-info-to-order
+: 1544802051:0;git push
+: 1544802061:0;./docker-install.sh
+: 1544802225:0;docker ps
+: 1544802228:0;docker-compose run --service-ports web
+: 1544802584:0;git checkout -b feature/merchant-info
+: 1544813586:0;git status
+: 1544813588:0;git add .
+: 1544813593:0;git commit -m "Merchant information"
+: 1544813595:0;git push
+: 1544813603:0;git checkout develop
+: 1544813604:0;git pull
+: 1544813610:0;git checkout -
+: 1544813614:0;git rebase -i develop
+: 1544813622:0;git push -f
+: 1544813625:0;git checkout develop
+: 1544813631:0;git merge --no-ff feature/merchant-info
+: 1544813635:0;git push
+: 1545032210:0;cd Projects/Dropper/Fooddrop
+: 1545032212:0;git pull
+: 1545032216:0;git log
+: 1545032258:0;ssh redmer@136.144.234.228
+: 1545037819:0;ssh jumbo.fooddrop.nl
+: 1545037839:0;ssh redmer@jumbo.fooddrop.nl
+: 1545039389:0;cd Projects/Dropper/Fooddrop
+: 1545039391:0;docker-compose run --service-ports web
+: 1545039430:0;git pull
+: 1545039439:0;docker-compose run --service-ports web
+: 1545039443:0;docker ps
+: 1545039450:0;docker stop 68b40f1be290
+: 1545039464:0;docker-compose run --service-ports web
+: 1545039721:0;docker ps
+: 1545039729:0;docker stop 46b5ac16f7d6
+: 1545039743:0;docker-compose run --service-ports web
+: 1545040066:0;git status
+: 1545040069:0;git add .
+: 1545040070:0;git log
+: 1545040073:0;git status
+: 1545040076:0;git diff
+: 1545040078:0;git add .
+: 1545040101:0;git commit -m "DROP-98 | Basic authentication for search and routing services"
+: 1545040103:0;git push
+: 1545040126:0;git pull
+: 1545040136:0;git push
+: 1545040141:0;git log
+: 1545055376:0;git pull
+: 1545055389:0;cd ..
+: 1545055391:0;git status
+: 1545055394:0;ls
+: 1545055401:0;mv Fooddrop dropper
+: 1545055403:0;cd dropper
+: 1545055405:0;git status
+: 1545055567:0;./docker-install.sh
+: 1545057475:0;cd ..
+: 1545057475:0;ls
+: 1545057479:0;cd PHP-Fooddrop
+: 1545057479:0;ls
+: 1545057485:0;git pull
+: 1545057541:0;code .
+: 1545058954:0;git status
+: 1545058961:0;git checkout -- dev/admin/pages/dashboard.planners-admin.php
+: 1545059866:0;git diff
+: 1545059869:0;git status
+: 1545061343:0;diff config.php ../config.php
+: 1545061529:0;git pull
+: 1545061540:0;ssh redmer@jumbo.fooddrop.nl
+: 1545071405:0;cat .env
+: 1545071407:0;ls
+: 1545071413:0;cat jumbo/.env
+: 1545131725:0;cd Projects/Dropper/Fooddrop
+: 1545131732:0;ls
+: 1545131734:0;cd ..
+: 1545131737:0;ls
+: 1545131741:0;cd dropper
+: 1545131744:0;git pull
+: 1545134397:0;git log
+: 1545141872:0;cd Projects/Dropper/dropper
+: 1545141874:0;git pull
+: 1545141888:0;./docker-install.sh
+: 1545142551:0;docker-compose run --service-ports dropper
+: 1545143961:0;ssh redmer@jumbo.fooddrop.nl
+: 1545143967:0;ssh redmer@136.144.234.228
+: 1545157458:0;git pull
+: 1545199264:0;cd Projects/Dropper/dropper
+: 1545199266:0;ls
+: 1545199268:0;git pull
+: 1545199280:0;ssh redmer@136.144.234.228
+: 1545199303:0;ssh redmer@jumbo.fooddrop.nl
+: 1545218783:0;cd Projects/Dropper/dropper
+: 1545218786:0;git pull
+: 1545218795:0;git log
+: 1545224797:0;	git pull
+: 1545291012:0;cd Projects/Dropper/dropper
+: 1545291022:0;git pull
+: 1545291059:0;git log
+: 1545291075:0;git checkout -b feature/dont-show-discount-when-no-discount
+: 1545291085:0;docker-compose run --service-ports jumbo
+: 1545291221:0;docker ps
+: 1545291232:0;docker kill
+: 1545291250:0;docker stop 4b55f70497c4
+: 1545291263:0;docker-compose run --service-ports jumbo
+: 1545291291:0;./docker-install.sh
+: 1545291519:0;git status
+: 1545291521:0;docker-compose run --service-ports jumbo
+: 1545291713:0;cd Projects/Dropper
+: 1545291718:0;./ngrok http 8001
+: 1545291741:0;docker-compose run --service-ports jumbo
+: 1545291755:0;docker ps
+: 1545291760:0;docker stop 83b296a894ec
+: 1545291773:0;docker-compose run --service-ports jumbo
+: 1545292249:0;ping fooddrop.nl
+: 1545292266:0;docker-compose run --service-ports jumbo
+: 1545292277:0;docker ps
+: 1545292282:0;docker stop 1a7119fcf3e0
+: 1545292301:0;docker-compose run --service-ports jumbo
+: 1545293518:0;docker ps
+: 1545293528:0;docker exec -it c48ead708335 bash
+: 1545293624:0;docker-compose run --rm jumbo pipenv run python manage.py migrate
+: 1545293643:0;docker-compose run --service-ports jumbo
+: 1545293651:0;docker ps
+: 1545293655:0;docker stop c48ead708335
+: 1545293667:0;docker-compose run --service-ports jumbo
+: 1545293753:0;docker ps
+: 1545293761:0;docker exec -it 7c2de621362a bash
+: 1545298892:0;docker ps
+: 1545298898:0;docker stop 7c2de621362a
+: 1545298912:0;git status
+: 1545298914:0;git diff
+: 1545298943:0;git add .
+: 1545298983:0;git commit -m "DROP-133, DROP-143 : House number now filled when logged in and don't show discount when no discount"
+: 1545298987:0;git checkout develop
+: 1545298988:0;git pull
+: 1545298993:0;git checkout -
+: 1545299000:0;git rebase -i feature/dont-show-discount-when-no-discount
+: 1545299010:0;git log
+: 1545299013:0;git push
+: 1545299016:0;git checkout -
+: 1545299025:0;git merge --no-ff feature/dont-show-discount-when-no-discount
+: 1545299032:0;git push
+: 1545299080:0;git checkout -b feature/hot-cold-working
+: 1545299084:0;./docker-install.sh
+: 1545299269:0;docker-compose run --service-ports jumbo
+: 1545300867:0;./docker-install.sh
+: 1545301088:0;docker-compose run --service-ports jumbo
+: 1545301312:0;./docker-install.sh
+: 1545301473:0;docker-compose run --service-ports jumbo
+: 1545301626:0;dockerclean
+: 1545301630:0;docker stop
+: 1545301632:0;docker ps
+: 1545301636:0;dockerkillall
+: 1545301640:0;dockerclean
+: 1545301643:0;docker ps
+: 1545301647:0;./docker-install.sh
+: 1545301789:0;docker-compose run --service-ports jumbo
+: 1545301994:0;git status
+: 1545301995:0;git add .
+: 1545302010:0;git commit -m "DROP-127: Hot Cold for products"
+: 1545302013:0;git checkout develop
+: 1545302015:0;git pull
+: 1545302021:0;git checkout -
+: 1545302023:0;git rebase -i develop
+: 1545302036:0;./docker-install.sh
+: 1545302224:0;docker-compose run --service-ports jumbo
+: 1545303169:0;cd Projects/Dropper/dropper
+: 1545303186:0;docker-compose run jumbo pipenv python manage.py makemigrations
+: 1545303199:0;docker-compose run jumbo pipenv run python manage.py makemigrations
+: 1545303211:0;docker-compose run jumbo pipenv run python manage.py migrate
+: 1545303316:0;git status
+: 1545303319:0;git add .
+: 1545303322:0;git commit --amend
+: 1545303326:0;git checkout develop
+: 1545303333:0;git merge --no-ff feature/hot-cold-working
+: 1545303336:0;git push
+: 1545303514:0;git checkout -b feature/not-working-product-change-page
+: 1545303707:0;git checkout -
+: 1545303832:0;git checkout -b feature/admin-show-last-modified-on-top
+: 1545304285:0;docker ps
+: 1545304293:0;dockerstop b9ea9ac7a7ad
+: 1545304296:0;docker stop b9ea9ac7a7ad
+: 1545304313:0;docker-compose run --service-ports jumbo
+: 1545307676:0;git status
+: 1545307685:0;git diff jumbo/products/templates/products/admin/product_list.html
+: 1545307689:0;git checkout -- jumbo/products/templates/products/admin/product_list.html
+: 1545307693:0;git status
+: 1545308120:0;git add .
+: 1545308130:0;git commit -m "Sort product list on modified"
+: 1545308133:0;git checkout develop
+: 1545308134:0;git pull
+: 1545308142:0;git checkout -
+: 1545308148:0;git rebase -i develop
+: 1545308401:0;docker-compose run --service-ports jumbo
+: 1545308405:0;docker ps
+: 1545308412:0;docker stop b9ea9ac7a7ad
+: 1545308427:0;docker-compose run --service-ports jumbo
+: 1545309052:0;git status
+: 1545309053:0;git add .
+: 1545309066:0;git commit --amend
+: 1545309071:0;git checkout develop
+: 1545309072:0;git pull
+: 1545309083:0;git checkout -
+: 1545309084:0;git log
+: 1545309089:0;git commit --amend
+: 1545309111:0;git checkout -
+: 1545309116:0;git merge --no-ff feature/admin-show-last-modified-on-top
+: 1545309119:0;git push
+: 1545309124:0;git pull
+: 1545309131:0;git push
+: 1545309256:0;git checkout -b feature/export-orders-to-csv
+: 1545309754:0;docker-compose run --service-ports jumbo
+: 1545309756:0;docker ps
+: 1545309763:0;docker stop f7958e8c6b11
+: 1545309774:0;dockerclean
+: 1545309777:0;docker ps
+: 1545309781:0;docker-compose run --service-ports jumbo
+: 1545310682:0;docker-compose run jumbo pipenv run python manage.py makemigrations
+: 1545310825:0;docker-compose run jumbo pipenv run python manage.py migrate
+: 1545312622:0;docker-compose run --service-ports jumbo
+: 1545312627:0;docker ps
+: 1545312633:0;docker stop e5ce93b63a46
+: 1545312647:0;docker-compose run --service-ports jumbo
+: 1545315825:0;docker-compose run --rm web pipenv run python manage.py collectstatic
+: 1545315833:0;docker-compose run --rm jumbo pipenv run python manage.py collectstatic
+: 1545377841:0;docker-compose run --service-ports jumbo
+: 1545377877:0;docker ps
+: 1545377947:0;./docker-install.sh
+: 1545378502:0;docker-compose run --service-ports jumbo
+: 1545378588:0;./ngrok http 8001
+: 1545378714:0;docker-compose run --service-ports jumbo
+: 1545378741:0;docker ps
+: 1545378750:0;docker  stop ebddbf6e9110
+: 1545378768:0;docker-compose run --service-ports jumbo
+: 1545380283:0;docker ps
+: 1545380290:0;docker stop 63d94c52646c
+: 1545380325:0;docker-compose run --service-ports jumbo
+: 1545380774:0;docker-compose run --rm jumbo pipenv run python manage.py collectstatic
+: 1545380841:0;ssh redmer@jumbo.fooddrop.nl
+: 1545380885:0;docker-compose run --rm jumbo pipenv run python manage.py collectstatic
+: 1545381843:0;pipenv install --dev WhiteNoise
+: 1545381984:0;docker-compose build jumbo
+: 1545382004:0;pipenv install
+: 1545382020:0;pipenv install --dev
+: 1545382078:0;pipenv
+: 1545382121:0;ls
+: 1545382122:0;cd jumbo
+: 1545382125:0;pipenv install --dev
+: 1545382216:0;docker-compose build jumbo
+: 1545382364:0;docker-compose run --rm jumbo pipenv run python manage.py collectstatic
+: 1545382386:0;docker-compose run --service-ports jumbo
+: 1545382658:0;docker ps
+: 1545382662:0;docker stop b3151e09b92a
+: 1545382675:0;docker-compose run --service-ports jumbo
+: 1545382760:0;docker ps
+: 1545382764:0;docker stop b65dfe63d218
+: 1545382777:0;docker-compose run --service-ports jumbo
+: 1545382877:0;docker-compose run --rm jumbo pipenv run python manage.py collectstatic
+: 1545382927:0;docker-compose run --service-ports jumbo
+: 1545382958:0;docker ps
+: 1545382962:0;docker stop 5a03031dc5ef
+: 1545382976:0;docker-compose run --service-ports jumbo
+: 1545383202:0;docker ps
+: 1545383205:0;docker stop 3d7dfb5f1ffd
+: 1545383219:0;docker-compose run --service-ports jumbo
+: 1545391683:0;docker ps
+: 1545391688:0;docker stop 91330220e41b
+: 1545391712:0;docker-compose run --service-ports jumbo
+: 1545391850:0;docker ps
+: 1545391854:0;docker stop 3657d5b02c48
+: 1545391867:0;docker-compose run --service-ports jumbo
+: 1545394961:0;docker ps
+: 1545394965:0;docker stop
+: 1545394967:0;docker stop 5ae05b76d545
+: 1545394980:0;docker-compose run --service-ports jumbo
+: 1545395703:0;git diff
+: 1545396227:0;docker ps
+: 1545396231:0;docker stop 7349551ba981
+: 1545396244:0;docker-compose run --service-ports jumbo
+: 1545397048:0;git status
+: 1545397063:0;rm -rf staticfiles statictemp
+: 1545397066:0;git diff
+: 1545397313:0;docker-compose run --service-ports jumbo
+: 1545397316:0;docker ps
+: 1545397320:0;docker stop ba250142438a
+: 1545397399:0;docker-compose run --service-ports jumbo
+: 1545397415:0;docker-compose run --rm jumbo pipenv run python manage.py collectstatic
+: 1545397888:0;docker-compose run --service-ports jumbo
+: 1545397891:0;docker ps
+: 1545397895:0;docker stop 4505c529f39e
+: 1545397956:0;docker-compose run --service-ports jumbo
+: 1545398043:0;git diff
+: 1545398228:0;docker-compose run jumbo pipenv run python manage.py makemigrations
+: 1545398237:0;docker-compose run jumbo pipenv run python manage.py migrate
+: 1545398328:0;docker-compose run jumbo pipenv run python manage.py makemigrations
+: 1545398361:0;docker-compose run jumbo pipenv run python manage.py migrate orders 0002
+: 1545398385:0;docker-compose run jumbo pipenv run python manage.py makemigrations
+: 1545398404:0;docker-compose run jumbo pipenv run python manage.py migrate
+: 1545398421:0;git diff
+: 1545398444:0;git add .
+: 1545398470:0;git commit -m "DROP-140: Export orders to CSV and fix for styling custom error pages"
+: 1545398475:0;ls
+: 1545398477:0;ls -lash
+: 1545398502:0;rm -rf statictemp
+: 1545398507:0;git add .
+: 1545398511:0;git commit --amend
+: 1545398517:0;git push 
+: 1545398530:0;git checkout develop
+: 1545398532:0;git pull
+: 1545399523:0;git checkout -
+: 1545399526:0;git rebase -i develop
+: 1545399602:0;git status
+: 1545399603:0;git add .
+: 1545399607:0;git rebase --continue
+: 1545399612:0;git checkout -
+: 1545399622:0;git merge --no-ff feature/export-orders-to-csv
+: 1545399637:0;docker stop
+: 1545399642:0;docker down
+: 1545399646:0;docker kill
+: 1545399648:0;docker ps
+: 1545402083:0;git checkout -b feature/rotating-title-on-home
+: 1545404829:0;docker ps
+: 1545404837:0;docker-compose run --service-ports jumbo
+: 1545404861:0;./docker-install.sh
+: 1545405815:0;docker-compose run --service-ports jumbo
+: 1545406010:0;t status
+: 1545406012:0;git status
+: 1545406014:0;git add .
+: 1545406030:0;git commit -m "DROP-123: Rotating title on home"
+: 1545406032:0;git checkout -
+: 1545406043:0;git merge --no-gg feature/rotating-title-on-home
+: 1545406048:0;git merge --no-ff feature/rotating-title-on-home
+: 1545406051:0;git push
+: 1545406137:0;git checkout -b feature/import-should-not-reimport-all
+: 1545406245:0;git status
+: 1545406252:0;git checkout -- jumbo/frontpage/static/frontpage/js/captions.js
+: 1545406255:0;git checkout -
+: 1545406261:0;git status
+: 1545406263:0;git add .
+: 1545406270:0;git commit -m "Removed an console.log"
+: 1545406272:0;git push
+: 1545406325:0;git checkout -
+: 1545406328:0;git rebase -i develop
+: 1545637241:0;cd Projects/Dropper/dropper
+: 1545638099:0;docker-compose run jumbo pipenv run python manage.py makemigrations
+: 1545638110:0;docker-compose run jumbo pipenv run python manage.py migrate
+: 1545639165:0;docker-compose run jumbo pipenv run python manage.py migrate 0016
+: 1545639175:0;docker-compose run jumbo pipenv run python manage.py migrate prodycts 0016
+: 1545639187:0;docker-compose run jumbo pipenv run python manage.py migrate products 0016
+: 1545639199:0;docker-compose run jumbo pipenv run python manage.py makemigrations
+: 1545639211:0;docker-compose run jumbo pipenv run python manage.py makemigrations products
+: 1545639298:0;./docker-install.sh
+: 1545639341:0;ssh jumbo.fooddrop.nl
+: 1545639349:0;ssh redmer@jumbo.fooddrop.nl
+: 1545639474:0;docker-compose run --service-ports jumbo
+: 1545653121:0;ls
+: 1545653131:0;docker-compose run --service-ports jumbo
+: 1545653135:0;ssh redmer@jumbo.fooddrop.nl
+: 1545653247:0;cd Projects/Dropper/dropper
+: 1545653248:0;ls
+: 1545653250:0;git status
+: 1545653258:0;git diff jumbo/feed/Food Drop.xml
+: 1545653270:0;git diff jumbo/feed/Food\ Drop.xml 
+: 1545653276:0;git checkout -- jumbo/feed/Food\ Drop.xml
+: 1545653373:0;cat docker
+: 1545653376:0;cat docker-install.sh
+: 1545653383:0;docker-compose run --rm jumbo pipenv run python manage.py import_jumbo docker@docker.com
+: 1545653451:0;./docker-install.sh
+: 1545653636:0;docker-compose run --service-ports jumbo
+: 1545653679:0;git status
+: 1545653680:0;git add .
+: 1545653695:0;git commit -m "Jumbo import and nutrions info on detail page"
+: 1545653696:0;git push
+: 1545653699:0;git checkout -
+: 1545653701:0;git pull
+: 1545653713:0;git merge --no-ff feature/import-should-not-reimport-all
+: 1545653717:0;git push
+: 1545653801:0;git add .
+: 1545653811:0;git commit -m "Add gunicorn to Pipfile"
+: 1545653812:0;git push
+: 1545654593:0;git status
+: 1545654596:0;git add .
+: 1545654607:0;git commit -m ".INFO does not exists import products"
+: 1545654608:0;git push
+: 1545654642:0;docker-compose build jumbo
+: 1545654725:0;git status
+: 1545655793:0;docker-compose run --service-ports jumbo
+: 1545655796:0;docker ps
+: 1545655810:0;docker stop 506ce3237027
+: 1545655841:0;docker-compose run --service-ports jumbo
+: 1545656231:0;git checkout -b feature/add-sku-to-product-order
+: 1545657404:0;docker-compose run jumbo pipenv run python manage.py makemigrations
+: 1545657414:0;docker-compose run jumbo pipenv run python manage.py migrate
+: 1545657620:0;docker-compose run jumbo pipenv run python manage.py makemigrations
+: 1545657661:0;docker-compose run jumbo pipenv run python manage.py makemigrations migrate
+: 1545657680:0;docker-compose run jumbo pipenv run python manage.py migrate
+: 1545657921:0;docker-compose run --rm jumbo pipenv run python manage.py import_jumbo docker@docker.com
+: 1545658254:0;git status
+: 1545658445:0;git add .
+: 1545658469:0;git commit -m "Added SKU to product edit in admin, and more xml data models"
+: 1545658596:0;docker-compose run --rm jumbo pipenv run python manage.py import_jumbo docker@docker.com
+: 1545659302:0;git status
+: 1545659304:0;git diff
+: 1545659310:0;git ad .
+: 1545659313:0;git add .
+: 1545659315:0;git commit --amend
+: 1545659321:0;git checkout -
+: 1545659534:0;git merge --no-ff feature/add-sku-to-product-order
+: 1545659537:0;git push
+: 1545895032:0;cd Projects/Dropper/dropper
+: 1545895088:0;git checkout -b feature/user-mysql-view-fooddrop
+: 1545895870:0;./docker-install.sh
+: 1545895882:0;ssh redmer@jumbo.fooddrop.nl
+: 1545895983:0;./docker-install.sh
+: 1545896729:0;docker-compose run --service-ports jumbo
+: 1545897019:0;cd Projects/Dropper/dropper
+: 1545897023:0;./ngrok http 8001
+: 1545897162:0;cd ..
+: 1545897163:0;./ngrok http 8001
+: 1545897188:0;docker ps
+: 1545897193:0;docker stop 6c8334591281
+: 1545897216:0;docker-compose run --service-ports jumbo
+: 1545897998:0;./docker-install.sh
+: 1545899744:0;docker-compose run --service-ports jumbo
+: 1545902434:0;cd Projects/Dropper/dropper
+: 1545902452:0;docker-compose run jumbo pipenv run python manage.py makemigrations 
+: 1545902461:0;docker-compose run jumbo pipenv run python manage.py migrate
+: 1545905868:0;docker ps
+: 1545905875:0;docker stop b62d288b4d91
+: 1545905889:0;docker-compose run --service-ports jumbo
+: 1545907397:0;docker-compose run jumbo pipenv run python manage.py migrate accounts 0001
+: 1545907413:0;docker-compose run jumbo pipenv run python manage.py makemigrations accounts
+: 1545907461:0;docker-compose run jumbo pipenv run python manage.py migrate accounts 
+: 1545907807:0;docker-compose run jumbo pipenv run python manage.py migrate 
+: 1545908148:0;docker ps
+: 1545908152:0;dockerkillall
+: 1545908156:0;docker ps
+: 1545908162:0;dockerclean
+: 1545908167:0;docker ps
+: 1545908170:0;./docker-install.sh
+: 1545908334:0;docker-compose run --service-ports jumbo
+: 1545909232:0;git status
+: 1545909242:0;git add . 
+: 1545909262:0;git commit -m "Get user from old fooddrop website with api call and create the user on the new site"
+: 1545909270:0;git checkout -
+: 1545909271:0;git pull
+: 1545909291:0;git checkout - 
+: 1545909294:0;git diff jumbo/jumbo/settings/base.py
+: 1545909299:0;git diff jumbo/jumbo/settings/base.py~1
+: 1545909301:0;git diff jumbo/jumbo/settings/base.py
+: 1545909307:0;git push
+: 1545909365:0;git checkout -
+: 1545909372:0;git merge --no-ff feature/user-mysql-view-fooddrop
+: 1545909377:0;git push
+: 1545909409:0;ssh redmer@136.144.234.228
+: 1545914033:0;git checkout -b feature/edit-buttons-on-page
+: 1545915432:0;docker-compose run --rm jumbo pipenv run python manage.py import_jumbo docker@docker.com
+: 1545920269:0;git status
+: 1545920272:0;git add .
+: 1545920296:0;git commit -m "Edit links on category and product pages, tabs are fixed"
+: 1545920297:0;git push
+: 1545920301:0;git checkout -
+: 1545920304:0;git pull
+: 1545920312:0;git checkout -
+: 1545920314:0;git rebase -i develop
+: 1545920533:0;./docker-install.sh
+: 1545920713:0;docker-compose run --service-ports jumbo
+: 1545921122:0;git status
+: 1545921123:0;git add .
+: 1545921138:0;git commoit -m "count number of products in sub category"
+: 1545921146:0;git commit -m "count number of products in sub category"
+: 1545921149:0;git checkout -
+: 1545921156:0;git merge --no-ff feature/edit-buttons-on-page
+: 1545921159:0;git push
+: 1545921815:0;cd Projects/MindTime/plugin/
+: 1545921816:0;git pull
+: 1545921821:0;code .
+: 1545921824:0;git log
+: 1545924894:0;cd ../../Dropper/PHP-Fooddrop
+: 1545925074:0;ls
+: 1545925076:0;cd ..
+: 1545925080:0;ls
+: 1545925083:0;php avarage-time.php
+: 1545925088:0;php -f avarage-time.php
+: 1545925092:0;php --help
+: 1545925097:0;php -f avarage-time.php
+: 1545925429:0;php -v
+: 1545925431:0;php -f avarage-time.php
+: 1545936123:0;cd dropper
+: 1545936126:0;git pull
+: 1545936133:0;git log
+: 1545990015:0;cd Projects/Dropper/PHP-Fooddrop
+: 1545990017:0;code .
+: 1545990061:0;php -f avarage-time.php
+: 1545994063:0;ssh redmer@jumbo.fooddrop.nl
+: 1545994470:0;php -f avarage-time.php
+: 1545997797:0;ssh redmer@jumbo.fooddrop.nl
+: 1545999221:0;ssh redmer@purplegorilla.nl
+: 1545999489:0;php -f avarage-time.php
+: 1545999515:0;cd Projects/Dropper/dropper
+: 1545999516:0;git pull
+: 1545999724:0;php -f avarage-time.php
+: 1545999808:0;git checkout -b feature/log-everything
+: 1545999845:0;./docker-install.sh
+: 1546003402:0;git checkout -
+: 1546003438:0;docker-compose run --service-ports jumbo
+: 1546004220:0;git add .
+: 1546004239:0;git commit -m "Upper case first letter category name"
+: 1546004241:0;git push
+: 1546004249:0;git checkout -
+: 1546004391:0;ssh redmer@jumbo.fooddrop.nl
+: 1546004865:0;docker ps
+: 1546004870:0;docker stop 91886eb308d5
+: 1546004887:0;docker-compose run --service-ports jumbo
+: 1546006648:0;ssh redmer@jumbo.fooddrop.nl
+: 1546010934:0;pipenv install django-mailjet
+: 1546011019:0;./docker-install.sh
+: 1546011208:0;docker-compose run --service-ports jumbo
+: 1546011286:0;ls
+: 1546011290:0;git status
+: 1546011302:0;rm Pipfile Pipfile.lock
+: 1546011303:0;cd jumbo
+: 1546011308:0;pipenv install django-mailjet
+: 1546011332:0;git status
+: 1546011334:0;nano Pipfile
+: 1546011349:0;git diff Pipfile.lock
+: 1546011361:0;nano Pipfile
+: 1546011386:0;docker-compose build jumbo
+: 1546011437:0;docker ps
+: 1546011443:0;docker stop 6c98122b1983
+: 1546011460:0;docker-compose run --service-ports jumbo
+: 1546011573:0;docker ps
+: 1546011575:0;docker stop a2d1c6b42c29
+: 1546011591:0;docker-compose run --service-ports jumbo
+: 1546011797:0;cd Projects/Dropper/dropper
+: 1546011799:0;git status
+: 1546011800:0;git diff
+: 1546013254:0;git add .
+: 1546013298:0;git commit -m "Welcome mail setup and sku to product name"
+: 1546013301:0;git checkout -
+: 1546013310:0;git branch -m feature/log-everything feature/mail-setup
+: 1546013313:0;git pull
+: 1546013317:0;git checkout -
+: 1546013329:0;git checkout feature/mail-setup 
+: 1546013332:0;git rebase -i develop
+: 1546013337:0;git checkout -
+: 1546013344:0;git merge --no-ff feature/mail-setup
+: 1546013347:0;git push
+: 1546015093:0;docker-compose run --rm jumbo pipenv run python manage.py dumpdata cms > cms.json
+: 1546015108:0;ls
+: 1546015123:0;mkdir -p cms/initialdata
+: 1546015124:0;ls
+: 1546015190:0;git status
+: 1546015192:0;cd ..
+: 1546015193:0;git add .
+: 1546015199:0;git commit -m "Initial data for cms pages"
+: 1546015201:0;git push
+: 1546015322:0;docker-compose run --rm jumbo pipenv run python manage.py dumpdata cms --indent 2 > db.json
+: 1546015345:0;git status
+: 1546015347:0;git add .
+: 1546015355:0;git commit -m "Fix for initial cms data"
+: 1546015356:0;git push
+: 1546161490:0;cd Projects/NC-Websites/crm
+: 1546161491:0;ls
+: 1546161492:0;git diff
+: 1546161497:0;git status
+: 1546161504:0;git diff .htaccess
+: 1546161562:0;git diff index.php
+: 1546161631:0;git diff modules/menus/menu.php
+: 1546162606:0;cd ..
+: 1546162608:0;php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"\
+
+: 1546162613:0;php
+: 1546162619:0;php -v
+: 1546162626:0;php -r "if (hash_file('sha384', 'composer-setup.php') === '93b54496392c062774670ac18b134c3b3a95e5a5e5c8f1a9f115f203b75bf9a129d5daa8ba6a13e2cc8a1da0806388a8') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"\
+
+: 1546162631:0;php composer-setup.php\
+
+: 1546162637:0;ls
+: 1546162649:0;php -r "unlink('composer-setup.php');"\
+
+: 1546162650:0;ls
+: 1546162670:0;mv composer.phar /usr/local/bin/composer
+: 1546162681:0;composer
+: 1546162692:0;cd crm
+: 1546162693:0;composer require google/apiclient:"^2.0"
+: 1546162725:0;ls
+: 1546187395:0;git status
+: 1546187400:0;git add .
+: 1546187406:0;git commit -m "WIP"
+: 1546187409:0;git push
+: 1546244661:0;cd ../../Dropper/dropper
+: 1546244663:0;git pull
+: 1546244671:0;docker-compose run --rm jumbo
+: 1546244747:0;ssh redmer@jumbo.fooddrop.nl
+: 1546244947:0;docker ps
+: 1546244956:0;docker exec -it ddafff0ca8ac bash
+: 1546245075:0;docker-compose run --rm jumbo
+: 1546245081:0;dockerps
+: 1546245084:0;docker ps
+: 1546245088:0;docker stop ddafff0ca8ac
+: 1546245108:0;docker-compose run --service-ports jumbo
+: 1546245206:0;docker ps
+: 1546245210:0;docker stop 6673b606bcc5
+: 1546245222:0;docker-compose run --service-ports jumbo
+: 1546245408:0;ssh redmer@jumbo.fooddrop.nl
+: 1546247496:0;cd Projects/Dropper/dropper
+: 1546247499:0;git status
+: 1546247500:0;git diff
+: 1546250274:0;cd ..
+: 1546250274:0;ls
+: 1546250277:0;./ngrok http 8001
+: 1546250477:0;docker-compose run --service-ports jumbo
+: 1546250480:0;docker ps
+: 1546250483:0;docker stop 7fa2e619f6ce
+: 1546250497:0;docker-compose run --service-ports jumbo
+: 1546251789:0;cd Projects/Dropper/dropper
+: 1546251790:0;git diff
+: 1546258550:0;./docker-install.sh
+: 1546262106:0;docker-compose run --rm jumbo pipenv run python manage.py live_data docker@docker.com\
+
+: 1546262186:0;docker ps
+: 1546262194:0;docker-compose run --service-ports jumbo
+: 1546262301:0;docker-compose run --rm jumbo pipenv run python manage.py live_data docker@docker.com\
+
+: 1546262529:0;git status
+: 1546262531:0;git add .
+: 1546262541:0;git commit -m "Categorie image fixes"
+: 1546262543:0;git pull
+: 1546262569:0;docker-compose run --rm jumbo pipenv run python manage.py live_data docker@docker.com\
+
+: 1546262574:0;./docker-install.sh
+: 1546263231:0;docker-compose run --rm jumbo pipenv run python manage.py import_jumbo docker@docker.com\
+
+: 1546263268:0;./docker-install.sh
+: 1546263606:0;docker-compose run --service-ports jumbo
+: 1546264088:0;./docker-install.sh
+: 1546264440:0;docker-compose run --service-ports jumbo
+: 1546264519:0;docker-compose run --rm jumbo pipenv run python manage.py import_jumbo docker@docker.com\
+
+: 1546264707:0;docker-compose run jumbo pipenv run python manage.py makemigrations
+: 1546264716:0;docker-compose run jumbo pipenv run python manage.py migate
+: 1546264724:0;docker-compose run jumbo pipenv run python manage.py migrate
+: 1546264894:0;docker-compose run --rm jumbo pipenv run python manage.py import_jumbo docker@docker.com\
+
+: 1546265434:0;./docker-install.sh
+: 1546265707:0;docker ps
+: 1546265720:0;docker-compose run --service-ports jumbo
+: 1546265983:0;./docker-install.sh
+: 1546266211:0;docker-compose run --service-ports jumbo
+: 1546266494:0;docker-compose run --rm jumbo pipenv run python manage.py import_jumbo docker@docker.com\
+
+: 1546266850:0;./docker-install.sh
+: 1546267042:0;docker-compose run --service-ports jumbo
+: 1546267201:0;git status
+: 1546267204:0;git add .
+: 1546267208:0;git commit --amend
+: 1546267244:0;git commit -m "Categorie changes and product and search views fixes"
+: 1546267246:0;git push
+: 1546267764:0;docker-compose run --rm jumbo pipenv run python manage.py live_data docker@docker.com\
+
+: 1546267777:0;docker-compose run --service-ports jumbo
+: 1546267780:0;docker ps
+: 1546267782:0;docker stop 40
+: 1546267788:0;docker stop 40e1ddb0a3b7
+: 1546267803:0;docker-compose run --service-ports jumbo
+: 1546267925:0;cd Projects/Dropper/dropper
+: 1546267926:0;git add .
+: 1546267935:0;git commit -m "Highlighted as cards"
+: 1546267936:0;git push
+: 1546268301:0;ssh redmer@jumbo.fooddrop.nl
+: 1546413838:0;cd Projects/Dropper/dropper
+: 1546413840:0;git status
+: 1546413851:0;git checkout -b feature/user-flow-fixes
+: 1546414171:0;docker ps
+: 1546414174:0;docker-compose run --service-ports jumbo
+: 1546414954:0;cd Projects/Dropper/dropper
+: 1546414956:0;./docker-install.sh
+: 1546415155:0;docker-compose run --service-ports jumbo
+: 1546415384:0;git status
+: 1546415385:0;git add .
+: 1546415406:0;git commit -m "DROP-157: Fix the login flow""
+: 1546415407:0;git commit -m "DROP-157: Fix the login flow"
+: 1546415409:0;git push
+: 1546415413:0;git checkout develop
+: 1546415424:0;git merge --no-ff feature/user-flow-fixes
+: 1546415432:0;git push
+: 1546416282:0;docker ps
+: 1546416285:0;docker stop 28f60023eecb
+: 1546416305:0;git checkout -b feature/login-new-user-from-welcome-mail
+: 1546416309:0;docker-compose run --service-ports jumbo
+: 1546417230:0;docker-compose run --rm jumbo pipenv run python manage.py live_data docker@docker.com\
+
+: 1546417409:0;gulp
+: 1546417416:0;npm install gulp
+: 1546417432:0;gulp
+: 1546417652:0;cd Projects/Dropper/dropper
+: 1546417653:0;git status
+: 1546417664:0;git add .
+: 1546417671:0;git commit -m "Cover images"
+: 1546417673:0;git push
+: 1546420778:0;ssh redmer@jumbo.fooddrop.nl
+: 1546420869:0;scp redmer@jumbo.fooddrop.nl:/home/chroot/jumbo/PROD/Food\ Drop.xml .
+: 1546420893:0;scp redmer@jumbo.fooddrop.nl:"/home/chroot/jumbo/PROD/Food Drop.xml" .
+: 1546420922:0;scp redmer@jumbo.fooddrop.nl:/home/chroot/jumbo/PROD/Food\ Drop.xml .
+: 1546420946:0;scp redmer@jumbo.fooddrop.nl:/home/chroot/jumbo/PROD/Food \Drop.xml .
+: 1546420978:0;scp redmer@jumbo.fooddrop.nl:/home/chroot/jumbo/PROD/Food\ Drop.xml .
+: 1546420993:0;scp redmer@jumbo.fooddrop.nl:/home/chroot/jumbo/PROD/* .
+: 1546420997:0;scp redmer@jumbo.fooddrop.nl:/home/chroot/jumbo/PROD/ .
+: 1546421009:0;scp redmer@jumbo.fooddrop.nl:/home/chroot/jumbo/PROD/*.xml .
+: 1546421036:0;scp 'redmer@jumbo.fooddrop.nl:/home/chroot/jumbo/PROD/Food\ Drop.xml' .
+: 1546423053:0;git status
+: 1546425129:0;git diff
+: 1546425133:0;git status
+: 1546425413:0;rm jumbo/src/css/comments
+: 1546425416:0;git add .
+: 1546425554:0;git commit -m "Breadcrumbs fixed and no image added"
+: 1546425555:0;git push
+: 1546425558:0;git checkout develop
+: 1546425559:0;git pull
+: 1546425565:0;git checkout -
+: 1546425569:0;git rebase -i develop
+: 1546425574:0;git checkout -
+: 1546425576:0;git push
+: 1546425602:0;git branch -m feature/login-new-user-from-welcome-mail feature/product-view-fixes
+: 1546425613:0;git merge --no-ff feature/product-view-fixes
+: 1546425617:0;git push
+: 1546426662:0;git pull
+: 1546426673:0;git checkout -b feature/sorting-products-in-admin
+: 1546426686:0;docker-compose run jumbo pipenv run python manage.py migrate
+: 1546426784:0;./docker-install.sh
+: 1546427418:0;docker-compose run --service-ports jumbo
+: 1546427483:0;git checkout -
+: 1546427498:0;git branch -m feature/sorting-products-in-admin feature/requirement-sku-en
+: 1546427513:0;git checkout -b feature/requirement-sku-en
+: 1546427766:0;docker-compose run --service-ports jumbo
+: 1546427769:0;docker ps
+: 1546427774:0;docker stop 558efc5f63d7
+: 1546427800:0;docker-compose run --service-ports jumbo
+: 1546427873:0;git status
+: 1546427883:0;git add .
+: 1546427888:0;git commit -m "SKU and EAN not required"
+: 1546427890:0;git push 
+: 1546433201:0;git diff
+: 1546433324:0;git add .
+: 1546433336:0;git commit -m "Description not required and fixed gps modal location"
+: 1546433337:0;git push
+: 1546433342:0;git pull
+: 1546433356:0;git push
+: 1546433395:0;docker-compose build jumbo
+: 1546433480:0;docker ps
+: 1546433484:0;docker stop 25066e57b393
+: 1546433529:0;docker-compose run --service-ports jumbo
+: 1546433782:0;git status
+: 1546433783:0;git dif
+: 1546433785:0;git diff
+: 1546433787:0;git add .
+: 1546433800:0;git commit -m "Fix for zip_code addded"
+: 1546433801:0;git push
+: 1546433806:0;git pull
+: 1546433813:0;git push
+: 1546433933:0;git checkout -b feature/utf-8-product-titles
+: 1546438548:0;docker-compose run --rm jumbo pipenv run python manage.py live_data docker@docker.com\
+
+: 1546439163:0;git status
+: 1546439203:0;git add .
+: 1546439218:0;git commit -m "New product photos and utf-8 titles"
+: 1546439221:0;git checkout develop
+: 1546439223:0;git pull
+: 1546439239:0;git merge --no-ff feature/utf-8-product-titles 
+: 1546439242:0;git push
+: 1546440469:0;git pull
+: 1546445332:0;git status
+: 1546445334:0;git add .
+: 1546445343:0;git commit -m "Add product ids to set"
+: 1546445344:0;git push
+: 1546455636:0;cd ../../NC-Websites/crm
+: 1546455637:0;ls
+: 1546455641:0;git status
+: 1546455647:0;git add .
+: 1546455690:0;git commit -m "helpdesk users"
+: 1546455692:0;git push
+: 1546499690:0;scp 'redmer@jumbo.fooddrop.nl:/home/chroot/jumbo/PROD/Food\ Drop.xml' .
+: 1546499744:0;ssh redmer@jumbo.fooddrop.nl
+: 1546500204:0;git status
+: 1546500210:0;git add jumbo/products/management/commands/import_jumbo.py
+: 1546500218:0;git commit -m "Import jumbo data fix"
+: 1546500219:0;git push
+: 1546505142:0;git pull
+: 1546505149:0;./docker-install.sh
+: 1546505208:0;git checkout -b feature/error-on-empty-zip-code
+: 1546505212:0;./docker-install.sh
+: 1546505406:0;docker-compose run --service-ports jumbo
+: 1546506594:0;git status
+: 1546506625:0;git add . 
+: 1546506652:0;git commit -m "Resized the fooddrop images""
+: 1546506672:0;cc
+: 1546506680:0;git commit -m "Resized the fooddrop images"
+: 1546506691:0;docker-compose run --rm jumbo pipenv run python manage.py collectstatic
+: 1546507169:0;git status
+: 1546507174:0;rm -rf jumbo/statictemp
+: 1546507504:0;git status
+: 1546507505:0;git add .
+: 1546507518:0;git commit -m "Fixed error when the zip_code is empty"
+: 1546507519:0;git push
+: 1546507523:0;git checkout develop
+: 1546507525:0;git pull
+: 1546507530:0;git checkout -
+: 1546507534:0;git rebase -i develop
+: 1546507791:0;git commit --amend
+: 1546507799:0;git status
+: 1546507801:0;git add .
+: 1546507803:0;git commit --amend
+: 1546507807:0;git checkout -
+: 1546507809:0;git pull
+: 1546507823:0;git merge --no-ff feature/error-on-empty-zip-code
+: 1546507827:0;git push
+: 1546509318:0;git status
+: 1546509329:0;git add .
+: 1546509340:0;git commit -m "Added new images for fooddrop products"
+: 1546509342:0;git push
+: 1546509434:0;git add .
+: 1546509467:0;git commit -m "Pizza rosso made smaller"
+: 1546509468:0;git push
+: 1546509541:0;git add .
+: 1546509548:0;git commit -m "Rename product image"
+: 1546509551:0;git push
+: 1546509639:0;git add .
+: 1546509646:0;git commit -m "add extension to .png"
+: 1546512242:0;git status
+: 1546512244:0;git pull
+: 1546512250:0;git add .
+: 1546512254:0;git commit -m "Pizza images"
+: 1546512256:0;git push
+: 1546515524:0;git pull
+: 1546515562:0;git checkout -b feature/css-fixes
+: 1546515773:0;cd Projects/Dropper/PHP-Fooddrop
+: 1546515775:0;git status
+: 1546515781:0;git diff dev/pages/bestelling.php
+: 1546517263:0;gulp
+: 1546525734:0;git status
+: 1546525738:0;git add .
+: 1546525818:0;git commit -m "DROP-168, DROP-169, DROP-170: Fixes in SKU's in orders, order_merchant_feedback set to 0 and fixed street error when there is no address linked""
+: 1546525820:0;git commit -m "DROP-168, DROP-169, DROP-170: Fixes in SKU's in orders, order_merchant_feedback set to 0 and fixed street error when there is no address linked"
+: 1546525823:0;git checkout develop
+: 1546525827:0;git pull
+: 1546525834:0;git checkout -
+: 1546525838:0;git rebase -i develop
+: 1546525843:0;git status
+: 1546526050:0;pipenv run python manage.py shell_plus
+: 1546526056:0;pipenv run python 
+: 1546526189:0;git status
+: 1546526193:0;rm Pipfile
+: 1546526199:0;cd jumbo
+: 1546526202:0;git status
+: 1546526203:0;git add .
+: 1546526206:0;git rebase --continue
+: 1546526209:0;git push
+: 1546526213:0;git checkout develop
+: 1546526219:0;git merge --no-ff feature/css-fixes
+: 1546526221:0;git push
+: 1546528958:0;git pull
+: 1546529096:0;git status
+: 1546529141:0;git pull
+: 1546529175:0;git pull --rebase
+: 1546529178:0;git status
+: 1546529189:0;git add .
+: 1546529200:0;git commit -m "Dev favicon"
+: 1546529202:0;git pull --rebase
+: 1546529234:0;git add .
+: 1546529236:0;git commit --amend
+: 1546529239:0;git push
+: 1546597466:0;docker ps
+: 1546597470:0;docker stop 62a0ac19e0be
+: 1546597495:0;docker-compose run --service-ports jumbo
+: 1546597501:0;docker-compose run jumbo pipenv run python manage.py migrate
+: 1546597510:0;git pull
+: 1546597985:0;gulp
+: 1546605951:0;docker ps
+: 1546605956:0;docker stop 8ebcbef6c51b
+: 1546605960:0;docker ps
+: 1546605965:0;docker stop 2e62bee0d310
+: 1546606171:0;docker-compose run --service-ports jumbo
+: 1546606540:0;docker ps
+: 1546606544:0;docker stop 31c6095cd4b3
+: 1546606558:0;docker-compose run --service-ports jumbo
+: 1546612117:0;git diff
+: 1546616052:0;git status
+: 1546616054:0;git diff
+: 1546616454:0;git status
+: 1546616455:0;git add .
+: 1546616459:0;git status
+: 1546616483:0;git commit -m "Sanity checks for addresses during the checkout phase"
+: 1546616485:0;git push
+: 1546616489:0;ssh jumbo.fooddrop.nl
+: 1546616493:0;ssh redmer@jumbo.fooddrop.nl
+: 1546627805:0;cd Projects/Dropper/dropper
+: 1546627808:0;git status
+: 1546627811:0;git add .
+: 1546627827:0;git commit -m "New category photo's jumbo"
+: 1546627830:0;git push
+: 1546776500:0;cd Projects/Dropper/dropper
+: 1546776506:0;git status
+: 1546776534:0;git checkout --
+: 1546776542:0;git status
+: 1546776546:0;git status jumbo/products/initialdata/aardappel_rijst_pasta.png
+: 1546776555:0;git checkout -- jumbo/products/initialdata/aardappel_rijst_pasta.png
+: 1546776582:0;git checkout -- jumbo/products/initialdata/diepvries.png
+: 1546776603:0;git checkout --jumbo/products/initialdata/themas.png
+: 1546776611:0;git checkout -- jumbo/products/initialdata/themas.png
+: 1546776625:0;git checkout -- jumbo/products/initialdata/vlees_vis_vegetarisch.pn
+: 1546776631:0;git checkout -- jumbo/products/initialdata/vlees_vis_vegetarisch.png
+: 1546776653:0;git add .
+: 1546776668:0;git commit -m "image updates"
+: 1546776673:0;git push
+: 1546780288:0;ssh redmer@jumbo.fooddrop.nl
+: 1546845273:0;cd Projects/Dropper/dropper
+: 1546845276:0;docker-compose run --service-ports jumbo
+: 1546845520:0;docker ps
+: 1546845532:0;docker stop e02ed81ebd41
+: 1546845546:0;git checkout -b feature/save-hours-merchant
+: 1546845553:0;docker-compose run --service-ports jumbo
+: 1546849535:0;ssh redmer@136.144.234.228
+: 1546849834:0;ssh redmer@jumbo.fooddrop.nl
+: 1546849979:0;scp 'redmer@jumbo.fooddrop.nl:/home/chroot/jumbo/PROD/Food\ Drop.xml' .
+: 1546850003:0;code Food\ Drop.xml
+: 1546850389:0;ssh redmer@136.144.234.228
+: 1546852372:0;cd Projects/Dropper/dropper
+: 1546852377:0;git status
+: 1546852379:0;git add .
+: 1546852427:0;ls
+: 1546852433:0;docker-compose run --service-ports dropper
+: 1546852442:0;docker ps
+: 1546852452:0;docker stop 9551ecd6f847
+: 1546852465:0;docker-compose run --service-ports dropper
+: 1546852604:0;cd Projects/Dropper/dropper
+: 1546852606:0;ls
+: 1546852613:0;docker-compose run --rm jumbo pipenv run python manage.py import_jumbo docker@docker.com\
+
+: 1546852734:0;docker-compose run jumbo pipenv run python manage.py migrate
+: 1546852828:0;docker-compose run jumbo pipenv run python manage.py makemigrations
+: 1546852837:0;docker-compose run jumbo pipenv run python manage.py migrate
+: 1546852861:0;git status
+: 1546852863:0;git add .
+: 1546852887:0;git commit -m "Changing openinghours for non superusers works again and product tempature fixing"
+: 1546852889:0;git checkout -
+: 1546852891:0;git pull
+: 1546852894:0;git checkout -
+: 1546852899:0;git rebase -i develop
+: 1546852906:0;git checkout -
+: 1546852918:0;git merge --no-ff feature/save-hours-merchant
+: 1546852926:0;ssh redmer@jumbo.fooddrop.nl
+: 1546852967:0;cd Projects/Dropper/dropper
+: 1546852969:0;git push
+: 1546853357:0;ls
+: 1546853359:0;cd ..
+: 1546853359:0;ls
+: 1546853391:0;git clone git@gitlab.com:GoDrop/GoDrop.git
+: 1546853402:0;cd GoDrop
+: 1546853402:0;ls
+: 1546853508:0;cd Projects/Dropper/dropper
+: 1546853518:0;git checkout -b feature/work-schedules
+: 1546853659:0;docker-compose run dropper pipenv run python manage.py migrate
+: 1546854915:0;docker-compose run jumbo pipenv run python manage.py makemigrations
+: 1546854923:0;docker-compose run dropper pipenv run python manage.py makemigrations
+: 1546855489:0;docker-compose run dropper pipenv run python manage.py migrate
+: 1546855505:0;docker-compose run --service-ports dropper
+: 1546855508:0;docker ps
+: 1546855524:0;docker stop 9c9d5a4c6b07
+: 1546855537:0;docker-compose run --service-ports dropper
+: 1546855853:0;ssh redmer@jumbo.fooddrop.nl
+: 1546855956:0;docker-compose run --service-ports dropper
+: 1546855959:0;docker ps
+: 1546855963:0;docker stop 65d7a618aa90
+: 1546855966:0;docker-compose run --service-ports dropper
+: 1546855971:0;dockerclean
+: 1546856356:0;docker-compose run --service-ports dropper
+: 1546856369:0;docker ps
+: 1546856373:0;dockerkillall
+: 1546856377:0;docker ps
+: 1546856379:0;docker clean
+: 1546856381:0;dockerclean
+: 1546856384:0;docker ps
+: 1546856395:0;../docker-install.sh
+: 1546856396:0;ls
+: 1546856416:0;./docker-install.sh
+: 1546856705:0;docker-compose run --service-ports dropper
+: 1546857826:0;ping fooddrop.nl
+: 1546858210:0;git status
+: 1546858212:0;git add .
+: 1546858226:0;git commit -m "DROP-31: Work schedules"
+: 1546858229:0;git checkout develop
+: 1546858230:0;git log
+: 1546858265:0;git checkout -b feature/our-drinks-button
+: 1546858322:0;docker-compose run --service-ports jumbo
+: 1546860017:0;cd Projects/NC-Websites/crm
+: 1546860019:0;git status
+: 1546860021:0;git add .
+: 1546860047:0;git commit -m "Goals added"
+: 1546860049:0;git push
+: 1546863670:0;git status
+: 1546863671:0;git add .
+: 1546863680:0;rm jumbo/static/images/jumbo-category.png
+: 1546863681:0;git status
+: 1546863683:0;git add .
+: 1546863698:0;git commit -m "Shopping last item of highlighted products"
+: 1546863700:0;git push
+: 1546863702:0;git chekcout -
+: 1546863709:0;git checkout -
+: 1546863710:0;git pull
+: 1546863714:0;git checkout -
+: 1546863717:0;git rebase -i develop
+: 1546863737:0;git checkout -
+: 1546863747:0;git merge --no-ff feature/our-drinks-button
+: 1546863750:0;git push
+: 1546864204:0;git prune
+: 1546864207:0;git prune remote
+: 1546864260:0;ssh redmer@jumbo.fooddrop.nl
+: 1546864570:0;git checkout feature/work-schedules
+: 1546864606:0;docker-compose run dropper pipenv run python manage.py makemigrations
+: 1546865550:0;docker ps
+: 1546865553:0;docker stop 5f71577d23cf
+: 1546865594:0;docker-compose run --service-ports dropper
+: 1546865694:0;docker ps
+: 1546865704:0;docker exec -it 865
+: 1546865708:0;docker stop 865b9f993c6b
+: 1546865725:0;docker-compose run --service-ports dropper
+: 1546866122:0;git status
+: 1546866150:0;git checkout -- dropper/static/vendor/jquery/jquery-3.3.1.min.js
+: 1546867347:0;docker ps
+: 1546867351:0;docker stop 9869a3a2fd23
+: 1546867361:0;docker-compose run --service-ports dropper
+: 1546867510:0;./docker-install.sh
+: 1546867763:0;docker-compose run --service-ports dropper
+: 1546868431:0;git add .
+: 1546868433:0;git commit --amend
+: 1546868437:0;git checkout -
+: 1546868441:0;docker-compose run --service-ports jumbo
+: 1546868573:0;cd Projects/Dropper/dropper
+: 1546868574:0;git status
+: 1546868575:0;git log
+: 1546868595:0;git pull
+: 1546869372:0;git status
+: 1546869379:0;git checkout -- jumbo/*
+: 1546869520:0;git status
+: 1546869522:0;git pull
+: 1546869526:0;git add .
+: 1546869534:0;git commit -m "Rename inital data picture"
+: 1546869535:0;git push
+: 1546869658:0;git pull
+: 1546869711:0;git checkout feature/work-schedules
+: 1546869747:0;docker-compose run --rm dropper pipenv run python manage.py collectstatic
+: 1546870937:0;docker ps
+: 1546870942:0;docker stop 5d2496d0ffb4
+: 1546870968:0;docker-compose run --service-ports dropper
+: 1546871100:0;docker ps
+: 1546871103:0;docker stop 0e59e5e6f4cb
+: 1546871119:0;docker-compose run --service-ports dropper
+: 1546873958:0;git status
+: 1546873959:0;git diff
+: 1546873961:0;git log
+: 1546873964:0;git add .
+: 1546874081:0;git commit --amend
+: 1546874086:0;git checkout develop
+: 1546874088:0;git pull
+: 1546874097:0;git checkout -
+: 1546874100:0;git rebase -i develop
+: 1546874128:0;git checkout -
+: 1546874134:0;git merge --no-ff feature/work-schedules
+: 1546874148:0;git push
+: 1546874399:0;git checkout -b feature/show-droppers-in-admin
+: 1546875177:0;ssh redmer@jumbo.fooddrop.nl
+: 1546932305:0;cd Projects/Dropper/dropper
+: 1546932308:0;git status
+: 1546932309:0;git diff
+: 1546932314:0;git stash
+: 1546932317:0;git checkout -
+: 1546932324:0;git checkout -b feature/postcode-500
+: 1546932327:0;git stash pop
+: 1546932365:0;docker-compose run --service-ports jumbo
+: 1546932378:0;docker ps
+: 1546932382:0;docker stop 457378c21538
+: 1546932396:0;docker stop caa5e0999523
+: 1546932409:0;docker-compose run --service-ports jumbo
+: 1546933593:0;ssh redmer@136.144.234.228
+: 1546934898:0;cd Projects/Dropper/dropper
+: 1546934901:0;docker ps
+: 1546934904:0;docker stop 5ef55dfdf99e
+: 1546934985:0;docker-compose run --service-ports jumbo
+: 1546935173:0;git status
+: 1546935174:0;git diff
+: 1546935177:0;git add .
+: 1546935229:0;git commit -m "DROP-173, DROP-174, DROP-175, DROP-176: Fixes in the checkout form not getting 500 errors"
+: 1546935234:0;git checkout develop
+: 1546935235:0;git pull
+: 1546935243:0;git checkout -
+: 1546935250:0;git rebase -i develop
+: 1546935254:0;git checkout -
+: 1546935263:0;git merge --no-ff feature/postcode-500
+: 1546935267:0;git push
+: 1546935316:0;docker ps
+: 1546935319:0;docker stop 270415b33bc1
+: 1546935336:0;git checkout feature/show-droppers-in-admin
+: 1546935361:0;docker-compose run dropper pipenv run python manage.py makemigrations
+: 1546935390:0;docker-compose run dropper pipenv run python manage.py migrate
+: 1546935412:0;docker-compose run dropper pipenv run python manage.py migrate carts
+: 1546935419:0;docker-compose run dropper pipenv run python manage.py migrate cart
+: 1546935444:0;docker-compose run --service-ports dropper
+: 1546935494:0;ssh redmer@jumbo.fooddrop.nl
+: 1546936715:0;docker ps
+: 1546936719:0;docker stop 9d5128ff6a52
+: 1546936736:0;ssh redmer@jumbo.fooddrop.nl
+: 1546936739:0;docker-compose run --service-ports dropper
+: 1546936830:0;docker ps
+: 1546936834:0;docker stop 2787468d1b4c
+: 1546936871:0;docker-compose run --service-ports dropper
+: 1546937266:0;docker ps
+: 1546937270:0;docker stop f6536fed281a
+: 1546937275:0;docker-compose run --service-ports dropper
+: 1546938437:0;docker ps
+: 1546938443:0;docker stop 8b28b0bf1331
+: 1546938454:0;docker-compose run --service-ports dropper
+: 1546945581:0;git status
+: 1546945584:0;git add .
+: 1546945641:0;git commit -m "DROP-172: Show user list and edit/create user"
+: 1546945648:0;git checkout develop
+: 1546945649:0;git pull
+: 1546945657:0;git checkout -
+: 1546945671:0;git rebase -i develop
+: 1546945733:0;git diff
+: 1546945736:0;git add .
+: 1546945743:0;git rebase --continue
+: 1546945747:0;git checkout -
+: 1546945754:0;git merge --no-ff feature/show-droppers-in-admin
+: 1546945758:0;git push
+: 1546945771:0;./docker-install.sh
+: 1546945881:0;git checkout -b feature/work-schedule-to-team
+: 1546946060:0;docker-compose run --service-ports dropper
+: 1546949737:0;docker-compose run dropper pipenv run python manage.py makemigrations
+: 1546949776:0;docker-compose run dropper pipenv run python manage.py migrate
+: 1546951919:0;git diff
+: 1546953182:0;git status
+: 1546953183:0;git add .
+: 1546953205:0;git commit -m "DROP-183: Work schedule per team instead of one for a user"
+: 1546953207:0;git checkout -
+: 1546953210:0;git pull
+: 1546953214:0;git checkout -
+: 1546953220:0;git rebase -i develop
+: 1546953277:0;git add .
+: 1546953281:0;git rebase --continue
+: 1546953286:0;git checkout -
+: 1546953296:0;git merge --no-ff feature/work-schedule-to-team
+: 1546953298:0;git push
+: 1547042783:0;cd Projects/MindTime/plugin
+: 1547042784:0;git pull
+: 1547042790:0;git log
+: 1547042797:0;code .
+: 1547043222:0;git pull
+: 1547103997:0;cd ../../Dropper/dropper
+: 1547104000:0;git pull
+: 1547104016:0;git log
+: 1547104040:0;git checkout feature/checkout
+: 1547104044:0;./docker-install.sh
+: 1547104402:0;docker-compose run --service-ports dropper
+: 1547105416:0;docker ps
+: 1547105420:0;docker stop 308e19a5f556
+: 1547105431:0;docker-compose run --service-ports dropper
+: 1547105688:0;docker ps
+: 1547105692:0;docker stop 6d2be84040ea
+: 1547105706:0;docker-compose run --service-ports dropper
+: 1547105781:0;docker ps
+: 1547105785:0;docker stop 6f24d35e009f
+: 1547105801:0;docker-compose run --service-ports dropper
+: 1547115253:0;cd Projects/NC-Websites/crm
+: 1547115255:0;git status
+: 1547115258:0;git diff
+: 1547115262:0;git add .
+: 1547115270:0;git commit -m "Correct mail for request"
+: 1547115272:0;git push
+: 1547117961:0;git pull
+: 1547126025:0;cd Projects/Dropper/dropper
+: 1547126029:0;docker-compose run --service-ports jumbo
+: 1547129698:0;cd ../../Dropper/dropper
+: 1547130804:0;git diff
+: 1547183971:0;cd Projects/NC-Websites/crm
+: 1547183974:0;git pull
+: 1547183986:0;code .
+: 1547190962:0;cd ../../MindTime/plugin
+: 1547190964:0;code .
+: 1547193300:0;cd ../../Dropper/dropper
+: 1547193304:0;docker ps
+: 1547193312:0;docker-compose run --service-ports jumbo
+: 1547193338:0;docker-compose run --service-ports dropper
+: 1547193697:0;cd Projects/Dropper/dropper
+: 1547193700:0;docker-compose run dropper pipenv run python manage.py makemigrations
+: 1547193708:0;docker-compose run dropper pipenv run python manage.py migrate
+: 1547194129:0;docker-compose run --service-ports dropper
+: 1547194177:0;docker-compose run dropper pipenv run python manage.py migrate carts 0003
+: 1547194181:0;docker ps
+: 1547194186:0;docker stop 308e19a5f556
+: 1547194214:0;docker-compose run --service-ports dropper
+: 1547194584:0;cd ..
+: 1547194584:0;ls
+: 1547194588:0;./ngrok http 8001
+: 1547194931:0;docker ps
+: 1547194939:0;docker stop 24d21711d60c
+: 1547194944:0;docker-compose run --service-ports dropper
+: 1547194947:0;docker ps
+: 1547194951:0;docker stop 27a9574691cc
+: 1547194973:0;docker-compose run --service-ports dropper
+: 1547195011:0;docker ps
+: 1547195018:0;docker-compose run --service-ports dropper
+: 1547195582:0;cd Projects/Dropper/dropper
+: 1547195586:0;docker-compose run dropper pipenv run python manage.py makemigrations
+: 1547195598:0;docker-compose run dropper pipenv run python manage.py migrate
+: 1547195619:0;docker-compose run dropper pipenv run python manage.py makemigrations
+: 1547195625:0;docker-compose run dropper pipenv run python manage.py migrate
+: 1547195632:0;docker-compose run dropper pipenv run python manage.py migrate carts
+: 1547196196:0;docker-compose run dropper pipenv run python manage.py migrate
+: 1547196207:0;./docker-install.sh
+: 1547197621:0;docker-compose run --service-ports dropper
+: 1547199520:0;./ngrok http 8002
+: 1547199664:0;git status
+: 1547199705:0;git add .
+: 1547199720:0;git log
+: 1547199725:0;git commit --amend
+: 1547199740:0;git checkout develop
+: 1547199741:0;git pull
+: 1547199748:0;git checkout -
+: 1547199754:0;git push -f
+: 1547199761:0;git rebase -i develop
+: 1547199765:0;git checkout -
+: 1547199768:0;git push
+: 1547199777:0;git merge --no-ff feature/checkout
+: 1547199795:0;git push
+: 1547200816:0;git checkout -b feature/order-model
+: 1547203902:0;docker-compose run dropper pipenv run python manage.py makemigrations
+: 1547204020:0;docker-compose run dropper pipenv run python manage.py makemigrations orders
+: 1547204028:0;git status
+: 1547204029:0;git add .
+: 1547204056:0;git commit -m "Order models are made"
+: 1547204061:0;git checkout -
+: 1547204069:0;git merge --no-ff feature/order-model 
+: 1547204073:0;git push
+: 1547204084:0;ssh redmer@jumbo.fooddrop.nl
+: 1547215485:0;git pull
+: 1547215490:0;git log
+: 1547215509:0;docker-compose run dropper pipenv run python manage.py migrate
+: 1547218207:0;cd ../../MindTime/plugin
+: 1547218209:0;git status
+: 1547218210:0;git diff
+: 1547218231:0;code .
+: 1547218262:0;git diff
+: 1547218268:0;git add .
+: 1547218273:0;git commit -m "Group results"
+: 1547218275:0;git pull
+: 1547218279:0;git pull --rebase
+: 1547218283:0;git push
+: 1547268120:0;/Users/redmerloen/Library/Application\ Support/Local\ by\ Flywheel/ssh-entry/BkdtoPnh7.sh ; exit;
+: 1547268280:0;/Users/redmerloen/Library/Application\ Support/Local\ by\ Flywheel/ssh-entry/iMpGneCEI.sh ; exit;
+: 1547272241:0;ls
+: 1547272243:0;git diff
+: 1547272252:0;git status
+: 1547272258:0;git diff plugins/mindtime-survey/admin/includes/user_group/mindtime-survey-user-group.php
+: 1547275537:0;git diff plugins/mindtime-survey/public/class-mindtime-survey-public.php
+: 1547275542:0;git checkout -- plugins/mindtime-survey/public/class-mindtime-survey-public.php
+: 1547275544:0;git add .
+: 1547275553:0;git commit -m "Fix in a typo"
+: 1547275554:0;git push
+: 1547537823:0;cd Projects/Dropper/dropper
+: 1547537825:0;git pull
+: 1547537832:0;git log
+: 1547537838:0;./docker-install.sh
+: 1547538187:0;ssh redmerloen@
+: 1547538193:0;ssh redmer@jumbo.fooddrop.nl
+: 1547538425:0;git checkout -b feature/error-finding-route
+: 1547538510:0;docker-compose run --service-ports jumbo
+: 1547538833:0;ssh redmer@136.144.234.228
+: 1547541446:0;ssh C
+: 1547541449:0;ssh redmer@136.144.234.228
+: 1547544271:0;git status
+: 1547544274:0;git add .
+: 1547544296:0;git commit -m "DROP-117: Fixed 500 when searching address"
+: 1547544299:0;git checkout develop
+: 1547544307:0;git merge --no-ff feature/error-finding-route
+: 1547544311:0;git pull --rebase
+: 1547544316:0;git push
+: 1547544320:0;git log
+: 1547544524:0;docker-compose run --service-ports dropper
+: 1547560374:0;cd Projects/Dropper/dropper
+: 1547560376:0;git pull
+: 1547560391:0;git checkout -b feature/dashboard-available-workschedule
+: 1547560398:0;docker-compose run dropper pipenv run python manage.py migrate
+: 1547560540:0;cd ../PHP-Fooddrop
+: 1547560542:0;code .
+: 1547561262:0;cd ..
+: 1547561263:0;ls
+: 1547561268:0;./ngrok http 8002
+: 1547561374:0;docker-compose run --service-ports dropper
+: 1547563015:0;cd Projects/Dropper/PHP-Fooddrop
+: 1547563016:0;code .
+: 1547578784:0;cd Projects/NC-Websites/cms
+: 1547578787:0;git status
+: 1547578789:0;git diff
+: 1547578814:0;git add .
+: 1547578826:0;git commit -m "Delete photo"
+: 1547578830:0;git pull --rebase
+: 1547578834:0;git push
+: 1547579006:0;git diff e0c18cb0bfc7492981fb41ed208c4bdd8a40d874 HEAD --name-only
+: 1547579051:0;git diff e0c18cb0bfc7492981fb41ed208c4bdd8a40d874 HEAD --name-only ':images'
+: 1547579059:0;git diff e0c18cb0bfc7492981fb41ed208c4bdd8a40d874 HEAD --name-only ':!images'
+: 1547579098:0;git diff d766622f3cc707906f9b341a0afd39e9ec3fbd2b HEAD --name-only ':!images'
+: 1547579159:0;git diff d766622f3cc707906f9b341a0afd39e9ec3fbd2b HEAD --name-only ':!images' ':.*'
+: 1547579166:0;git diff d766622f3cc707906f9b341a0afd39e9ec3fbd2b HEAD --name-only ':!images' ':!.*'
+: 1547579176:0;git diff d766622f3cc707906f9b341a0afd39e9ec3fbd2b HEAD --name-only ':!images'
+: 1547579202:0;code .
+: 1547579286:0;git diff 472e7182c0a890887bb091c41a7db904cfef3c64 HEAD --name-only ':!images'
+: 1547579304:0;git diff 671b29af58fff90fcbda433acbb2940a55adb2e4 HEAD --name-only ':!images'
+: 1547579376:0;git commit -a -m "Pre .gitignore changes"
+: 1547579383:0;git rm -r --cached .
+: 1547579394:0;git status
+: 1547579402:0;git reset --hard
+: 1547579449:0;git rm -r --cached .
+: 1547579456:0;git reset --hard
+: 1547579566:0;git diff 671b29af58fff90fcbda433acbb2940a55adb2e4 HEAD --name-only ':!images'
+: 1547579576:0;git diff 671b29af58fff90fcbda433acbb2940a55adb2e4 HEAD --name-only ':!images' ':!js'
+: 1547579588:0;ls
+: 1547579590:0;ls -lash
+: 1547579647:0;git diff 671b29af58fff90fcbda433acbb2940a55adb2e4 HEAD ':!images'
+: 1547579655:0;git diff 671b29af58fff90fcbda433acbb2940a55adb2e4 HEAD ':!images' ':!js'
+: 1547579742:0;git diff 671b29af58fff90fcbda433acbb2940a55adb2e4 HEAD ':!images' ':!js' > diff_to_begin_cms
+: 1547579745:0;code diff_to_begin_cms
+: 1547579809:0;git diff 671b29af58fff90fcbda433acbb2940a55adb2e4 HEAD --names-only ':!images' ':!js' > diff_to_begin_cms_files
+: 1547579814:0;git diff 671b29af58fff90fcbda433acbb2940a55adb2e4 HEAD --name-only ':!images' ':!js' > diff_to_begin_cms_files
+: 1547579819:0;code diff_to_begin_cms_files
+: 1547579899:0;git diff 671b29af58fff90fcbda433acbb2940a55adb2e4 HEAD --name-only ':!images' ':!js' ':!css'  > diff_to_begin_cms_files
+: 1547579906:0;code diff_to_begin_cms_files
+: 1547580038:0;mv diff_to_begin_cms_files filtered_files_cms
+: 1547580043:0;code filtered_files_cms
+: 1547580364:0;git diff 671b29af58fff90fcbda433acbb2940a55adb2e4 HEAD .gitignore
+: 1547580387:0;git diff 671b29af58fff90fcbda433acbb2940a55adb2e4 HEAD .htaccess
+: 1547581191:0;tar -cvf allfiles.tar -T filtered_files_cms
+: 1547581193:0;ls
+: 1547581268:0;git diff 671b29af58fff90fcbda433acbb2940a55adb2e4 HEAD core/class.database.php
+: 1547581280:0;git diff 671b29af58fff90fcbda433acbb2940a55adb2e4 HEAD core/class.config.php
+: 1547581302:0;git diff 671b29af58fff90fcbda433acbb2940a55adb2e4 HEAD modules/positionmodules/blogfeed.php
+: 1547581314:0;git diff 671b29af58fff90fcbda433acbb2940a55adb2e4 HEAD modules/positionmodules/blogscroll.php
+: 1547581321:0;git diff 671b29af58fff90fcbda433acbb2940a55adb2e4 HEAD modules/positionmodules/fotoalbum.php\
+
+: 1547581350:0;tar -cvf bestanden_voor_cms.tar.gzr -T filtered_files_cms
+: 1547581535:0;git diff 671b29af58fff90fcbda433acbb2940a55adb2e4 HEAD modules/mod_login/class.login.php\
+\
+
+: 1547584917:0;ping ncapp.nl
+: 1547585009:0;ping crm.ncapp.nl
+: 1547629806:0;code .
+: 1547631221:0;cd ../../Dropper/dropper
+: 1547631227:0;docker-compose run dropper pipenv run python manage.py makemigrations orders
+: 1547631236:0;docker-compose run dropper pipenv run python manage.py migrate
+: 1547636328:0;git status
+: 1547636334:0;git diff dropper/dropperadmin/templates/dropperadmin/dashboard.html
+: 1547644299:0;docker ps
+: 1547644304:0;docker stop 638568ecc8b0
+: 1547644319:0;docker-compose run --service-ports dropper
+: 1547644862:0;docker ps
+: 1547644866:0;docker stop ae110f16b51a
+: 1547644881:0;docker-compose run --service-ports dropper
+: 1547647123:0;git status
+: 1547647125:0;git add .
+: 1547649837:0;docker ps
+: 1547649840:0;docker stop 32b2fa9801f0
+: 1547649855:0;docker-compose run --service-ports dropper
+: 1547651643:0;git status
+: 1547651644:0;git add .
+: 1547651673:0;git commit -m "DROP-116: Team admin dashboard shows dropper schedule of the day"
+: 1547651681:0;git checkout develop
+: 1547651686:0;git pull --rebase
+: 1547651705:0;git merge --no-ff feature/dashboard-available-workschedule
+: 1547651711:0;git push
+: 1547651715:0;git log
+: 1547710429:0;cd Projects/Dropper/dropper
+: 1547710472:0;docker-compose run dropper pipenv run python manage.py migrate orders 0006
+: 1547710539:0;git pull --rebase
+: 1547710633:0;git log
+: 1547710658:0;docker-compose run dropper pipenv run python manage.py migrate
+: 1547710680:0;cd Projects/Dropper/PHP-Fooddrop
+: 1547710684:0;code .
+: 1547711452:0;git checkout -b feature/500-on-create-address
+: 1547711462:0;docker-compose run --service-ports jumbo
+: 1547711467:0;docker ps
+: 1547711473:0;docker stop 69d7b7ffde40
+: 1547711491:0;docker-compose run --service-ports jumbo
+: 1547712601:0;git diff
+: 1547712635:0;git add .
+: 1547712680:0;git commit -m "500 fixed when the search api returns no results with a street number extension"
+: 1547712683:0;git checkout -
+: 1547712692:0;git merge --no-ff feature/500-on-create-address
+: 1547712696:0;git push
+: 1547712703:0;ssh redmer@jumbo.fooddrop.nl
+: 1547734994:0;git checkout -b feature/redirect-when-logged-in-from-welcome-mail
+: 1547735050:0;docker-compose run --service-ports jumbo
+: 1547735053:0;dockerps
+: 1547735055:0;docker ps
+: 1547735063:0;docker stop fb1472e31866
+: 1547735098:0;docker-compose run --service-ports jumbo
+: 1547735842:0;cd Projects/Dropper/dropper
+: 1547735845:0;git status
+: 1547735848:0;git add .
+: 1547735881:0;git commit -m "Redirect to home page when the user is logged from the password reset link"
+: 1547735887:0;git checkout develop
+: 1547735893:0;git merge --no-ff feature/redirect-when-logged-in-from-welcome-mail
+: 1547735896:0;git push
+: 1547736221:0;git checkout -b feature/order-status-can-be-changed-by-dropper
+: 1547796080:0;docker-compose run --service-ports dropper
+: 1547796923:0;code .
+: 1547798399:0;docker-compose run --rm dropper pipenv run python manage.py create_team_for_user  docker@docker.com
+: 1547799520:0;docker-compose run --rm dropper pipenv run python manage.py create_work_schedule_for_week docker@docker.com
+: 1547802479:0;./docker-install.sh
+: 1547803373:0;code .
+: 1547806542:0;docker-compose run --service-ports dropper
+: 1547809154:0;./docker-install.sh
+: 1547809604:0;docker-compose run --service-ports dropper
+: 1547809678:0;./docker-install.sh
+: 1547809911:0;docker-compose run --service-ports dropper
+: 1547809962:0;cd Projects/Dropper
+: 1547809962:0;ls
+: 1547809965:0;./ngrok http 8002
+: 1547809983:0;docker-compose run --service-ports dropper
+: 1547809990:0;git status
+: 1547809991:0;git add .
+: 1547810027:0;git commit -m "DROP-122: Change order status by dropper"
+: 1547810030:0;git checkout develop
+: 1547810032:0;git pull
+: 1547810041:0;git checkout -
+: 1547810058:0;git rebase -i develop
+: 1547815226:0;pipenv install django_filters
+: 1547815241:0;cd dropper
+: 1547815243:0;pipenv install django_filters
+: 1547815299:0;docker-compose build dropper
+: 1547815365:0;docker-compose run --service-ports dropper
+: 1547815467:0;git status
+: 1547815469:0;git add .
+: 1547815471:0;git commit --amend
+: 1547815476:0;git checkout develop
+: 1547815478:0;git pull
+: 1547815486:0;git checkout -
+: 1547815531:0;git rebase -i develop
+: 1547815559:0;git add .g
+: 1547815560:0;git add .
+: 1547815563:0;git rebase --continue
+: 1547815717:0;pipenv install
+: 1547815907:0;git status
+: 1547815917:0;docker-compose build dropper
+: 1547815961:0;docker-compose run --service-ports dropper
+: 1547821244:0;docker ps
+: 1547821248:0;docker stop 3717589ef8e6
+: 1547821266:0;docker-compose run --service-ports dropper
+: 1547821448:0;./docker-install.sh
+: 1547821450:0;cd ..
+: 1547821453:0;./docker-install.sh
+: 1547821704:0;docker-compose run --service-ports dropper
+: 1547824770:0;git status
+: 1547824773:0;git add .
+: 1547824776:0;git commit --amend
+: 1547824782:0;git checkout develop
+: 1547824786:0;git pull
+: 1547824792:0;git checkout -
+: 1547824797:0;git rebase -i develop
+: 1547825050:0;git diff dropper/orders/admin_urls.py
+: 1547825087:0;git add .
+: 1547825095:0;git rebase --continue
+: 1547825100:0;git checkout -
+: 1547825112:0;git merge --no-ff feature/order-status-can-be-changed-by-dropper
+: 1547825115:0;git push
+: 1547825195:0;git checkout -b feature/dropper-dashboard
+: 1548056016:0;cd Projects/Dropper/dropper
+: 1548056034:0;./docker-install.sh
+: 1548056409:0;docker-compose run --service-ports dropper
+: 1548056877:0;./docker-install.sh
+: 1548057099:0;docker-compose run --service-ports dropper
+: 1548057462:0;git status
+: 1548057463:0;git diff
+: 1548057472:0;git add .
+: 1548057493:0;git commit -m "DROP-121: Dropper dashboard setup"
+: 1548057495:0;git push
+: 1548057497:0;git checkout develop
+: 1548057499:0;git pull
+: 1548057511:0;git merge --no-ff feature/dropper-dashboard
+: 1548057513:0;git lo
+: 1548057515:0;git loh
+: 1548057516:0;git log
+: 1548057523:0;git push
+: 1548060138:0;cd /Users/redmerloen/Library/iTunes
+: 1548060139:0;ls
+: 1548060144:0;ls -lash
+: 1548060750:0;cd ~/Projects/Dropper
+: 1548060750:0;ls
+: 1548060765:0;mkdir dropper
+: 1548060770:0;cd dropper
+: 1548060771:0;ls
+: 1548060773:0;cd ..
+: 1548060774:0;ls
+: 1548060779:0;mv dropper dropper-redo
+: 1548060783:0;mkdir dropper
+: 1548060805:0;git init\
+
+: 1548060807:0;ls
+: 1548060811:0;rm -rf .git
+: 1548060813:0;cd dropper
+: 1548060816:0;git init
+: 1548060821:0;git remote add origin git@gitlab.com:DropLabNL/dropper.git
+: 1548060830:0;git checkout -b develop
+: 1548061946:0;git status
+: 1548062024:0;./docker-install.sh
+: 1548062068:0;cd ..
+: 1548062069:0;ls
+: 1548062071:0;cd Dropper
+: 1548062072:0;ls
+: 1548062073:0;cd ..
+: 1548062075:0;ls
+: 1548062080:0;rm -rf Dropper
+: 1548062091:0;cd DropLab
+: 1548062091:0;ls
+: 1548062096:0;cd Fooddrop
+: 1548062096:0;ls
+: 1548062123:0;git checkout -b feature/move-dropper-project-out-of-jumbo-project
+: 1548062126:0;git status
+: 1548062134:0;./docker-install.sh
+: 1548062399:0;docker-compose run --service-ports web
+: 1548062423:0;git add .
+: 1548062450:0;git commit -m "Initial commit - moved from https://gitlab.com/DropLabNL/fooddrop"
+: 1548062452:0;git push
+: 1548062494:0;git checkout 
+: 1548062496:0;git checkout -
+: 1548062550:0;git status
+: 1548062556:0;docker-compose run --service-ports web
+: 1548062585:0;git status
+: 1548062587:0;git add .
+: 1548062624:0;git commit -m "Moved Dropper project to https://gitlab.com/DropLabNL/dropper"
+: 1548062632:0;git checkout -
+: 1548062646:0;git merge --no-ff feature/move-dropper-project-out-of-jumbo-project
+: 1548062651:0;git status
+: 1548062658:0;rm Pipfile
+: 1548062660:0;git merge --no-ff feature/move-dropper-project-out-of-jumbo-project
+: 1548062705:0;git push
+: 1548062770:0;git remote set-url origin git@gitlab.com:DropLabNL/fooddrop.git
+: 1548062816:0;git checkout -b feature/dropper-dashboard
+: 1548062911:0;cd Projects/DropLab
+: 1548062911:0;ls
+: 1548062916:0;cd PHP-Fooddrop
+: 1548062917:0;git status
+: 1548062924:0;git add .
+: 1548062937:0;git commit -m "Updates from redmer to fooddrop"
+: 1548062939:0;git pull
+: 1548062943:0;git pull --reabse
+: 1548062945:0;git pull --rebase
+: 1548062957:0;code .
+: 1548063108:0;git status
+: 1548063111:0;git add .
+: 1548063115:0;git rebase --continue
+: 1548063118:0;git push
+: 1548063128:0;git remote set-url origin git@gitlab.com:DropLabNL/fooddrop-php.git
+: 1548063351:0;docker-compose run --service-ports web
+: 1548065480:0;cd ../Dropper
+: 1548065487:0;pipenv install
+: 1548067338:0;docker-compose run --rm web pipenv run python manage.py dumpdata auth --natural-foreign --natural-primary -e auth.Permission\
+\
+
+: 1548067383:0;docker-compose run --rm web pipenv run python manage.py dumpdata auth --natural-foreign --natural-primary -e auth.Permission > permissions.json\
+\
+
+: 1548067422:0;docker-compose run --rm web pipenv run python manage.py dumpdata auth --indent --natural-foreign --natural-primary -e auth.Permission > permissions.json\
+\
+
+: 1548067444:0;docker-compose run --rm web pipenv run python manage.py dumpdata auth --indent 2 --natural-foreign --natural-primary -e auth.Permission > permissions.json\
+\
+
+: 1548067483:0;./docker-install.sh
+: 1548067593:0;docker-compose run --service-ports web
+: 1548073245:0;cd ..
+: 1548073248:0;./ngrok http 8002
+: 1548073282:0;docker ps
+: 1548073290:0;docker stop 0aa694c5588a
+: 1548073302:0;docker-compose run --service-ports web
+: 1548082522:0;docker ps
+: 1548082536:0;docker stop c24b546106ac
+: 1548082549:0;cd Projects/DropLab/Dropper/
+: 1548082553:0;docker-compose run --service-ports web
+: 1548083157:0;cd Projects/DropLab/Dropper
+: 1548083158:0;git status
+: 1548083160:0;git add .
+: 1548083177:0;git commit -m "DROP-49: Dashboard for droppers"
+: 1548083180:0;git checkout -
+: 1548083182:0;git pull
+: 1548083188:0;git checkout -
+: 1548083192:0;git rebase -i develop
+: 1548083204:0;git status
+: 1548083252:0;git add .
+: 1548083255:0;git rebase --continue
+: 1548083261:0;git push
+: 1548083356:0;git add .
+: 1548083358:0;git commit --amend
+: 1548083360:0;git push -f
+: 1548085146:0;das
+: 1548085149:0;git status
+: 1548085150:0;git add .
+: 1548085152:0;git commit --amend
+: 1548085155:0;git push -f
+: 1548085174:0;git checkout develop
+: 1548085176:0;git pull
+: 1548085219:0;git checkout -b feature/create-user-from-admin
+: 1548143093:0;ssh redmer@136.144.234.228
+: 1548148597:0;docker ps
+: 1548148603:0;docker stop f242c64bc13d
+: 1548148621:0;docker-compose run --service-ports web
+: 1548149447:0;git status
+: 1548149449:0;git diff
+: 1548153068:0;git status
+: 1548153069:0;git add .
+: 1548153097:0;git commit -m "DROP-194: Create user in the admin"
+: 1548153099:0;git push
+: 1548153826:0;git checkout develop
+: 1548153828:0;git pull
+: 1548154952:0;git checkout -b feature/autocomplete-addresses
+: 1548159635:0;cd Projects/DropLab/PHP-Fooddrop
+: 1548159639:0;git pull
+: 1548159778:0;git status
+: 1548159789:0;git diff
+: 1548159897:0;git status
+: 1548159910:0;git diff index.php
+: 1548160190:0;git status
+: 1548160978:0;git add .
+: 1548160992:0;git commit -m "Changes from live"
+: 1548160997:0;git push
+: 1548161030:0;git checkout -b feature/1100-opening
+: 1548164399:0;git status
+: 1548164402:0;git diff
+: 1548164611:0;git status
+: 1548165709:0;git diff admin/pages/bedrijf.php
+: 1548165816:0;git diff index.php
+: 1548166816:0;git add. 
+: 1548166818:0;git add .
+: 1548166944:0;git commit -m "FO-1, FO-2, FO-3, FO-4, FO-5, FO-8, FO-9: Changed openinghours from 10 to 11"
+: 1548166948:0;git checkout develop
+: 1548166955:0;git merge --no-ff feature/1100-opening
+: 1548166961:0;git checkout -
+: 1548166962:0;git merge --no-ff feature/1100-opening
+: 1548166969:0;git push
+: 1548168224:0;ssh redmer@136.144.234.228
+: 1548315931:0;cd Projects/DropLab/Fooddrop
+: 1548315934:0;git pull
+: 1548316093:0;docker-compose run --service-ports web
+: 1548317238:0;docker ps
+: 1548317242:0;docker stop 95087517c995
+: 1548317267:0;docker-compose run --service-ports web
+: 1548319072:0;cd Projects/DropLab/Fooddrop
+: 1548319095:0;docker-compose run --rm web pipenv run python manage.py makemigrations
+: 1548319104:0;docker-compose run --rm web pipenv run python manage.py migrate
+: 1548320452:0;docker-compose run --service-ports web
+: 1548320457:0;docker ps
+: 1548320460:0;docker stop 1ca19f26e7a6
+: 1548320495:0;docker-compose run --service-ports web
+: 1548320908:0;git status
+: 1548320910:0;git add .
+: 1548320940:0;git commit -m "Openingshours to 11"
+: 1548320951:0;git checkout -b feature/opening-hours
+: 1548320953:0;git status
+: 1548320954:0;git log
+: 1548320958:0;git push
+: 1548321578:0;git status
+: 1548321580:0;git add .
+: 1548321582:0;git commit --amend
+: 1548321585:0;git push
+: 1548321956:0;docker ps
+: 1548321959:0;docker stop 8e279f3dfb6a
+: 1548321975:0;cd ../Dropper
+: 1548321976:0;ls
+: 1548321984:0;git status
+: 1548321990:0;ssh redmer@136.144.234.228
+: 1548322015:0;ssh redmer@jumbo.fooddrop.nl
+: 1548323328:0;cd ..
+: 1548323329:0;ls
+: 1548323331:0;cd Fooddrop
+: 1548323331:0;ls
+: 1548323338:0;git checkout develop
+: 1548323340:0;git pull
+: 1548323361:0;git status
+: 1548323365:0;git diff
+: 1548323383:0;git checkout -- jumbo/settings/base.py
+: 1548323386:0;git merge --abort
+: 1548323389:0;git pull 
+: 1548323398:0;git merge --abort
+: 1548323400:0;git log
+: 1548323404:0;git pull --rebase
+: 1548323411:0;git status
+: 1548323414:0;git diff
+: 1548323421:0;git checkout -- jumbo/settings/base.py
+: 1548323423:0;ls
+: 1548323494:0;git rebase --abort
+: 1548323498:0;git checkout master
+: 1548323504:0;git checkout develop
+: 1548323519:0;git status
+: 1548323638:0;git log
+: 1548323646:0;git reset --hard
+: 1548323648:0;git status
+: 1548323650:0;git log
+: 1548323687:0;git reset --hard HEAD~1
+: 1548323689:0;git pull
+: 1548323696:0;docker-compose run --service-ports web
+: 1548323752:0;git checkout -b feature/zip_code_post
+: 1548324721:0;git status
+: 1548324723:0;git diff
+: 1548324728:0;git add /
+: 1548324730:0;git add .
+: 1548324744:0;git commit -m "Postcode post to merchant"
+: 1548324748:0;git checkout develop
+: 1548324759:0;git merge --no-ff feature/zip_code_post
+: 1548324762:0;git push
+: 1548325314:0;cd ~/Do
+: 1548325316:0;cd ~/Downloads
+: 1548325316:0;ls
+: 1548325334:0;scp Food\ Drop.xml redmer@jumbo.fooddrop.nl:
+: 1548325354:0;scp 'Food\ Drop.xml' redmer@jumbo.fooddrop.nl:
+: 1548325366:0;ls
+: 1548325392:0;ls Food\ Drop.xml
+: 1548325401:0;mv Food\ Drop.xml Drop.xml
+: 1548325409:0;scp 'Drop.xml' redmer@jumbo.fooddrop.nl:
+: 1548325692:0;cd ~/Projects/DropLab/Fooddrop
+: 1548325696:0;docker-compose run --rm jumbo pipenv run python manage.py import_jumbo docker@docker.com\
+
+: 1548325702:0;docker-compose run --rm web pipenv run python manage.py import_jumbo docker@docker.com\
+
+: 1548326602:0;ssh redmer@jumbo.fooddrop.nl
+: 1548328036:0;docker-compose run --rm web pipenv run python manage.py import_jumbo docker@docker.com\
+
+: 1548329934:0;ls
+: 1548329936:0;git status
+: 1548329944:0;cd Projects/DropLab/Dropper
+: 1548329949:0;docker-compose run --service-ports web
+: 1548334778:0;git status
+: 1548334783:0;git checkout -- .gitignore feed/Food\ Drop.xml
+: 1548334784:0;git pull
+: 1548334794:0;git checkout -b feature/bootstrap-cdn
+: 1548335044:0;docker ps
+: 1548335047:0;docker stop 5e9adb016d4a
+: 1548335068:0;./docker-install.sh
+: 1548335204:0;git add .
+: 1548335216:0;git commit -m "Added Bootstrap and Leaflet cdn paths"
+: 1548335219:0;git checkout -
+: 1548335226:0;git merge --no-ff feature/bootstrap-cdn
+: 1548335231:0;git push
+: 1548337734:0;ssh redmer@136.144.234.228
+: 1548339203:0;ssh redmer@jumbo.fooddrop.nl
+: 1548341182:0;cd ..
+: 1548341185:0;cd PHP-Fooddrop
+: 1548341187:0;code .
+: 1548341816:0;git status
+: 1548341963:0;git pull --rebase
+: 1548341967:0;git status
+: 1548341986:0;git add .
+: 1548342038:0;git commit -m "Order merchant feedback needs to be NULL"
+: 1548342041:0;git pull --rebase
+: 1548342046:0;git log
+: 1548342076:0;git push
+: 1548342082:0;git pull --rebase
+: 1548342087:0;git push
+: 1548396007:0;cd Projects/NC-Websites/crm
+: 1548396009:0;code .
+: 1548400894:0;git pull
+: 1548401095:0;git log
+: 1548401127:0;ssh redmer@136.144.234.228
+: 1548401729:0;ssh redmer@jumbo.fooddrop.nl
+: 1548401804:0;ssh git.purplegorilla.nl
+: 1548401811:0;ssh redmer@purplegorilla.nl
+: 1548404670:0;ssh redmer@jumbo.fooddrop.nl
+: 1548404986:0;ssh redmer@136.144.234.228
+: 1548410123:0;cd ~/.ssh
+: 1548410125:0;ls
+: 1548410129:0;git status
+: 1548410136:0;cat id_ed25519
+: 1548410173:0;code .\
+: 1548410174:0;code .
+: 1548410333:0;ssh-copy-id redmer@136.144.203.55
+: 1548410371:0;ssh redmer@136.144.203.55
+: 1548414903:0;cd ~/Projects/DropLab/Dropper
+: 1548414905:0;git status
+: 1548414907:0;git add .
+: 1548414909:0;git log
+: 1548414937:0;git commit -m "DROP-198: Autocomplete searching for address""
+: 1548414939:0;git commit -m "DROP-198: Autocomplete searching for address"
+: 1548414941:0;git push
+: 1548414951:0;git checkout develop
+: 1548414953:0;git pull
+: 1548415082:0;git pull --rebase
+: 1548415459:0;git status
+: 1548415574:0;git add .
+: 1548415585:0;pipenv install
+: 1548415656:0;git status
+: 1548415658:0;git add .
+: 1548415668:0;git commit -m "Added gunicorn to Pipfile"
+: 1548415670:0;git push
+: 1548417639:0;ssh redmer@jumbo.fooddrop.nl
+: 1548418677:0;git status
+: 1548418679:0;git add .
+: 1548418694:0;git commit -m "Allowed hosts comma separated from env file"
+: 1548418695:0;git push
+: 1548422993:0;git status
+: 1548422995:0;git add .
+: 1548423005:0;git commit -m "Slack logger username to email"
+: 1548423007:0;git push
+: 1548423131:0;git status
+: 1548423132:0;git add .
+: 1548423145:0;git commit -m "Changed favicon.png to favicon.ico"
+: 1548423146:0;git push
+: 1548423473:0;git flow
+: 1548423478:0;git-flow
+: 1548424558:0;docker-compose build web
+: 1548424738:0;docker ps
+: 1548424746:0;docker-compose run --service-ports web
+: 1548424757:0;cd Projects/DropLab/Dropper
+: 1548424760:0;docker ps
+: 1548424781:0;docker exec -it 2a53d0d43216 bash
+: 1548424867:0;docker-compose run --rm web pipenv run python manage.py migrate
+: 1548424874:0;git status
+: 1548424878:0;git add .
+: 1548424883:0;git commit -m "Daphne setup"
+: 1548424887:0;git checkout develop
+: 1548427558:0;docker ps
+: 1548427569:0;docker-compose run --service-ports web
+: 1548427574:0;docker ps
+: 1548427586:0;docker exec -it 511af71bed53 bash
+: 1548427668:0;./docker-install.sh
+: 1548427756:0;git checkout develop
+: 1548428048:0;docker-compose run --service-ports web
+: 1548428104:0;git status
+: 1548428106:0;git add .
+: 1548428114:0;git commit -m "Added Summernote"
+: 1548428119:0;git checkout develop
+: 1548428653:0;git status
+: 1548428654:0;git add .
+: 1548428661:0;git commit -m "Fix in channels"
+: 1548428662:0;git push
+: 1548428759:0;pipenv install
+: 1548428785:0;git status
+: 1548428787:0;git add .
+: 1548428801:0;git commit -m "Pipfile.lock update"
+: 1548428806:0;git push
+: 1548431178:0;git pull
+: 1548431455:0;./docker-install.sh
+: 1548431588:0;git checkout develop
+: 1548431591:0;docker-compose run --service-ports web
+: 1548432336:0;cd ../Fooddrop
+: 1548432338:0;git pull
+: 1548432347:0;docker-compose run --service-ports web
+: 1548432377:0;./docker-install.sh
+: 1548432723:0;git status
+: 1548432726:0;docker-compose run --service-ports web
+: 1548432835:0;cd ~/Projects/DropLab/
+: 1548432835:0;ls
+: 1548432838:0;./ngrok http 8002
+: 1548432875:0;docker-compose run --service-ports web
+: 1548432878:0;docker ps
+: 1548432885:0;docker stop c34868c79af8
+: 1548432906:0;docker-compose run --service-ports web
+: 1548432971:0;./ngrok http 8001
+: 1548433134:0;docker-compose run --service-ports web
+: 1548433138:0;docker ps
+: 1548433143:0;docker stop 9b39e1f57321
+: 1548433158:0;docker-compose run --service-ports web
+: 1548433399:0;git status
+: 1548433400:0;git add .
+: 1548433414:0;git commit -m "Null instead of 0"
+: 1548433419:0;git push
+: 1548504137:0;cd Projects/NC-Websites/cms
+: 1548504139:0;git status
+: 1548504141:0;git diff
+: 1548504144:0;git add .
+: 1548504156:0;git commit -m "files checkup"
+: 1548504158:0;git push
+: 1548504387:0;cd ../crm
+: 1548504391:0;code .
+: 1548504603:0;composer
+: 1548504607:0;composer install
+: 1548504612:0;composer update
+: 1548576791:0;cd Projects/NC-Websites/crm
+: 1548576794:0;code .
+: 1548577814:0;composer require google/apiclient:"^2.0"\
+
+: 1548577833:0;composer
+: 1548577839:0;composer upgrade
+: 1548577845:0;composer remove
+: 1548577853:0;composer remove google-api-client
+: 1548577877:0;composer remove google/apiclient
+: 1548577888:0;composer require google/apiclient:"^2.0"\
+
+: 1548592305:0;cd Projects/NC-Websites/app
+: 1548592308:0;pod
+: 1548592311:0;rbenv
+: 1548592322:0;ls
+: 1548592346:0;bundle install
+: 1548592352:0;gem install bundle
+: 1548592360:0;bundle install
+: 1548592375:0;rbenv glonal
+: 1548592378:0;rbenv global
+: 1548592469:0;pod install
+: 1548592995:0;bundle install
+: 1548593004:0;gem install bundler
+: 1548593011:0;bundle install
+: 1548593037:0;bundle -v
+: 1548593060:0;nano Gemfile
+: 1548593067:0;nano Gemfile.lock
+: 1548593083:0;gem install bundler -v 1.16.1
+: 1548593092:0;bundle install
+: 1548593221:0;bundle exec fastlane match 
+: 1548610736:0;git status
+: 1548610743:0;git checkout -- NC-Websites/News/News.storyboard
+: 1548610745:0;git diff
+: 1548610759:0;git checkout -- NC-Websites.xcodeproj/project.pbxproj
+: 1548610761:0;git add .
+: 1548610945:0;git commit -m "Correct URL for helpdesk user"
+: 1548610946:0;git push
+: 1548612567:0;git status
+: 1548612709:0;git checkout -- NC-Websites/Visibility/Visibility.storyboard
+: 1548612717:0;git checkout -- NC-Websites/Visibility/Controllers/MainVisibilityViewController.swift
+: 1548612724:0;git diff NC-Websites/Brain/Models/GoogleAnalyticsGoals.swift
+: 1548612732:0;git diff NC-Websites/Brain/Models/HelpdeskQuestion.swift
+: 1548612989:0;git status
+: 1548612994:0;git diff
+: 1548612997:0;git add .
+: 1548613009:0;git commit -m "Fix crash when clicking on Google Ads"
+: 1548613010:0;git push
+: 1548613067:0;git status
+: 1548613069:0;git add .
+: 1548613075:0;git commit -m "Cast string values to int"
+: 1548613077:0;git push
+: 1548620262:0;git status
+: 1548620263:0;git diff
+: 1548620285:0;git add .
+: 1548620300:0;git commit -m "Swipe explanimation fix""
+: 1548620301:0;git commit -m "Swipe explanimation fix"
+: 1548620303:0;git push
+: 1548620307:0;git pull --rebase
+: 1548620311:0;git push
+: 1548620313:0;git log
+: 1548660699:0;ssh redmer@map.dropper.nl
+: 1548661803:0;code .
+: 1548666447:0;ssh redmer@map.dropper.nl
+: 1548667315:0;ssh redmer@dropper.bl
+: 1548667317:0;ssh redmer@dropper.nl
+: 1548667338:0;ssh redmer@beta.dropper.nl
+: 1548667808:0;ping live-search.dropper.nl
+: 1548667812:0;ping --help
+: 1548668099:0;ping live-search.dropper.nl
+: 1548668527:0;cd ../../DropLab/Dropper/
+: 1548668528:0;;s
+: 1548668529:0;ls
+: 1548668533:0;git branch
+: 1548668538:0;git checkout feature/autocomplete-addresses
+: 1548668544:0;git rebase -i develop
+: 1548668560:0;./docker-install.sh
+: 1548668716:0;docker-compose run --rm dropper pipenv run python manage.py create_work_schedule_for_week docker@docker.com
+: 1548668727:0;docker-compose run --rm web pipenv run python manage.py create_work_schedule_for_week docker@docker.com
+: 1548668885:0;./docker-install.sh
+: 1548669072:0;docker-compose run --service-ports web
+: 1548672974:0;docker ps
+: 1548672985:0;cd Projects/DropLab/Dropper
+: 1548672992:0;docker-compose run --service-ports web
+: 1548674984:0;cd ../../DropLab/Dropper
+: 1548674985:0;git status
+: 1548674988:0;git diff
+: 1548675001:0;git add .
+: 1548675004:0;git log
+: 1548675007:0;git commit --amend
+: 1548675013:0;git diff ..develop
+: 1548675020:0;git diff develop..
+: 1548675033:0;git push
+: 1548675038:0;git push -f
+: 1548675081:0;git checkout develop
+: 1548675085:0;git pull
+: 1548675089:0;git log
+: 1548675101:0;git checkout -b feature/create-user-from-admin
+: 1548675109:0;git checkout feature/create-user-from-admin
+: 1548675113:0;git rebase -i develop
+: 1548675546:0;git status
+: 1548675549:0;git diff
+: 1548675553:0;git add .
+: 1548675555:0;git commit --amend
+: 1548675560:0;git push -f
+: 1548675642:0;git checkout -b feature/autocomplete-addresses
+: 1548675685:0;git checkout feature/autocomplete-addresses
+: 1548678439:0;git diff
+: 1548678460:0;git add .
+: 1548678464:0;git commit --amend
+: 1548678475:0;git push -f
+: 1548678482:0;git rebase -i develop
+: 1548678486:0;git push -f
+: 1548678603:0;cd ../Fooddrop
+: 1548678729:0;git checkout -b feature/permission-chceks
+: 1548678737:0;git checkout -
+: 1548678748:0;git branch -m feature/permission-chceks feature/permission-checks
+: 1548678753:0;git checkout feature/permission-checks
+: 1548679091:0;git status
+: 1548679128:0;git add .
+: 1548679147:0;git commit -m "FOOD-138: Permission checks for orders and csv export"
+: 1548679148:0;git push
+: 1548679175:0;git checkout develop
+: 1548679207:0;git checkout -b feautre/favicon-to-cache
+: 1548679498:0;git add .
+: 1548679523:0;git commit -m "DROP-136: Resize cover photo for shopping"
+: 1548679525:0;git checkout -
+: 1548679561:0;git branch -m feautre/favicon-to-cache feature/resize-cover-photo
+: 1548679567:0;git checkout feature/resize-cover-photo
+: 1548679668:0;git push
+: 1548679775:0;ssh redmer@jumbo.fooddrop.nl
+: 1548681196:0;git checkout -b feature/preorder-time
+: 1548681205:0;docker-compose run --service-ports web
+: 1548681231:0;docker ps
+: 1548681241:0;docker stop a6fc0895163f
+: 1548681255:0;docker-compose run --service-ports web
+: 1548681981:0;cd Projects/DropLab
+: 1548681982:0;;s
+: 1548681983:0;ls
+: 1548681986:0;./ngrok http 8001
+: 1548682150:0;cd Projects/DropLab/PHP-Fooddrop
+: 1548682153:0;code .
+: 1548682525:0;docker ps
+: 1548682529:0;docker stop 502069bb921f
+: 1548682550:0;docker-compose run --service-ports web
+: 1548683237:0;git status
+: 1548683238:0;git add .
+: 1548683259:0;git commit -m "DROP-139: Preorder time"
+: 1548683261:0;git push
+: 1548683756:0;cd ../Dropper
+: 1548683761:0;git pull
+: 1548684781:0;./docker-install.sh
+: 1548685346:0;docker-compose run --service-ports web
+: 1548687255:0;ssh redmer@map.dropper.nl
+: 1548689579:0;docker-compose run --service-ports web
+: 1548690259:0;cd ../Dropper
+: 1548690262:0;docker-compose run --rm web pipenv run python manage.py makemigrations
+: 1548690358:0;docker-compose run --rm web pipenv run python manage.py migrate
+: 1548690499:0;docker-compose run --rm web pipenv run python manage.py migrate teams 0002
+: 1548690529:0;docker-compose run --rm web pipenv run python manage.py makemigrations
+: 1548690535:0;docker-compose run --rm web pipenv run python manage.py migrate teams 0002
+: 1548690553:0;docker-compose run --rm web pipenv run python manage.py migrate 
+: 1548690561:0;docker-compose run --rm web pipenv run python manage.py makemigrations
+: 1548690576:0;docker-compose run --rm web pipenv run python manage.py migrate teams 0002
+: 1548690594:0;docker-compose run --rm web pipenv run python manage.py makemigrations
+: 1548690604:0;docker-compose run --rm web pipenv run python manage.py migrate 
+: 1548746675:0;ssh redmer@jumbo.fooddrop.nl
+: 1548747181:0;cd ../Fooddrop
+: 1548747182:0;ls
+: 1548747190:0;git status
+: 1548747210:0;git stash
+: 1548747212:0;git checkout -
+: 1548747216:0;git pull
+: 1548747222:0;git stash pop
+: 1548747224:0;git add .
+: 1548747232:0;git commit -m "Check if cart has an merchant"
+: 1548747233:0;git push
+: 1548763602:0;cd Projects/DropLab
+: 1548763624:0;mkdir FoodDrop-Local
+: 1548763628:0;cd FoodDrop-Local
+: 1548763633:0;git init\
+
+: 1548763638:0;git remote add origin git@gitlab.com:DropLabNL/fooddrop-local.git\
+
+: 1548763642:0;git add .\
+
+: 1548763645:0;git commit -m "Initial commit"\
+
+: 1548763781:0;code .
+: 1548764314:0;docker-compose build
+: 1548764715:0;docker-compose run --service-ports web
+: 1548765044:0;docker-compose build
+: 1548765284:0;docker-compose run --service-ports web
+: 1548765406:0;docker-compose build
+: 1548765456:0;docker-compose run --service-ports web
+: 1548765556:0;docker-compose build
+: 1548765680:0;docker-compose run --service-ports web
+: 1548765904:0;docker ps
+: 1548765926:0;docker exec -it 7a4d4e8e88e4 bash
+: 1548766105:0;docker-compose run --service-ports web
+: 1548766326:0;docker ps
+: 1548766439:0;docker-compose build
+: 1548766494:0;code .
+: 1548766662:0;docker-compose run --service-ports web
+: 1548766677:0;docker stop d03fcf2d8d38
+: 1548772607:0;docker-compose build
+: 1548772638:0;docker-compose run --service-ports web
+: 1548772673:0;docker ps
+: 1548772697:0;docker stop 77c8806b867d 
+: 1548772705:0;docker stop d03fcf2d8d38
+: 1548772712:0;git status
+: 1548772727:0;docker-compose build --no-cache
+: 1548772824:0;docker-compose run --service-ports web
+: 1548773278:0;docker inspect 
+: 1548773283:0;docker ps
+: 1548773297:0;docker inspect fooddrop-local_db_1
+: 1548773342:0;docker inspect fooddrop-local_db_1 | grep IPAddress
+: 1548773598:0;ls -lash
+: 1548773604:0;nano .htaccess
+: 1548773621:0;cp .htaccess ../PHP-Fooddrop/
+: 1548773627:0;cp .htaccess ../FoodDrop-Local
+: 1548773672:0;docker-compose run --service-ports web
+: 1548774133:0;ssh redmer@purplegorilla.nl
+: 1548774234:0;docker-compose build
+: 1548774253:0;docker-compose run --service-ports web
+: 1548774275:0;dockerclean
+: 1548774278:0;dockerkillall
+: 1548774283:0;dockerclean
+: 1548774286:0;docker ps
+: 1548774291:0;docker-compose build
+: 1548774390:0;docker-compose up
+: 1548774492:0;docker ps
+: 1548774501:0;docker exec -it bc84f2f3d31b bash
+: 1548875099:0;docker-compose build
+: 1548875996:0;docker-compose build --no-cache
+: 1548876364:0;docker-compose build 
+: 1548876668:0;docker-compose run --service-ports web
+: 1548876947:0;docker-compose build 
+: 1548877335:0;docker-compose run --service-ports web
+: 1548877401:0;docker-compose build 
+: 1548877779:0;docker-compose run --service-ports web
+: 1548877828:0;docker-compose build 
+: 1548877870:0;docker-compose run --service-ports web
+: 1548877990:0;docker ps
+: 1548878000:0;docker exec -it 40168f7eff15 bash
+: 1548878532:0;docker-compose build 
+: 1548878720:0;docker-compose run --service-ports web
+: 1548919304:0;docker-compose build 
+: 1548919321:0;docker-compose run --service-ports web
+: 1548920179:0;docker ps
+: 1548920185:0;docker inspect e150a5c843c2
+: 1548920192:0;docker ps
+: 1548920197:0;docker inspect 9f5f2d98f543
+: 1548923668:0;docker ps
+: 1548923673:0;dockerkillall
+: 1548923677:0;dockerclean
+: 1548923762:0;docker-compose build
+: 1548923790:0;docker-compose run --service-ports web
+: 1548923846:0;docker ps
+: 1548923855:0;docker-compose up
+: 1548926001:0;openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout ./ssl.key -out ./ssl.pem -subj "/C=NL/ST=Groningen/L=Groningen/O=FoodDrop/OU=Development/CN=localhost"\
+
+: 1548926004:0;ls
+: 1548926020:0;mv ssl.* Projects/DropLab/FoodDrop-Local/
+: 1548926021:0;ks
+: 1548926022:0;ls
+: 1548926647:0;cd Projects/DropLab/Dropper
+: 1548926647:0;ls
+: 1548926652:0;cd ..
+: 1548926655:0;cd FoodDrop-Local
+: 1548926656:0;ls
+: 1548926658:0;rm ssl.*
+: 1548926662:0;openssl rsa -in privkey.pem -out new.cert.key
+: 1548926671:0;openssl req -new > new.ssl.csr
+: 1548926751:0;openssl rsa -in privkey.pem -out new.cert.key
+: 1548926783:0;ls
+: 1548926787:0;rm new.ssl.csr
+: 1548926824:0;openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout ./ssl.key -out ./ssl.pem -subj "/C=NL/ST=Groningen/L=Groningen/O=FoodDrop/OU=Development/CN=localhost"\
+
+: 1548926940:0;openssl x509 -outform der -in ssl.pem -out ssl.crt
+: 1548927026:0;docker-compose build
+: 1548927108:0;docker-compose run --service-ports web
+: 1548927158:0;docker-compose build
+: 1548927179:0;docker-compose run --service-ports web
+: 1548927422:0;docker-compose build
+: 1548927438:0;docker-compose run --service-ports web
+: 1548927467:0;docker-compose build
+: 1548927474:0;docker-compose run --service-ports web
+: 1548928636:0;docker-compose build
+: 1548928866:0;docker-compose run --service-ports web
+: 1548929138:0;docker-compose build
+: 1548929156:0;docker-compose build --no-cache
+: 1548929487:0;docker-compose run --service-ports web
+: 1548935792:0;git checkout develop
+: 1548935797:0;git checkout -b develop
+: 1548936290:0;docker-compose run --service-ports web
+: 1548936306:0;docker-compose buikd
+: 1548936308:0;docker-compose build
+: 1548936315:0;docker-compose run --service-ports web
+: 1548936387:0;docker-compose build --no-cache
+: 1548936551:0;docker-compose run --service-ports web
+: 1548936783:0;git add .
+: 1548936797:0;git commit -m "Initial commit"\
+
+: 1548936799:0;git push
+: 1548936983:0;./docker-install.sh
+: 1548937204:0;docker-compose run --service-ports web
+: 1548937209:0;ssh redmer@jumbo.fooddrop.nl
+: 1548946208:0;docker-compose run --service-ports web
+: 1548947526:0;cd ../Dropper
+: 1548947531:0;docker-compose run --rm web pipenv run python manage.py makemigrations
+: 1548947541:0;docker-compose run --service-ports web
+: 1548947559:0;docker-compose run --rm web pipenv run python manage.py migrate
+: 1548948032:0;docker-compose run --rm web pipenv run python manage.py migrate teams 0003
+: 1548948060:0;docker-compose run --rm web pipenv run python manage.py makemigrations
+: 1548948068:0;docker-compose run --rm web pipenv run python manage.py migrate
+: 1549009482:0;cd Projects/DropLab/Dropper
+: 1549009487:0;docker-compose run --service-ports web
+: 1549011149:0;docker-compose run --rm web pipenv run python manage.py migrate teams 0002
+: 1549011180:0;docker-compose run --rm web pipenv run python manage.py makemigrations
+: 1549011190:0;docker-compose run --rm web pipenv run python manage.py migrate 
+: 1549011346:0;docker-compose run --rm web pipenv run python manage.py migrate teams 0002
+: 1549011356:0;docker-compose run --rm web pipenv run python manage.py makemigrations
+: 1549011362:0;docker-compose run --rm web pipenv run python manage.py migrate 
+: 1549012446:0;docker-compose run --rm web pipenv run python manage.py migrate teams 0002
+: 1549012566:0;docker-compose run --rm web pipenv run python manage.py makemigrations
+: 1549012639:0;docker-compose run --rm web pipenv run python manage.py migrate teams 0002
+: 1549012662:0;docker-compose run --rm web pipenv run python manage.py migrate 
+: 1549012669:0;docker-compose run --rm web pipenv run python manage.py migrate teams 0002
+: 1549012679:0;docker-compose run --rm web pipenv run python manage.py makemigrations
+: 1549012686:0;docker-compose run --rm web pipenv run python manage.py migrate 
+: 1549436963:0;cd Projects/DropLab/Dropper
+: 1549436966:0;git status
+: 1549436968:0;git log
+: 1549436984:0;docker-compose run --service-ports web
+: 1549441989:0;cd Projects/DropLab/Dropper
+: 1549442003:0;docker-compose run --rm web pipenv run python manage.py migrate teams 0002
+: 1549442024:0;docker-compose run --rm web pipenv run python manage.py makemigrations
+: 1549442033:0;docker-compose run --rm web pipenv run python manage.py migrate
+: 1549449601:0;docker-compose run --rm web pipenv run python manage.py migrate teams 0002
+: 1549449618:0;docker-compose run --rm web pipenv run python manage.py makemigrations
+: 1549449625:0;docker-compose run --rm web pipenv run python manage.py migrate
+: 1549449672:0;docker-compose run --rm web pipenv run python manage.py migrate teams 0002
+: 1549449689:0;docker-compose run --rm web pipenv run python manage.py makemigrations
+: 1549449699:0;docker-compose run --rm web pipenv run python manage.py migrate
+: 1549451280:0;docker-compose run --rm web pipenv run python manage.py test
+: 1549454422:0;git status
+: 1549454423:0;git add .
+: 1549454444:0;git commit -m "DROP-220: Draw in own work area"
+: 1549454447:0;git push
+: 1549454474:0;git checkout develop
+: 1549454475:0;git pull
+: 1549454480:0;git checkout -
+: 1549454487:0;git rebase -i develop
+: 1549454513:0;git add .
+: 1549454515:0;git rebase --continue
+: 1549454522:0;docker-compose run --rm web pipenv run python manage.py migrate
+: 1549454533:0;git push -f
+: 1549454541:0;./docker-install.sh
+: 1549454633:0;pipenv install
+: 1549454715:0;git checkout develop
+: 1549455914:0;git checkout -b feature/add-search-for-address-javascript
+: 1549456425:0;git checkout -
+: 1549456471:0;git checkout -b feature/start-price-range
+: 1549456621:0;git checkout develop
+: 1549456622:0;git pull
+: 1549456631:0;git log
+: 1549456638:0;git checkout -
+: 1549456683:0;docker-compose run --service-ports web
+: 1549456898:0;docker-compose run --rm web pipenv run python manage.py makemigrations
+: 1549456911:0;docker-compose run --rm web pipenv run python manage.py migrate
+: 1549457452:0;./docker-install.sh
+: 1549457564:0;docker-compose run --rm web pipenv run python manage.py migrate
+: 1549457581:0;docker-compose run --service-ports web
+: 1549457759:0;docker-compose run --rm web pipenv run python manage.py makemigrations
+: 1549459908:0;docker-compose run --rm web pipenv run python manage.py test
+: 1549461071:0;git status
+: 1549461074:0;git add .
+: 1549461090:0;git commit -m "DROP-244: Add start price range"
+: 1549461091:0;git push
+: 1549461117:0;git checkout -
+: 1549461131:0;git pull
+: 1549461134:0;git checkout -
+: 1549461137:0;git rebase -i develop
+: 1549461178:0;git status
+: 1549461179:0;git add .
+: 1549461185:0;git rebase --continue
+: 1549461187:0;git push
+: 1549461193:0;git push -f
+: 1549461222:0;git checkout feature/team-drop-area
+: 1549461669:0;docker-compose run --service-ports web
+: 1549461679:0;docker-compose run --rm web pipenv run python manage.py migrate
+: 1549461737:0;git status
+: 1549461739:0;git add .
+: 1549461742:0;git commit --amend
+: 1549461745:0;git checkout develop
+: 1549461766:0;git checkout -
+: 1549461769:0;git status
+: 1549461788:0;docker-compose run --rm web pipenv run python manage.py makemigrations
+: 1549461796:0;docker-compose run --service-ports web
+: 1549461805:0;docker-compose run --rm web pipenv run python manage.py migrate
+: 1549462582:0;git status
+: 1549462786:0;git checkout -- static/vendor/leaflet/draw/leaflet.draw-src.js
+: 1549462787:0;git status
+: 1549462811:0;git add .
+: 1549462814:0;git commit --amend
+: 1549462817:0;git push -f
+: 1549462823:0;git checkout -
+: 1549462824:0;git pull
+: 1549462831:0;git checkout -
+: 1549462836:0;git rebase -i develop
+: 1549462843:0;git push -f
+: 1549462853:0;git checkout -
+: 1549462893:0;git checkout feature/start-price-range
+: 1549462898:0;git checkout -
+: 1549462899:0;git pull
+: 1549462902:0;git checkout -
+: 1549462906:0;git rebase -i develop
+: 1549463001:0;git status
+: 1549463003:0;git add .
+: 1549463008:0;git commit --amend
+: 1549463011:0;git push -f
+: 1549463051:0;git checkout -
+: 1549463053:0;git pull
+: 1549463460:0;git checkout -b feature/autocomplete-streetnumber
+: 1549463466:0;git pull
+: 1549463474:0;./docker-install.sh
+: 1549463551:0;git checkout develop
+: 1549463561:0;docker-compose run --rm web pipenv run python manage.py makemigrations
+: 1549463569:0;git add .
+: 1549463586:0;git commit -m "Recreated a teams migrations"
+: 1549463588:0;git push
+: 1549463596:0;git checkout -
+: 1549463604:0;git rebase -i develop
+: 1549463621:0;./docker-install.sh
+: 1549463750:0;docker-compose run --service-ports web
+: 1549466302:0;gulp
+: 1549466310:0;npm install gulp
+: 1549466327:0;gulp
+: 1549467406:0;git add .
+: 1549467439:0;git commit -m "Check if there is an street number in the address"
+: 1549467440:0;git push
+: 1549467443:0;]    git push --set-upstream origin feature/autocomplete-streetnumber
+: 1549467911:0;git add .
+: 1549467913:0;git commit --amend
+: 1549467916:0;git push -f
+: 1549468371:0;git checkout develop
+: 1549468381:0;git checkout -b feature/google-analytics
+: 1549468390:0;git checkout -
+: 1549468396:0;git checkout -b feature/potential-team
+: 1549468569:0;docker-compose run --service-ports web
+: 1549468590:0;docker-compose run --rm web pipenv run python manage.py makemigrations
+: 1549468725:0;docker-compose run --rm web pipenv run python manage.py migrate teams 0006
+: 1549468737:0;docker-compose run --rm web pipenv run python manage.py migrate
+: 1549468745:0;docker-compose run --rm web pipenv run python manage.py migrate teams 0006
+: 1549468758:0;docker-compose run --rm web pipenv run python manage.py makemigrations
+: 1549468766:0;docker-compose run --rm web pipenv run python manage.py migrate
+: 1549468787:0;git status
+: 1549468788:0;git add .
+: 1549468795:0;git commit -m "Potential team model"
+: 1549468799:0;git checkout develop
+: 1549468800:0;git pull
+: 1549468906:0;git checkout -
+: 1549469199:0;docker-compose run --service-ports web
+: 1549469294:0;docker-compose run --rm web pipenv run python manage.py migrate teams 0006
+: 1549469309:0;docker-compose run --rm web pipenv run python manage.py makemigrations
+: 1549469347:0;docker-compose run --rm web pipenv run python manage.py migrate 
+: 1549469832:0;docker-compose run --rm web pipenv run python manage.py migrate teams 0006
+: 1549469846:0;docker-compose run --rm web pipenv run python manage.py makemigrations
+: 1549469856:0;docker-compose run --rm web pipenv run python manage.py migrate 
+: 1549469988:0;docker-compose run --rm web pipenv run python manage.py migrate teams 0006
+: 1549469997:0;docker-compose run --rm web pipenv run python manage.py migrate 
+: 1549470005:0;docker-compose run --rm web pipenv run python manage.py makemigrations
+: 1549470012:0;docker-compose run --rm web pipenv run python manage.py migrate 
+: 1549470046:0;docker-compose run --rm web pipenv run python manage.py migrate teams 0006
+: 1549470056:0;docker-compose run --rm web pipenv run python manage.py makemigrations
+: 1549470066:0;docker-compose run --rm web pipenv run python manage.py migrate 
+: 1549470245:0;git status
+: 1549470246:0;git add .
+: 1549470249:0;git commit --amend
+: 1549470252:0;git push
+: 1549470611:0;git checkout develop
+: 1549470616:0;git checkout -b feature/mailjet
+: 1549470835:0;git status
+: 1549470836:0;git add. 
+: 1549470839:0;git add .
+: 1549470846:0;git commit -m "Integrate mailjet"
+: 1549470849:0;git checkout -
+: 1549470850:0;git pull
+: 1549470855:0;git checkout -
+: 1549470859:0;git rebase -i develop
+: 1549470918:0;./docker-install.sh
+: 1549471148:0;docker-compose run --service-ports web
+: 1549471343:0;git status
+: 1549471347:0;git add .
+: 1549471353:0;git commit -m "Mailjet"
+: 1549471355:0;git push
+: 1549471381:0;git rebase -i develop
+: 1549471390:0;git push -f
+: 1549471463:0;git checkout 
+: 1549471466:0;git checkout -
+: 1549471467:0;git pull
+: 1549471491:0;git checkout feature/potential-team
+: 1549471561:0;git add .
+: 1549471563:0;git commit --amend
+: 1549471568:0;git rebase -i develop
+: 1549471614:0;docker-compose run --rm web pipenv run python manage.py migrate 
+: 1549471841:0;git statu
+: 1549471843:0;git status
+: 1549471844:0;git add .
+: 1549471847:0;git commit --amend
+: 1549471852:0;git push -f
+: 1549471929:0;ssh redmer@dropper.nl
+: 1549471944:0;ping dropper.nl
+: 1549471949:0;ping beta.dropper.nl
+: 1549471966:0;ssh redmer@beta.dropper.nl
+: 1549472230:0;git status
+: 1549472264:0;git checkout develop
+: 1549472265:0;git pull
+: 1549472463:0;ssh redmer@beta.dropper.nl
+: 1549474333:0;cd Projects/DropLab/Dropper
+: 1549474337:0;git checkout  -b
+: 1549474341:0;git checkout develop
+: 1549474353:0;pipenv install
+: 1549474410:0;git status
+: 1549474467:0;ls frontpage/static/frontpage/images/Desktop.svg 
+: 1549474480:0;mv frontpage/static/frontpage/images/Desktop.svg  frontpage/static/frontpage/images/desktop.svg 
+: 1549474481:0;git status
+: 1549474543:0;git mv frontpage/static/frontpage/images/Desktop.svg  frontpage/static/frontpage/images/desktop.svg
+: 1549474546:0;git status
+: 1549474550:0;git add .
+: 1549474566:0;git commit -m "Rename Desktop.svg to desktop.svg"
+: 1549474569:0;git push
+: 1549522893:0;./docker-install.sh
+: 1549523363:0;docker-compose run --service-ports web
+: 1549524606:0;cd ..
+: 1549524606:0;ls
+: 1549524609:0;./ngrok http 8002
+: 1549524624:0;docker-compose run --service-ports web
+: 1549525190:0;docker ps
+: 1549525204:0;docker exec -it d2184324ab1e bash
+: 1549525646:0;git status
+: 1549525648:0;git add .
+: 1549525657:0;git commit -m "Small fixes for live"
+: 1549525710:0;ssh redmer@beta.dropper.nl
+: 1549525781:0;docker-compose run --rm web pipenv run python manage.py makemigrations
+: 1549525790:0;docker-compose run --rm web pipenv run python manage.py migrate 
+: 1549525797:0;git add .
+: 1549525803:0;git commit -m "Forgot a migration"
+: 1549526378:0;./ngrok http 8002
+: 1549526400:0;docker-compose run --service-ports web
+: 1549526796:0;cd ~/Library/Developer/Xcode/
+: 1549526796:0;ls
+: 1549526800:0;cd iOS\ Device
+: 1549526802:0;cd iOS\ DeviceSupport
+: 1549526804:0;ls -lash
+: 1549526835:0;du -hs
+: 1549526843:0;cd ..
+: 1549526844:0;du -hs
+: 1549526853:0;du -sh | sort -h
+: 1549526859:0;ls
+: 1549526864:0;cd iOS\ DeviceSupport
+: 1549526865:0;ls
+: 1549526866:0;cd 12.1.3\ \(16D40\)\ arm64e
+: 1549526867:0;ls
+: 1549526870:0;cd Symbols
+: 1549526870:0;ls
+: 1549526872:0;cd System
+: 1549526873:0;ls
+: 1549526874:0;cd Library
+: 1549526875:0;ls
+: 1549526877:0;cd ..
+: 1549526879:0;ls
+: 1549526881:0;cd usr
+: 1549526882:0;ls
+: 1549526883:0;cd lib
+: 1549526883:0;ls
+: 1549526907:0;cd ..
+: 1549526921:0;rm -rf iOS\ DeviceSupport
+: 1549526933:0;ls ~/Library/Developer/Xcode/DerivedData
+: 1549526940:0;rm -rf ~/Library/Developer/Xcode/DerivedData
+: 1549527056:0;rm -rf ~/Library/Developer/Xcode/Archives
+: 1549527066:0;rm -rf ~/Library/Developer/Xcode/iOS DeviceSupport
+: 1549527075:0;ls -aslh ~/Library/Caches/com.apple.dt.Xcode
+: 1549527084:0;ls -aslh ~/Library/Caches/
+: 1549527099:0;ls -lash ~/Library/Developer/CoreSimulator 
+: 1549527103:0;ls -lash ~/Library/Developer/CoreSimulator/Devices
+: 1549527108:0;ls
+: 1549527177:0;docker ps
+: 1549527184:0;docker exec -it d674539625b7 bash
+: 1549528479:0;docker-compose run --service-ports web
+: 1549528727:0;git status
+: 1549528729:0;git diff
+: 1549528740:0;git add .
+: 1549528745:0;git commit -m "Fixes"
+: 1549529640:0;cd Projects/DropLab/PHP-Fooddrop
+: 1549529643:0;code .
+: 1549532152:0;git checkout develop
+: 1549532739:0;git rebase -i develop
+: 1549532758:0;./docker-install.sh
+: 1549533335:0;ssh redmer@jumbo.fooddrop.nl
+: 1549533747:0;docker-compose run --service-ports web
+: 1549534476:0;git status
+: 1549534478:0;git add .
+: 1549534508:0;git commit -m "Static pages for senders/teams/droppers"
+: 1549534510:0;git push
+: 1549534571:0;git pull
+: 1549534779:0;git status
+: 1549534780:0;git add .
+: 1549534784:0;git commit -m "Content pages"
+: 1549534788:0;git pull --rebase
+: 1549534795:0;git push
+: 1549535321:0;git rebase -i develop
+: 1549536109:0;git statis
+: 1549536111:0;git status
+: 1549536112:0;git add .
+: 1549536118:0;git commit -m "Address search"
+: 1549536121:0;git checkout develop
+: 1549536124:0;git pull
+: 1549536534:0;gulp
+: 1549536553:0;git add .
+: 1549536562:0;git commit -m "Added content to static pages"
+: 1549536566:0;git pull --rebase
+: 1549536838:0;git status
+: 1549536840:0;git add .
+: 1549536848:0;git commit -m "Footer"
+: 1549536851:0;git pull --rebase
+: 1549536868:0;git push
+: 1549540026:0;git status
+: 1549540028:0;git stash
+: 1549540030:0;git checkout develop
+: 1549540033:0;git pull 
+: 1549540039:0;git stash pop
+: 1549540421:0;git status
+: 1549541591:0;git add .
+: 1549541598:0;git commit -m "Small updates"
+: 1549549045:0;git add .
+: 1549549053:0;git commit -m "Post code modal"
+: 1549549056:0;git checkout develop
+: 1549549062:0;git checkout -b feautre/logs
+: 1549549207:0;docker-compose run --rm web pipenv run python manage.py makemigrations
+: 1549549219:0;docker-compose build 
+: 1549549356:0;docker-compose run --rm web pipenv run python manage.py makemigrations
+: 1549549367:0;docker-compose run --rm web pipenv run python manage.py makemigrations logsd
+: 1549549370:0;docker-compose run --rm web pipenv run python manage.py makemigrations logs
+: 1549550453:0;docker-compose run --service-ports web
+: 1549550465:0;docker-compose run --rm web pipenv run python manage.py migrate
+: 1549550726:0;docker-compose run --service-ports web
+: 1549551685:0;git status
+: 1549551691:0;pipenv install
+: 1549551805:0;git status
+: 1549551807:0;git add .
+: 1549551817:0;git commit -m "Added logs model to the admin"
+: 1549551819:0;git push
+: 1549551824:0;git checkout -
+: 1549551845:0;git branch -m feautre/logs feature/logs
+: 1549551854:0;git checkout -b feature/logs
+: 1549551861:0;git checkout feature/logs
+: 1549551864:0;git push
+: 1549551937:0;git add. 
+: 1549551939:0;git add .
+: 1549551942:0;git commit --amend
+: 1549551944:0;git push -f
+: 1549552069:0;git add .
+: 1549552071:0;git commit --amend
+: 1549552074:0;git push -f
+: 1549552118:0;git checkout develop
+: 1549552119:0;git pull
+: 1549552292:0;git checkout -b feature/500-creating-user-from-admin
+: 1549552297:0;git checkout develop
+: 1549552299:0;git pull
+: 1549552304:0;git checkout -
+: 1549552307:0;git rebase -i develop
+: 1549552309:0;docker-compose run --service-ports web
+: 1549563406:0;git status
+: 1549563408:0;git add .
+: 1549563439:0;git commit -m "DROP-250: 500 when creating admin"
+: 1549563441:0;git push
+: 1549563446:0;git checkout develop
+: 1549565089:0;git status
+: 1549565104:0;git checkout -b feature/500-not-finding-address
+: 1549565106:0;git push
+: 1549609540:0;git status
+: 1549609542:0;git diff
+: 1549609544:0;git add .
+: 1549609547:0;git commit --amend
+: 1549609562:0;git status
+: 1549609586:0;git reset --soft HEAD@{1}
+: 1549609589:0;git status
+: 1549609732:0;git commit -m "DROP-251: Finding address with multiple results"
+: 1549609734:0;git push
+: 1549609748:0;git checkout develop
+: 1549609755:0;git checkout -b feature/slack-on-new-message
+: 1549612161:0;docker ps
+: 1549612171:0;docker exec -it 2ccbacb8239c bash
+: 1549620885:0;./docker-install.sh
+: 1549621341:0;docker-compose run --service-ports web
+: 1549621552:0;git status
+: 1549621554:0;git diff
+: 1549621592:0;git add .
+: 1549621610:0;git commit -m "DROP-252: Send Slack messages on new order"
+: 1549621612:0;git push
+: 1549621660:0;git checkout develo
+: 1549621662:0;git checkout develop
+: 1549621671:0;git checkout feature/500-not-finding-address
+: 1549621674:0;git log
+: 1549630956:0;git status
+: 1549630958:0;git add .
+: 1549630965:0;git commit -m "NPS Score"
+: 1549630966:0;git push
+: 1549869825:0;cd Projects/DropLab/FoodDrop
+: 1549869826:0;ls
+: 1549869828:0;git pull
+: 1549869860:0;git checkout -b feature/remove-strange-characters-for-product-name
+: 1549870207:0;./docker-install.sh
+: 1549870220:0;ssh redmer@jumbo.fooddrop.nl
+: 1549870500:0;./docker-install.sh
+: 1549871887:0;docker-compose run --service-ports web
+: 1549871905:0;cd Projects/DropLab/FoodDrop
+: 1549871907:0;cd ..
+: 1549871911:0;./ngrok http 8001
+: 1549871933:0;docker-compose run --service-ports web
+: 1549871938:0;docker ps
+: 1549871942:0;docker stop 16dcf3867259
+: 1549871957:0;docker-compose run --service-ports web
+: 1549872110:0;cd Projects/DropLab/FoodDrop
+: 1549872113:0;pipenv install
+: 1549873980:0;docker ps
+: 1549873986:0;docker exec -it 5926eaba2442 bash
+: 1549874939:0;git status
+: 1549874941:0;git diff
+: 1549874949:0;git add .
+: 1549875000:0;git commit -m "Remove special characters from product name, and fixed asap"
+: 1549875003:0;git push
+: 1549875109:0;dockerps
+: 1549875111:0;docker ps
+: 1549875117:0;cd ../Dropper
+: 1549875133:0;./ngrok http 8002
+: 1549875141:0;docker logs
+: 1549875151:0;cd Projects/DropLab/Dropper
+: 1549875154:0;git status
+: 1549875156:0;git diff
+: 1549875735:0;git add .
+: 1549875738:0;git commit --amend
+: 1549875742:0;git push -f
+: 1549875746:0;git checkout develop
+: 1549875749:0;git pull
+: 1549875755:0;git log
+: 1549876093:0;git checkout -b feature/form-for-onboarding
+: 1549876102:0;./docker-install.sh
+: 1549877273:0;ssh redmer@jumbo.fooddrop.nl
+: 1549877384:0;./ngrok http 8002
+: 1549877400:0;docker-compose run --service-ports web
+: 1549877560:0;cd Projects/DropLab/Dropper
+: 1549877562:0;git checkout develop
+: 1549877812:0;git pull
+: 1549877818:0;git checkout -
+: 1549877827:0;docker-compose run --rm web pipenv run python manage.py migrate
+: 1549878115:0;docker-compose run --service-ports web
+: 1549878268:0;git checkout -
+: 1549878270:0;git pull
+: 1549878291:0;./docker-install.sh
+: 1549878390:0;docker-compose run --service-ports web
+: 1549878520:0;git checkout -
+: 1549878523:0;git stash
+: 1549878525:0;git checkout -
+: 1549878528:0;git stash pop
+: 1549878534:0;docker-compose run --rm web pipenv run python manage.py makemigrations
+: 1549878579:0;docker-compose run --rm web pipenv run python manage.py migrate
+: 1549879421:0;docker-compose run --service-ports web
+: 1549881025:0;cd Projects/DropLab/PHP-Fooddrop
+: 1549881027:0;git pull
+: 1549881040:0;code .
+: 1549883292:0;docker-compose run --service-ports web
+: 1549887698:0;git status
+: 1549887700:0;git add .
+: 1549887727:0;git commit -m "DROP-260: Onboarding form"
+: 1549887728:0;git push
+: 1549888526:0;git status
+: 1549888527:0;git add .
+: 1549888529:0;git commit --amend
+: 1549888533:0;git checkout develop
+: 1549888534:0;git pull
+: 1549888537:0;git checkout -
+: 1549888546:0;git push -f
+: 1549888551:0;git rebase -i develop
+: 1549888616:0;git status
+: 1549888626:0;docker-compose run --rm web pipenv run python manage.py migrate accounts 0004
+: 1549888655:0;docker-compose run --rm web pipenv run python manage.py migrate 
+: 1549888679:0;docker-compose run --rm web pipenv run python manage.py makemigrations
+: 1549888691:0;git add .
+: 1549888695:0;git rebase --continue
+: 1549888698:0;git push -f
+: 1549888718:0;git checkout develop
+: 1549888720:0;git pull
+: 1549889063:0;git checkout -b feature/sender-contacts
+: 1549889573:0;ssh jumbo.fooddrop.nl
+: 1549889576:0;ssh redmer@jumbo.fooddrop.nl
+: 1549890423:0;docker-compose run --rm web pipenv run python manage.py makemigrations
+: 1549890430:0;docker-compose run --rm web pipenv run python manage.py migrate
+: 1549890543:0;git status
+: 1549890552:0;git add .
+: 1549890566:0;git commit -m "DROP-288: Sender can have contacts"
+: 1549890568:0;git push
+: 1549890749:0;git checkout develop
+: 1549890750:0;git pull
+: 1549890784:0;git checkout -b feature/link-from-frontend-to-dashboard
+: 1549892165:0;git diff
+: 1549892193:0;git status
+: 1549892283:0;git add .
+: 1549892304:0;git commit -m "DROP-267: Add link to dashboard from the frontend"
+: 1549892305:0;git push
+: 1549892414:0;git checkout develop
+: 1549892416:0;git pull
+: 1549892425:0;git checkout -b feature/list-orders-from-sender
+: 1549895141:0;git status
+: 1549895142:0;git add .
+: 1549895160:0;git commit -m "DROP-266: Order list for sender|
+: 1549895164:0;git commit -m "DROP-266: Order list for sender"
+: 1549895165:0;git push
+: 1549896270:0;git checkout develop
+: 1549896291:0;git checkout -b feature/invalid-activation-add-link-to-login
+: 1549898992:0;git status
+: 1549899012:0;git add .
+: 1549899033:0;git commit -m "DROP-263: Activition link redirect to correct view"
+: 1549899035:0;git push
+: 1549899074:0;git checkout develop
+: 1549899075:0;git pull
+: 1549899099:0;git rebase -i develop
+: 1549899104:0;git status
+: 1549899107:0;git log
+: 1549899115:0;git push -f
+: 1549899189:0;git checkout develop
+: 1549899191:0;git pull
+: 1549899240:0;git status
+: 1549899243:0;git add .
+: 1550041029:0;cd Projects/DropLab/Dropper
+: 1550041032:0;git status
+: 1550041044:0;git checkout -- orders/urls.py
+: 1550041047:0;git status
+: 1550041065:0;git reset HEAD orders/urls.py
+: 1550041071:0;git checkout -- orders/urls.py
+: 1550041073:0;git pull
+: 1550041091:0;git log
+: 1550042837:0;ssh redmer@dropper.nl
+: 1550042842:0;ssh redmer@beta.dropper.nl
+: 1550042848:0;ssh redmer@136.144.203.55
+: 1550042868:0;ssh redmer@search.dropper.nl
+: 1550049307:0;ssh redmer@jumbo.fooddrop.nl
+: 1550053334:0;ssh redmer@search.dropper.nl
+: 1550054199:0;git checkout -b feature/upgrade-to-adminlte-3
+: 1550054659:0;docker-compose run --service-ports web
+: 1550054678:0;cd Projects/DropLab/Dropper
+: 1550054682:0;docker-compose run --rm web pipenv run python manage.py migrate
+: 1550059803:0;git status
+: 1550059805:0;git add .
+: 1550059813:0;git commit -m "Adminlte 3 upgrade"
+: 1550059816:0;git push
+: 1550059819:0;git     git push --set-upstream origin feature/upgrade-to-adminlte-3
+: 1550059829:0;git checkout develop
+: 1550059830:0;git pull
+: 1550059943:0;git checkout -b feature/mail-dropper-for-new-order
+: 1550060901:0;git status
+: 1550061019:0;git add .
+: 1550061045:0;git commit -m "DROP-275: Mail Dropper when there is a new order"
+: 1550061050:0;git push
+: 1550062660:0;git checkout develop
+: 1550062663:0;git pull
+: 1550062675:0;git checkout -b feature/order-is-accepted-by-dropper
+: 1550063087:0;docker-compose run --rm web pipenv run python manage.py makemigrations
+: 1550063204:0;docker-compose run --rm web pipenv run python manage.py migrate
+: 1550063949:0;./docker-install.sh
+: 1550064083:0;docker-compose run --service-ports web
+: 1550064433:0;cd Projects/DropLab
+: 1550064435:0;./ngrok http 8002
+: 1550064448:0;docker-compose run --service-ports web
+: 1550064749:0;docker-compose run --rm web pipenv run python manage.py dumpdata auth --indent 2 --natural-foreign --natural-primary -e auth.Permission > permissions.json\
+\
+
+: 1550066863:0;git status
+: 1550066865:0;git add .
+: 1550066884:0;git commit -m "DROP-276: Order can be accepted by the Dropper"
+: 1550066885:0;git push
+: 1550066975:0;git checkout develop
+: 1550066978:0;git pull
+: 1550067005:0;git checkout -b feature/dropper-availability-is-always-external
+: 1550067017:0;git checkout develop
+: 1550067043:0;git checkout -b feature/upgrade-buttons-for-inactive-views-dashboard
+: 1550067735:0;git status
+: 1550067738:0;git add /
+: 1550067741:0;git add .
+: 1550067772:0;git commit -m "DROP-268: Upgrade labels for sidebar items"
+: 1550067774:0;git push
+: 1550067806:0;git checkout -b feature/mail-dropper-for-new-order 
+: 1550067911:0;git checkout feature/mail-dropper-for-new-order
+: 1550068091:0;git status
+: 1550068094:0;git diff
+: 1550068186:0;git add .
+: 1550068188:0;git commit --amend
+: 1550068191:0;git push -f
+: 1550068220:0;git checkout develop
+: 1550068221:0;git pull
+: 1550068237:0;git checkout -b feature/order-is-accepted-by-dropper
+: 1550068248:0;git checkout feature/order-is-accepted-by-dropper
+: 1550068259:0;git rebase -i develop
+: 1550073959:0;ssh redmer@jumbo.fooddrop.nl
+: 1550074518:0;git status
+: 1550074519:0;git add .
+: 1550074523:0;git commit --amend
+: 1550074526:0;git push -f
+: 1550127094:0;git checkout develop
+: 1550127095:0;git pull
+: 1550127200:0;git checkout -b feature/onboarding-form-status
+: 1550127702:0;git status
+: 1550127709:0;docker-compose run --rm web pipenv run python manage.py makemigrations
+: 1550127721:0;docker-compose run --rm web pipenv run python manage.py migrate
+: 1550127734:0;git add .
+: 1550127745:0;git commit -m "Onboarding form status"
+: 1550127749:0;git push
+: 1550128145:0;docker-compose run --rm web pipenv run python manage.py migrate accounts 0006
+: 1550128424:0;docker-compose run --rm web pipenv run python manage.py makemigrations
+: 1550128433:0;docker-compose run --rm web pipenv run python manage.py migrate
+: 1550128525:0;git status
+: 1550128529:0;git add .
+: 1550128534:0;git commit --amend
+: 1550128544:0;git push -f
+: 1550128607:0;docker-compose run --rm web pipenv run python manage.py migrate accounts 0006
+: 1550128716:0;docker-compose run --rm web pipenv run python manage.py makemigrations
+: 1550128725:0;git add .
+: 1550128728:0;git commit --amend
+: 1550128734:0;git push -f
+: 1550128764:0;git checkout develop
+: 1550128766:0;git pull
+: 1550128929:0;git checkout -b feature/onboarding-availability-form
+: 1550128938:0;docker-compose run --rm web pipenv run python manage.py migrate 
+: 1550129305:0;ssh redmer@jumbo.fooddrop.nl
+: 1550129435:0;cd Projects/DropLab/FoodDrop
+: 1550129439:0;git diff
+: 1550129445:0;ls
+: 1550129448:0;rm update-osrm.sh
+: 1550129451:0;git status
+: 1550129456:0;git reset HEAD update-osrm.sh
+: 1550129461:0;git checkout develop
+: 1550129462:0;git pull
+: 1550129678:0;git checkout -b feature/fix-500-pressing-checkout-button
+: 1550129861:0;./docker-install.sh
+: 1550130219:0;docker-compose run --service-ports web
+: 1550130570:0;cd Projects/DropLab/FoodDrop
+: 1550130571:0;gulp
+: 1550130584:0;gulp watch
+: 1550130599:0;gulp sass-jumbo
+: 1550130644:0;git status
+: 1550130645:0;git diff
+: 1550130653:0;git add .
+: 1550130797:0;git status
+: 1550130799:0;git diff
+: 1550130802:0;git add .
+: 1550130818:0;git commit -m "Fix 500 when clicking Betalen when no products in cart"
+: 1550130819:0;git push
+: 1550130905:0;docker ps
+: 1550130911:0;docker stop d993a86f56c2
+: 1550130921:0;docker-compose run --rm web pipenv run python manage.py migrate 
+: 1550130933:0;docker-compose run --rm web pipenv run python manage.py makemigrations
+: 1550130943:0;docker-compose run --service-ports web
+: 1550130990:0;./docker-install.sh
+: 1550131114:0;docker-compose run --service-ports web
+: 1550131369:0;./docker-install.sh
+: 1550131485:0;docker-compose run --service-ports web
+: 1550131645:0;./docker-install.sh
+: 1550131854:0;docker-compose run --service-ports web
+: 1550135055:0;cd Projects/DropLab/PHP-Fooddrop
+: 1550135060:0;code .
+: 1550215394:0;git diff ..develop
+: 1550215400:0;git diff develop..
+: 1550215409:0;git status
+: 1550215477:0;docker-compose run --rm web pipenv run python manage.py migrate accounts 0006
+: 1550215544:0;docker-compose run --rm web pipenv run python manage.py makemigrations
+: 1550215553:0;./docker-install.sh
+: 1550215767:0;docker-compose run --service-ports web
+: 1550222929:0;git status
+: 1550222932:0;git commit --amend
+: 1550222951:0;git status
+: 1550222953:0;git log
+: 1550222991:0;git add .
+: 1550222996:0;git log
+: 1550223004:0;git add .
+: 1550223006:0;git status
+: 1550223054:0;git commit -m "Finished onboarding"
+: 1550223058:0;git checkout develop
+: 1550223059:0;git pull
+: 1550223065:0;git checkout -
+: 1550223071:0;git rebase -i develop
+: 1550224160:0;./docker-install.sh
+: 1550224352:0;docker-compose run --service-ports web
+: 1550224385:0;./docker-install.sh
+: 1550224662:0;docker-compose run --service-ports web
+: 1550225023:0;docker-compose run --rm web pipenv run python manage.py dumpdata auth --indent 2 --natural-foreign --natural-primary -e auth.Permission > permissions.json\
+\
+
+: 1550225062:0;./docker-install.sh
+: 1550225173:0;docker-compose run --service-ports web
+: 1550226037:0;git status
+: 1550226038:0;git add .
+: 1550226041:0;git commit --amend
+: 1550226046:0;git log
+: 1550226052:0;git commit --amend
+: 1550226097:0;git push
+: 1550226241:0;git checkout -
+: 1550226242:0;git pull
+: 1550226248:0;git checkout -
+: 1550226252:0;git rebase -i develio
+: 1550226254:0;git rebase -i develop
+: 1550226362:0;git status
+: 1550226364:0;git add .
+: 1550226369:0;git rebase --continue
+: 1550226373:0;git push -f
+: 1550227518:0;git checkout develop
+: 1550227541:0;git checkout -b feature/onboarding-team-form-team-members
+: 1550227843:0;./docker-install.sh
+: 1550227911:0;git checkout -
+: 1550227931:0;git branch -m feature/onboarding-team-form-team-members feature/278-onboarding-team-form-team-members
+: 1550227943:0;git checkout feature/278-onboarding-team-form-team-members
+: 1550228390:0;git status
+: 1550228395:0;git checkout -- templates/dropperadmin/sidebar.html
+: 1550228419:0;git checkout feature/onboarding-availability-form
+: 1550228423:0;./docker-install.sh
+: 1550228979:0;docker-compose run --service-ports web
+: 1550231228:0;git status
+: 1550235297:0;git add .
+: 1550235318:0;git commit --amend
+: 1550235321:0;git push -f
+: 1550235339:0;git checkout develop
+: 1550235340:0;git pull
+: 1550235345:0;git checkout -
+: 1550235349:0;git rebase -i develop
+: 1550235351:0;git push -f
+: 1550235396:0;git checkout feature/278-onboarding-team-form-team-members
+: 1550235402:0;git checkout develop
+: 1550235404:0;git pull
+: 1550235413:0;git checkout -b feature/278-onboarding-team-form-team-members
+: 1550235415:0;git rebase -i develop
+: 1550235427:0;git checkout feature/278-onboarding-team-form-team-members
+: 1550235432:0;git rebase -i develop
+: 1550235439:0;./docker-install.sh
+: 1550235773:0;docker-compose run --service-ports web
+: 1550236111:0;git status
+: 1550236112:0;git add .
+: 1550236129:0;git commit -m "DROP-278: Onboarding team add team members"
+: 1550236134:0;git checkout develop
+: 1550236136:0;git status
+: 1550236169:0;git add .
+: 1550236175:0;git commit -m "Typo fix"
+: 1550236176:0;git push
+: 1550236181:0;git checkout -
+: 1550236186:0;git rebase -i develop
+: 1550236334:0;docker-compose run --service-ports web
+: 1550322392:0;ssh purplegorilla.nl
+: 1550324635:0;cd Projects/Plakletters
+: 1550324648:0;git clone git@git.purplegorilla.nl:RedmerLoen/plakletterdiscounter.git
+: 1550324679:0;cd plakletterdiscounter
+: 1550324679:0;ls
+: 1550325551:0;cd pd
+: 1550325554:0;ls -lash
+: 1550325599:0;ln -s /Users/redmerloen/Projects/Plakletters/plakletterdiscounter/pd /Applications/MAMP/htdocs/pd
+: 1550325611:0;rm -rf /Applications/MAMP/htdocs/crm
+: 1550325694:0;code .
+: 1550326534:0;sudo nano /etc/hosts
+: 1550326908:0;git status
+: 1550326931:0;rm -- ../.DS_Store
+: 1550326938:0;git checkout -- views/cart/cart.php
+: 1550326940:0;git status
+: 1550326947:0;git checkout feature/show-cart
+: 1550327682:0;cd ..
+: 1550327684:0;code .
+: 1550328977:0;git status
+: 1550328981:0;git diff pd/js/stickerCreator.js
+: 1550328989:0;git diff pd/controllers/ajaxController.php
+: 1550329001:0;git diff pd/views/pages/home.php
+: 1550474387:0;cd ~/Projects/DropLab/Dropper
+: 1550474392:0;docker-compose run --service-ports web
+: 1550481664:0;cd Projects/DropLab/Dropper
+: 1550481667:0;docker-compose run --rm web pipenv run python manage.py dumpdata auth --indent 2 --natural-foreign --natural-primary -e auth.Permission > permissions.json\
+\
+
+: 1550482017:0;./docker-install.sh
+: 1550482241:0;docker-compose run --service-ports web
+: 1550482624:0;git status
+: 1550482626:0;git log
+: 1550482630:0;git add .
+: 1550482633:0;git commit --amend
+: 1550482636:0;git push -f
+: 1550483549:0;ssh redmer@purplegorilla.nl
+: 1550484828:0;git status
+: 1550484836:0;docker-compose run --service-ports web
+: 1550484855:0;git status
+: 1550484857:0;git add .
+: 1550484860:0;git commit --amend
+: 1550484864:0;git push -f
+: 1550484898:0;git checkout develop
+: 1550484900:0;git pull
+: 1550487790:0;git checkout -b feature/279-activiation-mail-team-members
+: 1550487972:0;./docker-install.sh
+: 1550488212:0;docker-compose run --service-ports web
+: 1550495867:0;./docker-install.sh
+: 1550496013:0;docker-compose run --service-ports web
+: 1550497294:0;git status
+: 1550497295:0;git add .
+: 1550497395:0;git commit -m "DROP-280, DROP-281: Onboarding when Dropper is part of a team"
+: 1550497396:0;git push
+: 1550497454:0;git add .
+: 1550497456:0;git commit --amend
+: 1550497472:0;git push -f
+: 1550585097:0;cd /Users/redmerloen/Projects/Crewlink/Android/build.gradle
+: 1550585100:0;cd ..
+: 1550585107:0;cd /Users/redmerloen/Projects/Crewlink/Android/
+: 1550585109:0;ls
+: 1550585115:0;git status
+: 1550585128:0;git log
+: 1550585142:0;git add .
+: 1550585156:0;git commit -m "AndroidX"
+: 1550585160:0;git push
+: 1550607512:0;cd ..
+: 1550607512:0;ls
+: 1550607514:0;cd Api
+: 1550607519:0;git checkout -
+: 1550607521:0;git pull
+: 1550607858:0;git checkout -b feature/api-proxy
+: 1550610040:0;git add .
+: 1550610045:0;git commit -m "API Proxy"
+: 1550610047:0;git push
+: 1550610055:0;git checkout develop
+: 1550610074:0;ssh redmer@purplegorilla.nl
+: 1550610282:0;git checkout -
+: 1550610349:0;git add .
+: 1550610354:0;git commit --amend
+: 1550610357:0;git push -f
+: 1550638721:0;cd Projects/NC-Websites/cms
+: 1550638723:0;ls
+: 1550638725:0;code .
+: 1550646943:0;git status
+: 1550647080:0;git add .
+: 1550647084:0;git commit --amend
+: 1550647086:0;git push -f
+: 1550647575:0;cd ~/Projects/DropLab/Dropper
+: 1550647578:0;git checkout develop
+: 1550647581:0;git pull
+: 1550647960:0;git add .
+: 1550647962:0;git commit --amend
+: 1550647966:0;git push -f
+: 1550648090:0;git branch
+: 1550648411:0;git checkout -b feature/281-mail-admin-when-member-is-activated
+: 1550648479:0;docker-compose run --service-ports web
+: 1550648973:0;./docker-install.sh
+: 1550649061:0;docker-compose run --service-ports web
+: 1550649556:0;cd Projects/DropLab/Dropper
+: 1550649558:0;git status
+: 1550649559:0;git add .
+: 1550649589:0;git commit -m "DROP-281: Sent mail to admin when account is activated"
+: 1550649590:0;git push
+: 1550651607:0;cd //
+: 1550651609:0;cd -
+: 1550651610:0;cd ..
+: 1550651616:0;./ngrok http 8002
+: 1550657555:0;cd Dropper
+: 1550657559:0;git checkout develo
+: 1550657562:0;git checkout develop
+: 1550657608:0;git branch -m feature/upgrade-buttons-for-inactive-views-dashboard feature/268-upgrade-buttons-for-inactive-views-dashboard
+: 1550657650:0;git checkout -b feature/283-resend-activation-mail-member
+: 1550657815:0;./docker-install.sh
+: 1550657978:0;docker-compose run --service-ports web
+: 1550659728:0;git status
+: 1550659729:0;git add .
+: 1550659745:0;git commit -m "DROP-283: Resend activation mail"
+: 1550659746:0;git push
+: 1550664822:0;git checkout develop
+: 1550664828:0;git checkout -b feature/
+: 1550664843:0;git checkout -b feature/290-dropper-available-after-pay
+: 1550667088:0;docker-compose run --rm web pipenv run python manage.py test routing.tests.test_select_dropper.SelectDropperTestCase.test_order_not_paid
+: 1550670190:0;docker-compose run --rm web pipenv run python manage.py test routing.tests.test_select_dropper.SelectDropperTestCase.test_order_not_paid2
+: 1550670884:0;docker-compose run --rm web pipenv run python manage.py test routing.tests.test_select_dropper.SelectDropperTestCase.test_order_not_paid
+: 1550671701:0;c
+: 1550671703:0;docker-compose run --rm web pipenv run python manage.py test routing.tests.test_select_dropper.SelectDropperTestCase.test_order_not_paid
+: 1550671754:0;docker-compose run --rm web pipenv run python manage.py test routing.tests.test_select_dropper.SelectDropperTestCase.test_order_not_paid2
+: 1550671873:0;docker-compose run --rm web pipenv run python manage.py test routing.tests.test_select_dropper.SelectDropperTestCase.test_order_not_paid
+: 1550671954:0;docker-compose run --rm web pipenv run python manage.py test 
+: 1550672341:0;docker-compose run --rm web pipenv run python manage.py test carts.tests.test_create_order.CreateOrderTestCase
+: 1550672453:0;docker-compose run --rm web pipenv run python manage.py test carts.tests.test_create_order.CreateOrderTestCase.test_cart_can_become_order
+: 1550673028:0;docker-compose run --rm web pipenv run python manage.py test carts.tests.test_create_order.CreateOrderTestCase.test_cart_can_become_order --debug-mode
+: 1550673243:0;docker-compose run --rm web pipenv run python manage.py test carts.tests.test_create_order.CreateOrderTestCase.test_cart_can_become_order 
+: 1550673276:0;docker-compose run --rm web pipenv run python manage.py test carts.tests.test_create_order.CreateOrderTestCase.test_cart_can_become_order --debug-mode
+: 1550673639:0;docker-compose run --rm web pipenv run python manage.py test carts.tests.test_create_order.CreateOrderTestCase --debug-mode
+: 1550673789:0;docker-compose run --rm web pipenv run python manage.py test  --debug-mode
+: 1550673835:0;docker-compose run --rm web pipenv run python manage.py test carts.tests.test_create_order.CreateOrderTestCase.test_cart_can_become_order --debug-mode
+: 1550674091:0;docker-compose run --rm web pipenv run python manage.py test  --debug-mode
+: 1550674539:0;docker-compose run --service-ports web
+: 1550674696:0;cd ..
+: 1550674699:0;./ngrok http 8002
+: 1550674718:0;docker-compose run --service-ports web
+: 1550675321:0;cd Projects/DropLab/Dropper
+: 1550675325:0;./docker-install.sh
+: 1550675433:0;docker-compose run --service-ports web
+: 1550676473:0;docker ps
+: 1550676484:0;docker exec -it 7f3e36c51abd bash
+: 1550734989:0;git push -f
+: 1550734991:0;git add .
+: 1550734995:0;git pull
+: 1550734999:0;git commit --amend
+: 1550735002:0;git push -f
+: 1550739612:0;docker-compose run --rm web pipenv run python manage.py test  --debug-mode
+: 1550739625:0;cd Projects/DropLab/Dropper
+: 1550739628:0;docker-compose run --rm web pipenv run python manage.py test  --debug-mode
+: 1550741588:0;docker-compose run --rm web pipenv run python manage.py test routing.tests.test_select_dropper.SelectDropperTestCase.test_order_blocked_by_older_reserved_order --debug-mode
+: 1550741832:0;docker-compose run --rm web pipenv run python manage.py test routing.tests.test_select_dropper.SelectDropperTestCase.test_order_blocked_by_reserved_order --debug-mode
+: 1550741872:0;docker ps
+: 1550741879:0;docker kill 31f1dd17b8be
+: 1550741882:0;docker ps
+: 1550741885:0;docker-compose run --rm web pipenv run python manage.py test routing.tests.test_select_dropper.SelectDropperTestCase.test_order_blocked_by_reserved_order --debug-mode
+: 1550741915:0;docker-compose run --service-ports web
+: 1550741989:0;docker-compose run --rm web pipenv run python manage.py test routing.tests.test_select_dropper.SelectDropperTestCase.test_order_blocked_by_reserved_order --debug-mode
+: 1550742008:0;docker-compose run --rm web pipenv run python manage.py test 
+: 1550742516:0;docker-compose run --rm web pipenv run python manage.py test routing.tests.test_select_dropper.SelectDropperTestCase.test_order_blocked_by_reserved_order --debug-mode
+: 1550742571:0;docker-compose run --rm web pipenv run python manage.py test routing.tests.test_select_dropper.SelectDropperTestCase.test_order_not_blocked_by_reserved_order --debug-mode
+: 1550744967:0;docker-compose run --rm web pipenv run python manage.py test 
+: 1550745051:0;docker-compose run --rm web pipenv run python manage.py test routing.tests.test_drop_other_orders.OtherOrdersTestCase.test_can_plan_drop_at_old_reserved_order_time --debug-mode
+: 1550745105:0;docker-compose run --rm web pipenv run python manage.py test routing.tests.test_other_orders.OtherOrdersTestCase.test_can_plan_drop_at_old_reserved_order_time --debug-mode
+: 1550745446:0;docker-compose run --rm web pipenv run python manage.py test routing.tests.test_other_orders.OtherOrdersTestCase.test_can_not_plan_drop_at_active_reserved_order_time --debug-mode
+: 1550745723:0;docker-compose run --rm web pipenv run python manage.py test routing.tests.test_select_dropper.SelectDropperTestCase.test_order_blocked_by_active_reserved_order --debug-mode
+: 1550745737:0;docker-compose run --rm web pipenv run python manage.py test 
+: 1550745742:0;docker-compose run --rm web pipenv run python manage.py test --debug-mode
+: 1550746607:0;cd Projects/DropLab/Dropper
+: 1550746611:0;docker-compose run --rm web pipenv run python manage.py test --debug-mode
+: 1550746807:0;git status
+: 1550746809:0;git add .
+: 1550746830:0;git commit -m "DROP-290: Reserve slot for Orders"
+: 1550746831:0;git push
+: 1550747055:0;git status
+: 1550747057:0;git diff
+: 1550747059:0;git add .
+: 1550747062:0;git commit --amend
+: 1550747066:0;git checkout develop
+: 1550747067:0;git pull
+: 1550747071:0;git checkout -
+: 1550747078:0;git rebase -i develop
+: 1550747100:0;nano ~/.zshrc
+: 1550747147:0;docker ps
+: 1550747167:0;docker exec cd8464e96110 -it bash
+: 1550751514:0;cd ../FoodDrop
+: 1550751520:0;./docker-install.sh
+: 1550752919:0;ifconfig
+: 1550757343:0;docker-compose run --service-ports web
+: 1550763346:0;cd Projects/DropLab/FoodDrop
+: 1550763347:0;git status
+: 1550763349:0;git diff
+: 1550763362:0;git add .
+: 1550763379:0;git commit -m "Use the same distance checks everywhere"
+: 1550763380:0;git push
+: 1550763718:0;git status
+: 1550763719:0;git add .
+: 1550763722:0;git commit --amend
+: 1550763725:0;git push -f
+: 1550763758:0;cd ../Dropper
+: 1550763760:0;ls
+: 1550763762:0;git status
+: 1550763763:0;git diff
+: 1550763791:0;git status
+: 1550764049:0;docker-compose run --rm web pipenv run python manage.py test --debug-mode
+: 1550765050:0;git add .
+: 1550765052:0;git commit --amend
+: 1550765056:0;git push -f
+: 1550775783:0;git add .
+: 1550775786:0;git commit --amend
+: 1550775789:0;git push -f
+: 1550775976:0;git add .
+: 1550775978:0;git commit --amend
+: 1550775982:0;git push -f
+: 1550823780:0;cd ~/Projects/DropLab/FoodDrop
+: 1550823782:0;git status
+: 1550823784:0;git add .
+: 1550823789:0;git commit --amend
+: 1550823792:0;git push -f
+: 1550823950:0;ssh redmer@purplegorilla.nl
+: 1550824194:0;git checkout develop
+: 1550824202:0;git checkout -b feature/redirect-links
+: 1550824615:0;docker-compose run --service-ports web
+: 1550826780:0;cd Projects/DropLab/FoodDrop
+: 1550826796:0;docker-compose run --rm web pipenv run python manage.py makemigrations
+: 1550826861:0;docker-compose run --rm web pipenv run python manage.py makemigrations 
+: 1550826974:0;docker-compose run --rm web pipenv run python manage.py makemigrations redirects
+: 1550827009:0;docker-compose run --service-ports web
+: 1550827056:0;./docker-install.sh
+: 1550827276:0;docker-compose run --rm web pipenv run python manage.py migrate redirects zero
+: 1550827322:0;docker-compose run --rm web pipenv run python manage.py makemigrations 
+: 1550827364:0;git diff
+: 1550827380:0;docker-compose run --rm web pipenv run python manage.py makemigrations 
+: 1550827584:0;git status
+: 1550827615:0;./docker-install.sh
+: 1550827858:0;docker-compose run --rm web pipenv run python manage.py makemigrations 
+: 1550827870:0;./docker-install.sh
+: 1550828222:0;docker-compose run --service-ports web
+: 1550829033:0;docker-compose run --rm web pipenv run python manage.py makemigrations 
+: 1550829048:0;cd Projects/DropLab/FoodDrop
+: 1550829053:0;docker-compose run --rm web pipenv run python manage.py migrate 
+: 1550829100:0;git status
+: 1550829103:0;git diff
+: 1550829157:0;git add .
+: 1550829164:0;git commit -m "Redirect views"
+: 1550829166:0;git push
+: 1550829223:0;git checkout develop
+: 1550829224:0;git pull
+: 1550829227:0;git checkout -
+: 1550829231:0;git rebase -i develop
+: 1550829234:0;git push -f
+: 1550829237:0;git checkout -
+: 1550829258:0;git pull --rebase
+: 1550829265:0;ssh jumbo.fooddrop.nl
+: 1550829270:0;ssh redmer@jumbo.fooddrop.nl
+: 1550847486:0;cd ../
+: 1550847489:0;./ngrok http 8001
+: 1550847513:0;docker ps
+: 1550847518:0;docker stop 7c56130f24d8
+: 1550847531:0;docker-compose run --service-ports web
+: 1551036208:0;ssh redmer@purplegorilla.nl
+: 1551080960:0;cd ../Dropper
+: 1551080965:0;git checkout develop
+: 1551080966:0;git pull
+: 1551080970:0;git checkout -
+: 1551080983:0;git rebase -i develop
+: 1551080986:0;git push -f
+: 1551081043:0;git checkout develop
+: 1551081044:0;git pull
+: 1551081050:0;git checkout feature/283-resend-activation-mail-member
+: 1551081054:0;git rebase -i develop
+: 1551081297:0;./docker-install.sh
+: 1551081387:0;docker-compose run --service-ports web
+: 1551082026:0;cd Dropper
+: 1551082028:0;git add .
+: 1551082030:0;git commit --amend
+: 1551082032:0;git push -f
+: 1551082064:0;git checkout develop
+: 1551082066:0;git pull
+: 1551082115:0;git checkout feature/upgrade-to-adminlte-3
+: 1551082119:0;git rebase -i develop
+: 1551082124:0;git push -f
+: 1551082178:0;git checkout develop
+: 1551082642:0;git checkout feature/310-sender-is-part-of-team
+: 1551082647:0;git checkout -b feature/310-sender-is-part-of-team
+: 1551082657:0;docker-compose run --rm web pipenv run python manage.py migrate 
+: 1551083565:0;ssh redmer@jumbo.fooddrop.nl
+: 1551083885:0;./docker-install.sh
+: 1551083997:0;docker-compose run --service-ports web
+: 1551085975:0;docker-compose run --rm web pipenv run python manage.py dumpdata auth --indent 2 --natural-foreign --natural-primary -e auth.Permission > permissions.json\
+\
+
+: 1551086022:0;./docker-install.sh
+: 1551086145:0;docker-compose run --service-ports web
+: 1551090939:0;./docker-install.sh
+: 1551091146:0;docker-compose run --service-ports web
+: 1551096088:0;git status
+: 1551097029:0;git add .
+: 1551097061:0;git commit -m "DROP-310: Make sender part of a Team and add a team selection to the header"
+: 1551097064:0;git push
+: 1551097101:0;git checkout develo
+: 1551097102:0;git checkout develop
+: 1551097103:0;git pull
+: 1551097112:0;git checkout -
+: 1551097121:0;git rebase -i develop
+: 1551097124:0;git push -f
+: 1551097213:0;git add .
+: 1551097215:0;git commit --amend
+: 1551097217:0;git push -f
+: 1551098241:0;cd ../FoodDrop
+: 1551098244:0;git status
+: 1551098251:0;git checkout -- carts/utils.py
+: 1551098252:0;git pull
+: 1551098258:0;./docker-install.sh
+: 1551098349:0;cd ../FoodDrop
+: 1551098361:0;git checkout -b feature/tracking-pixels
+: 1551099355:0;cd ..
+: 1551099358:0;./ngrok http 8001
+: 1551099522:0;docker-compose run --service-ports web
+: 1551101014:0;cd Projects/DropLab/FoodDrop
+: 1551101015:0;;s
+: 1551101016:0;ls
+: 1551101018:0;git status
+: 1551101019:0;git diff
+: 1551101038:0;git add .
+: 1551101052:0;git commit -m "DROP-159: Tracking pixels"
+: 1551101053:0;git push
+: 1551101073:0;git branch -m feature/tracking-pixels feature/159-tracking-pixels
+: 1551101079:0;git push 
+: 1551101119:0;cd ../Dropper
+: 1551108820:0;cd ../FoodDrop
+: 1551108822:0;git status
+: 1551108823:0;git add .
+: 1551108825:0;git commit --amend
+: 1551108829:0;git push -f
+: 1551109062:0;git checkout develop
+: 1551109065:0;git status
+: 1551109069:0;git diff
+: 1551109077:0;git checkout -- carts/templates/carts/checkout.html
+: 1551109082:0;git checkout develop
+: 1551109085:0;git pull
+: 1551109097:0;git add .
+: 1551109107:0;git commit -m "Remove coupon from tracking"
+: 1551109110:0;git push
+: 1551109118:0;ssh redmer@jumbo.fooddrop.nl
+: 1551110223:0;git status
+: 1551110240:0;git add .
+: 1551110263:0;git commit -m "Tracking for category lists and search"
+: 1551110264:0;git push
+: 1551120072:0;cd Projects/NC-Websites/cms
+: 1551120075:0;git status
+: 1551120076:0;git add .
+: 1551120090:0;git commit -m "When width / height are 0 sane defaults"
+: 1551120092:0;git push
+: 1551120097:0;git pull --rebase
+: 1551120102:0;git log
+: 1551120107:0;git push
+: 1551166369:0;cd Projects/DropLab/Dropper
+: 1551166374:0;./docker-install.sh
+: 1551167562:0;docker-compose run --service-ports web
+: 1551168539:0;./docker-install.sh
+: 1551168937:0;docker-compose run --service-ports web
+: 1551170836:0;cd Projects/DropLab/Dropper
+: 1551170838:0;git status
+: 1551170839:0;git diff
+: 1551171221:0;docker-compose run --service-ports web
+: 1551171552:0;git diff
+: 1551171599:0;git add .
+: 1551171601:0;git commit --amend
+: 1551171603:0;git push -f
+: 1551171781:0;git status
+: 1551171795:0;git add .
+: 1551171797:0;git commit --amend
+: 1551171800:0;git push -f
+: 1551173104:0;git status
+: 1551176994:0;git add .
+: 1551177033:0;git commit -m
+: 1551177035:0;git add .
+: 1551177037:0;git commit --amend
+: 1551177040:0;git push -f
+: 1551177512:0;git add .
+: 1551177515:0;git commit --amend
+: 1551177518:0;git push -f
+: 1551177556:0;git add .
+: 1551177557:0;git commit --amend
+: 1551177561:0;git push -f
+: 1551177845:0;git checkout develop
+: 1551177848:0;git pull
+: 1551177853:0;git checkout -
+: 1551177856:0;git rebase -i develop
+: 1551177910:0;git add .
+: 1551177914:0;git rebase --continue
+: 1551177918:0;git push -f
+: 1551178609:0;git add .
+: 1551178611:0;git commit --amend
+: 1551178615:0;git push -f
+: 1551178621:0;docker-compose run --rm web pipenv run python manage.py migrate 
+: 1551178881:0;git add .
+: 1551178883:0;git commit --amend
+: 1551178887:0;git push -f
+: 1551181999:0;git checkout develop
+: 1551182001:0;git pull
+: 1551182585:0;docker-compose run --rm web pipenv run python manage.py migrate 
+: 1551182609:0;git checkout -b feature/314-check-mandate-to-show-one-click-checkout
+: 1551182615:0;docker-compose run --rm web pipenv run python manage.py migrate 
+: 1551182864:0;git branch -m feature/314-check-mandate-to-show-one-click-checkout feature/311-one-click-checkout-onboarding
+: 1551182867:0;./docker-install.sh
+: 1551183033:0;docker-compose run --service-ports web
+: 1551184191:0;docker-compose run --rm web pipenv run python manage.py makemigrations 
+: 1551184323:0;docker-compose run --rm web pipenv run python manage.py migrate teams 0012
+: 1551184339:0;docker-compose run --rm web pipenv run python manage.py migrate 
+: 1551184351:0;docker-compose run --rm web pipenv run python manage.py migrate teams 0012
+: 1551184494:0;docker-compose run --rm web pipenv run python manage.py makemigrations 
+: 1551184512:0;docker-compose run --rm web pipenv run python manage.py migrate teams 0012
+: 1551184515:0;docker-compose run --rm web pipenv run python manage.py migrate 
+: 1551184674:0;git diff
+: 1551186530:0;cd ..
+: 1551186533:0;./ngrok http 8001
+: 1551186545:0;docker-compose run --service-ports web
+: 1551186593:0;./ngrok http 8002
+: 1551186610:0;docker-compose run --service-ports web

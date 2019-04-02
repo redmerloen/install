@@ -1,0 +1,7 @@
+<templateSet group="Python">
+  <template name="ipdb" value="import ipdb; ipdb.set_trace()" description="ipdb" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+</templateSet>

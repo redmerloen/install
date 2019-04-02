@@ -1,0 +1,51 @@
+<application>
+  <component name="PropertiesComponent">
+    <property name="CommitChangeListDialog.DETAILS_SPLITTER_PROPORTION_2" value="0.6113537" />
+    <property name="Copy.OpenInEditor" value="true" />
+    <property name="ExpandRunDashboardTypesPanel" value="false" />
+    <property name="FileTemplates.SelectedTemplate" value="HTML File" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="PluginConfigurable.selectionTab" value="1" />
+    <property name="PyCharm.InitialConfiguration" value="true" />
+    <property name="PyCharm.InitialConfiguration.V2" value="true" />
+    <property name="PyCharm.InitialConfiguration.V3" value="true" />
+    <property name="PyCharm.InitialConfiguration.V4" value="true" />
+    <property name="PyCharm.InitialConfiguration.V5" value="true" />
+    <property name="PyCharm.InitialConfiguration.V6" value="true" />
+    <property name="PyCharm.InitialConfiguration.V7" value="true" />
+    <property name="PyCharm.initialConfigurationShown" value="true" />
+    <property name="SettingsSearchHistory" value="new line&#10;live tem&#10;relative import&#10;save" />
+    <property name="TypoScriptHasValidLicense" value="false" />
+    <property name="TypoScriptHasValidLicenseUntilTimestamp" value="-4" />
+    <property name="TypoScriptNotificationStartsWithoutAd" value="0" />
+    <property name="TypoScriptNotificationStartsWithoutAdExpiredVersion" value="0" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/.local/share/virtualenvs/Dropper-Ba6Hgd4m/bin/python&#10;/Users/redmerloen/.local/share/virtualenvs/Fooddrop-VTm2-uTU/bin/python3&#10;/Users/redmerloen/.local/share/virtualenvs/Fooddrop-VTm2-uTU/bin/python" />
+    <property name="file.gist.reindex.count" value="43233" />
+    <property name="fileTypeChangedCounter" value="18" />
+    <property name="lastTip" value="4" />
+    <property name="settings.code.style.selected.tab.Python" value="Other" />
+    <property name="tasks.pass.word.conversion.enforced" value="true" />
+  </component>
+  <component name="PyTestFrameworkService">
+    <option name="SDK_TO_PYTEST">
+      <map>
+        <entry key="$USER_HOME$/.local/share/virtualenvs/Dropper-Ba6Hgd4m/bin/python" value="false" />
+        <entry key="$USER_HOME$/.local/share/virtualenvs/Fooddrop-VTm2-uTU/bin/python3" value="false" />
+        <entry key="/usr/local/bin/python3.7" value="false" />
+      </map>
+    </option>
+    <option name="SDK_TO_NOSETEST">
+      <map>
+        <entry key="$USER_HOME$/.local/share/virtualenvs/Dropper-Ba6Hgd4m/bin/python" value="false" />
+        <entry key="$USER_HOME$/.local/share/virtualenvs/Fooddrop-VTm2-uTU/bin/python3" value="false" />
+      </map>
+    </option>
+    <option name="SDK_TO_TRIALTEST">
+      <map>
+        <entry key="$USER_HOME$/.local/share/virtualenvs/Dropper-Ba6Hgd4m/bin/python" value="true" />
+        <entry key="$USER_HOME$/.local/share/virtualenvs/Fooddrop-VTm2-uTU/bin/python3" value="false" />
+      </map>
+    </option>
+  </component>
+</application>

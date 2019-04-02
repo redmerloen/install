@@ -1,0 +1,99 @@
+<application>
+  <component name="RecentDirectoryProjectsManager">
+    <option name="recentPaths">
+      <list>
+        <option value="$USER_HOME$/Projects/DropLab/Dropper" />
+        <option value="$USER_HOME$/Projects/Crewlink/Api" />
+        <option value="$USER_HOME$/Projects/DropLab/Fooddrop" />
+      </list>
+    </option>
+    <option name="openPaths">
+      <list>
+        <option value="$USER_HOME$/Projects/DropLab/Dropper" />
+      </list>
+    </option>
+    <option name="lastPath" value="$USER_HOME$/Projects/DropLab/Dropper" />
+    <option name="pid" value="" />
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/Projects/Crewlink/Api">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PC-183.5912.18" />
+              <option name="productionCode" value="PC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1554099303837" />
+              <option name="buildTimestamp" value="1551170362250" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/DropLab/Dropper">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PC-191.6183.50" />
+              <option name="productionCode" value="PC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1554102307795" />
+              <option name="buildTimestamp" value="1553005326247" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/DropLab/Fooddrop">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PC-183.5912.18" />
+              <option name="productionCode" value="PC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1553266832276" />
+              <option name="buildTimestamp" value="1551170387960" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/Dropper/Dropper">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PC-183.5153.39" />
+              <option name="productionCode" value="PC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1548061970083" />
+              <option name="buildTimestamp" value="1547052802232" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/Dropper/Fooddrop">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PC-183.4588.64" />
+              <option name="productionCode" value="PC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1545055414120" />
+              <option name="buildTimestamp" value="1543947885541" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/Dropper/dropper">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PC-183.5153.39" />
+              <option name="productionCode" value="PC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1548061813584" />
+              <option name="buildTimestamp" value="1547052797838" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/Dropper/dropper-redo">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PC-183.5153.39" />
+              <option name="productionCode" value="PC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1548061813576" />
+              <option name="buildTimestamp" value="1547052797838" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</application>
