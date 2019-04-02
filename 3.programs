@@ -19,6 +19,7 @@ brew install python3
 brew install pipenv
 
 brew cask install android-studio
+brew cask install android-sdk
 brew cask install dashlane
 brew cask install docker
 brew cask install google-chrome
