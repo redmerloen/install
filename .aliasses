@@ -1,0 +1,19 @@
+# Aliasses for default operations
+alias ls='ls -lash'
+alias rm='rm -v'
+
+# Kill all running containers.
+alias dockerkillall='docker kill $(docker ps -q)'
+
+# Delete all stopped containers.
+alias dockercleanc='printf "\n>>> Deleting stopped containers\n\n" && docker rm $(docker ps -a -q)'
+
+# Delete all untagged images.
+alias dockercleani='printf "\n>>> Deleting untagged images\n\n" && docker rmi $(docker images -q -f dangling=true)'
+
+# Delete all stopped containers and untagged images.
+alias dockerclean='dockercleanc || true && dockercleani'
+
+alias dockercleanall='docker rm $(docker ps -a -q) && docker rmi $(docker images -q) && docker volume rm $(docker volume ls |awk "{print $2}") && rm -rf ~/Library/Containers/com.docker.docker/Data/*'
+
+alias brall='brew -v update && brew upgrade && brew cleanup && brew prune && rm -rf ~/Library/Caches/Homebrew/*'

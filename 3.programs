@@ -1,0 +1,32 @@
+#!/bin/sh
+
+# install mas-cli to install from the Mac App store
+brew install mas
+
+# get Apple ID
+echo ""
+echo "Enter AppleID to signin to Mac App Store:"
+read -p "  AppleID (john@foo.com): " APPLEID
+
+# make sure signed into Mac App Store
+mas signin $APPLEID
+
+mas install 497799835 # XCode
+
+xcode-select --install
+
+brew install python3
+
+brew cask install android-studio
+brew cask install docker
+brew cask install google-chrome
+brew cask install ngrok
+brew cask install postman
+brew cask install slack
+brew cask install pycharm-ce
+brew cask install visual-studio-code
+
+# docker stuff
+brew install docker-clean
+brew install docker-completion
+brew install docker-compose-completion

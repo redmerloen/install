@@ -1,0 +1,17 @@
+#!/bin/sh
+
+brew install python3
+
+brew cask install android-studio
+brew cask install docker
+brew cask install google-chrome
+brew cask install ngrok
+brew cask install postman
+brew cask install slack
+brew cask install pycharm-ce
+brew cask install visual-studio-code
+
+# docker stuff
+brew install docker-clean
+brew install docker-completion
+brew install docker-compose-completion
