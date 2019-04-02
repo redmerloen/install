@@ -16,4 +16,24 @@ alias dockerclean='dockercleanc || true && dockercleani'
 
 alias dockercleanall='docker rm $(docker ps -a -q) && docker rmi $(docker images -q) && docker volume rm $(docker volume ls |awk "{print $2}") && rm -rf ~/Library/Containers/com.docker.docker/Data/*'
 
-alias brall='brew -v update && brew upgrade && brew cleanup && brew prune && rm -rf ~/Library/Caches/Homebrew/*'
+alias brall='brew -v update && brew upgrade && brew cleanup && brew cleanup --prune-prefix && rm -rf ~/Library/Caches/Homebrew/*'
+
+## get rid of command not found ##
+alias cd..='cd ..'
+ 
+## a quick way to get out of current directory ##
+alias ..='cd ..'
+alias ...='cd ../../../'
+alias ....='cd ../../../../'
+alias .....='cd ../../../../'
+alias .4='cd ../../../../'
+alias .5='cd ../../../../..'
+
+alias mkdir='mkdir -pv'
+
+alias d=docker
+alias dc=docker-compose
+alias dcup='docker-compose run --rm --service-ports web'
+alias dcman='docker-compose run --rm web pipenv run python manage.py'
+alias dctest='dman test --time --keepdb --exclude-tag=slow'
+alias ddi='cd ~/Projects/DropLab/Dropper/ && ./docker-install.sh'
