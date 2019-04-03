@@ -17,6 +17,7 @@ xcode-select --install
 
 brew install python3
 brew install pipenv
+brew install node
 
 brew cask install android-studio
 brew cask install android-sdk
