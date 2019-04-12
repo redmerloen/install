@@ -24,9 +24,11 @@ brew cask install android-sdk
 brew cask install dashlane
 brew cask install docker
 brew cask install google-chrome
+brew cask install filezilla
 brew cask install fork
 brew cask install java8
 brew cask install ngrok
+brew cask install poedit
 brew cask install postman
 brew cask install slack
 brew cask install pycharm-ce
